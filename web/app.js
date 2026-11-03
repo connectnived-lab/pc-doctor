@@ -1,4 +1,4 @@
-/* PC Doctor — web version. Runs fully in the browser; nothing is sent anywhere. */
+/* PC Doctor — web version. Runs fully in the browser; what you type is never sent anywhere. count.js keeps anonymous totals (event names only). */
 (function () {
   'use strict';
   var KB = window.PCD_DATA.kb, SYN = window.PCD_DATA.synonyms, CFG = window.PCD_CONFIG || {};
@@ -13,8 +13,8 @@
       guides: 'guides', back: '← All problems', quick: '🔍 Quick checks first', steps: '🛠️ Step-by-step fix', tech: '🧑‍🔧 When to call a technician', safety: '⚠️ Safety',
       tapHint: 'Tap a step to mark it done', done: 'done', didItWork: 'Did this fix it?', fixed: '✅ Fixed', notFixed: '❌ Still not working',
       thanks: '🎉 Great! Glad it’s fixed. Share PC Doctor with someone who needs it.', sorry: '😕 Sorry it’s still not working. Here’s when to get a technician, and some related guides:',
-      related: 'Related guides', share: 'Share on WhatsApp', telegram: 'Open in Telegram', privacy: 'Nothing you type leaves this page. No tracking, no cookies.',
-      madeBy: 'Made by', role: 'IT Support Executive, Kerala', disclaimer: "General guidance only. For office PCs, follow your IT team's policy.", openSource: 'Open source (MIT)',
+      related: 'Related guides', share: 'Share on WhatsApp', telegram: 'Open in Telegram', privacy: 'Nothing you type leaves this page. No cookies; we only count anonymous visits (no personal data).', shareTitle: 'Know someone who always calls you for PC help?', shareText: 'Send them PC Doctor. Fixes in English and Malayalam, free.', shareNative: 'Share', copyLink: 'Copy link', copied: 'Copied ✓', shareMsg: '🩺 PC Doctor: laptop slow, printer offline, net kittunnilla? Step-by-step fixes in English & മലയാളം. Free 👉 ',
+      madeBy: 'Made by', role: 'IT Executive, Kerala', disclaimer: "General guidance only. For office PCs, follow your IT team's policy.", openSource: 'Open source (MIT)',
       examples: ['laptop slow aanu', 'printer offline', 'net kittunnilla', 'no sound', 'phone storage full', 'blue screen'],
     },
     ml: {
@@ -24,8 +24,8 @@
       guides: 'guides', back: '← എല്ലാ പ്രശ്നങ്ങളും', quick: '🔍 ആദ്യം ഇവ നോക്കൂ', steps: '🛠️ Step by step പരിഹാരം', tech: '🧑‍🔧 Technician-നെ എപ്പോൾ വിളിക്കണം', safety: '⚠️ സുരക്ഷ',
       tapHint: 'ചെയ്ത step-ൽ tap ചെയ്ത് mark ചെയ്യാം', done: 'കഴിഞ്ഞു', didItWork: 'പ്രശ്നം മാറിയോ?', fixed: '✅ ശരിയായി', notFixed: '❌ ഇപ്പോഴും ശരിയായില്ല',
       thanks: '🎉 സന്തോഷം! പ്രശ്നം മാറിയല്ലോ. ആവശ്യമുള്ളവർക്ക് PC Doctor share ചെയ്യൂ.', sorry: '😕 ഇപ്പോഴും ശരിയായില്ലേ? Technician-നെ എപ്പോൾ വിളിക്കണം എന്നും ബന്ധപ്പെട്ട guides-ഉം താഴെ:',
-      related: 'ബന്ധപ്പെട്ട guides', share: 'WhatsApp-ൽ share ചെയ്യൂ', telegram: 'Telegram-ൽ തുറക്കൂ', privacy: 'നിങ്ങൾ type ചെയ്യുന്നത് ഒന്നും ഈ page-ന് പുറത്ത് പോകില്ല. Tracking ഇല്ല, cookies ഇല്ല.',
-      madeBy: 'നിർമ്മിച്ചത്', role: 'IT Support Executive, കേരളം', disclaimer: 'പൊതുവായ നിർദ്ദേശങ്ങൾ മാത്രം. Office PC-കൾക്ക് IT team-ന്റെ നിയമങ്ങൾ പാലിക്കുക.', openSource: 'Open source (MIT)',
+      related: 'ബന്ധപ്പെട്ട guides', share: 'WhatsApp-ൽ share ചെയ്യൂ', telegram: 'Telegram-ൽ തുറക്കൂ', privacy: 'നിങ്ങൾ type ചെയ്യുന്നത് ഒന്നും ഈ page-ന് പുറത്ത് പോകില്ല. Cookies ഇല്ല; സന്ദർശകരുടെ എണ്ണം മാത്രം അജ്ഞാതമായി കണക്കാക്കുന്നു.', shareTitle: 'PC help-nu എപ്പോഴും നിങ്ങളെ വിളിക്കുന്ന ആരെങ്കിലും ഉണ്ടോ?', shareText: 'അവർക്ക് PC Doctor അയക്കൂ. English-ലും മലയാളത്തിലും fixes, free.', shareNative: 'ഷെയർ', copyLink: 'ലിങ്ക് കോപ്പി ചെയ്യുക', copied: 'കോപ്പി ചെയ്തു ✓', shareMsg: '🩺 PC Doctor: laptop slow, printer offline, നെറ്റ് കിട്ടുന്നില്ല? English & മലയാളം step-by-step fixes. Free 👉 ',
+      madeBy: 'നിർമ്മിച്ചത്', role: 'IT Executive, കേരളം', disclaimer: 'പൊതുവായ നിർദ്ദേശങ്ങൾ മാത്രം. Office PC-കൾക്ക് IT team-ന്റെ നിയമങ്ങൾ പാലിക്കുക.', openSource: 'Open source (MIT)',
       examples: ['laptop slow aanu', 'പ്രിന്റർ വർക്ക് ആകുന്നില്ല', 'നെറ്റ് കിട്ടുന്നില്ല', 'sound illa', 'ഫോൺ മെമ്മറി നിറഞ്ഞു', 'blue screen'],
     },
   };
@@ -64,9 +64,12 @@
     search();
   }
 
+  var searchTimer;
   function search() {
     var text = q.value.trim();
     if (!text) { results.innerHTML = ''; return; }
+    clearTimeout(searchTimer);
+    if (text.length >= 3) searchTimer = setTimeout(function () { count('search', 20); }, 1500);
     var r = matcher.search(text, { limit: 6 });
     results.innerHTML = '<h2>' + u('results') + '</h2>' + (r.length ? '<div class="list">' + r.map(function (x) { return item(x.problem); }).join('') + '</div>' : '<div class="empty">' + esc(u('noResults')) + '</div>');
   }
@@ -80,11 +83,14 @@
     window.scrollTo(0, 0);
   }
 
-  function shareUrl(p) { return location.href.split('#')[0] + '#/g/' + p.id; }
+  var SITE_URL = 'https://pc-doctor.sites.tab.bot/';
+  var count = function (ev, max) { if (window.nivedCount) window.nivedCount(ev, null, max); };
+  function shareUrl(p) { return SITE_URL + '?utm_source=share-whatsapp#/g/' + p.id; }
 
   function guide(id) {
     var p = byId[id];
     if (!p) return home();
+    count('fix_open', 30);
     hero.hidden = true; results.innerHTML = '';
     var steps = p.steps[lang] || p.steps.en;
     var tg = CFG.telegramBot ? '<a class="btn tg" href="https://t.me/' + encodeURIComponent(CFG.telegramBot) + '?start=p_' + p.id + '" rel="noopener">✈️ ' + u('telegram') + '</a>' : '';
@@ -138,6 +144,26 @@
     b.addEventListener('click', function () { lang = b.getAttribute('data-lang'); try { localStorage.setItem('pcd-lang', lang); } catch (e) {} applyLang(); route(); });
   });
   window.addEventListener('hashchange', route);
+  // Sharing: WhatsApp links (home + every guide), native share sheet, copy link.
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a.btn.wa');
+    if (a) count('share_wa');
+  });
+  $('#shareCopy').addEventListener('click', function () {
+    count('share_copy');
+    var url = SITE_URL + '?utm_source=share-copy', label = $('#shareCopy span');
+    var done = function () { label.textContent = u('copied'); setTimeout(function () { label.textContent = u('copyLink'); }, 1800); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done, function () { window.prompt('', url); }); else window.prompt('', url);
+  });
+  if (navigator.share) {
+    $('#shareNative').hidden = false;
+    $('#shareNative').addEventListener('click', function () {
+      navigator.share({ title: 'PC Doctor', text: u('shareMsg').replace(/\s*👉\s*$/, ''), url: SITE_URL + '?utm_source=share-native' }).then(function () { count('share_native'); }, function () {});
+    });
+  }
+  function setShareHref() { $('#shareWa').href = 'https://wa.me/?text=' + encodeURIComponent(u('shareMsg') + SITE_URL + '?utm_source=share-whatsapp'); }
+  document.querySelectorAll('.lang button').forEach(function (b) { b.addEventListener('click', setShareHref); });
+  setShareHref();
   applyLang(); route();
   if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(function () {});
 })();

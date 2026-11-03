@@ -77,3 +77,19 @@ h2 { font-size: 18px; margin: 22px 0 10px; }
 .foot p { margin: 4px 0; }
 .foot .small { font-size: 12.5px; }
 mark { background: none; color: inherit; font-weight: 700; }
+
+/* share + guides index + more tools */
+.share-card, .guides-index, .more-tools { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; margin: 16px 0; }
+.share-card h2, .guides-index h2, .more-tools h2 { font-size: 1.05rem; margin: 0 0 6px; }
+.share-card p { color: var(--muted); margin: 0 0 10px; }
+.btn.wa.big { width: 100%; justify-content: center; font-size: 1.05rem; padding: 14px; box-shadow: 0 4px 14px rgba(31,168,85,.3); }
+.btn.ghost { background: var(--card); color: var(--ink); border: 1px solid var(--line); flex: 1 1 0; justify-content: center; }
+.share-row { display: flex; gap: 8px; margin-top: 8px; }
+.guides-index h3 { font-size: .95rem; margin: 14px 0 4px; }
+.guides-index ul { margin: 0; padding-left: 18px; }
+.guides-index li { margin: 3px 0; }
+.guides-index li span { color: var(--muted); font-size: .88rem; }
+.guides-index a, .more-tools a, .foot a { color: var(--brand); }
+.more-tools ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.more-tools li a { display: block; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; color: var(--ink); text-decoration: none; }
+.more-tools li a span:last-child { display: block; color: var(--muted); font-size: .88rem; }

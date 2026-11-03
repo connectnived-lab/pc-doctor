@@ -1,6 +1,6 @@
 // Offline support: cache the app shell so PC Doctor works without internet after the first visit.
-var CACHE = 'pcdoctor-v1';
-var FILES = ['./', 'index.html', 'style.css?v=1', 'app.js?v=1', 'matcher.js?v=1', 'data.js?v=1', 'config.js?v=1', 'icon.svg',
+var CACHE = 'pcdoctor-v2';
+var FILES = ['./', 'index.html', 'style.css?v=2', 'app.js?v=2', 'matcher.js?v=2', 'data.js?v=2', 'config.js?v=2', 'count.js?v=2', 'icon.svg',
   'fonts/NotoSansMalayalam-Regular.woff2', 'fonts/NotoSansMalayalam-Bold.woff2', 'manifest.webmanifest'];
 self.addEventListener('install', function (e) { e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(FILES); }).then(function () { return self.skipWaiting(); })); });
 self.addEventListener('activate', function (e) {
