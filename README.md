@@ -180,7 +180,7 @@ CI runs the suite on Node 18, 20 and 22.
 ## Author
 
 **Nived NS** — IT Support Executive, Kerala
-LinkedIn: https://www.linkedin.com/in/YOUR-LINKEDIN · GitHub: https://github.com/connectnived-lab
+LinkedIn: https://www.linkedin.com/in/nivedns · GitHub: https://github.com/connectnived-lab
 
 ## License
 
