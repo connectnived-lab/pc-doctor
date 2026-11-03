@@ -1,0 +1,33 @@
+{
+  "name": "pc-doctor",
+  "version": "1.0.0",
+  "description": "Telegram bot + web app that walks people through fixing common PC, printer, network and phone problems in English, Manglish and Malayalam.",
+  "main": "src/kb.js",
+  "bin": {
+    "pc-doctor-bot": "bin/bot.js"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "bot": "node bin/bot.js",
+    "start": "node server.js",
+    "build:web": "node scripts/build-web.js",
+    "check:web": "node scripts/build-web.js --check",
+    "try": "node scripts/try-matcher.js",
+    "screens:chat": "node scripts/render-chat-mock.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "telegram-bot",
+    "it-support",
+    "helpdesk",
+    "malayalam",
+    "kerala",
+    "troubleshooting",
+    "windows"
+  ],
+  "author": "Nived NS",
+  "license": "MIT",
+  "dependencies": {}
+}

@@ -1,0 +1,622 @@
+[
+ {
+  "q": "laptop slow aanu",
+  "expect": "laptop-slow"
+ },
+ {
+  "q": "my laptop is very slow",
+  "expect": "laptop-slow"
+ },
+ {
+  "q": "computer valare slow",
+  "expect": "laptop-slow"
+ },
+ {
+  "q": "ലാപ്ടോപ്പ് വളരെ സ്ലോ ആണ്",
+  "expect": "laptop-slow"
+ },
+ {
+  "q": "pc speed kuravanu",
+  "expect": "laptop-slow"
+ },
+ {
+  "q": "system lag aavunnu",
+  "expect": "laptop-slow"
+ },
+ {
+  "q": "laptop hang aakunnu",
+  "expect": "pc-freezing"
+ },
+ {
+  "q": "computer freezes randomly",
+  "expect": "pc-freezing"
+ },
+ {
+  "q": "PC ഹാങ് ആകുന്നു",
+  "expect": "pc-freezing"
+ },
+ {
+  "q": "laptop on aakunnilla",
+  "expect": "wont-power-on"
+ },
+ {
+  "q": "computer won't turn on",
+  "expect": "wont-power-on"
+ },
+ {
+  "q": "ലാപ്ടോപ്പ് ഓൺ ആകുന്നില്ല",
+  "expect": "wont-power-on"
+ },
+ {
+  "q": "pc dead aayi",
+  "expect": "wont-power-on"
+ },
+ {
+  "q": "stuck on automatic repair",
+  "expect": "wont-boot"
+ },
+ {
+  "q": "windows boot aakunnilla logo il nilkkunnu",
+  "expect": "wont-boot"
+ },
+ {
+  "q": "restart loop",
+  "expect": "wont-boot"
+ },
+ {
+  "q": "blue screen error",
+  "expect": "blue-screen"
+ },
+ {
+  "q": "bsod varunnu",
+  "expect": "blue-screen"
+ },
+ {
+  "q": "നീല സ്ക്രീൻ വരുന്നു",
+  "expect": "blue-screen"
+ },
+ {
+  "q": "your pc ran into a problem",
+  "expect": "blue-screen"
+ },
+ {
+  "q": "laptop heat aakunnu",
+  "expect": "overheating"
+ },
+ {
+  "q": "laptop choodakunnu",
+  "expect": "overheating"
+ },
+ {
+  "q": "fan sound kooduthal",
+  "expect": "overheating"
+ },
+ {
+  "q": "ലാപ്ടോപ്പ് ചൂടാകുന്നു",
+  "expect": "overheating"
+ },
+ {
+  "q": "battery pettannu theerunnu",
+  "expect": "battery-drain"
+ },
+ {
+  "q": "laptop battery draining fast",
+  "expect": "battery-drain"
+ },
+ {
+  "q": "ബാറ്ററി പെട്ടെന്ന് തീരുന്നു",
+  "expect": "battery-drain"
+ },
+ {
+  "q": "laptop charge aakunnilla",
+  "expect": "not-charging"
+ },
+ {
+  "q": "plugged in not charging",
+  "expect": "not-charging"
+ },
+ {
+  "q": "ലാപ്ടോപ്പ് ചാർജ് ആകുന്നില്ല",
+  "expect": "not-charging"
+ },
+ {
+  "q": "windows update stuck",
+  "expect": "update-stuck"
+ },
+ {
+  "q": "update 30% il nilkkunnu",
+  "expect": "update-stuck"
+ },
+ {
+  "q": "അപ്ഡേറ്റ് കുടുങ്ങി",
+  "expect": "update-stuck"
+ },
+ {
+  "q": "c drive full",
+  "expect": "disk-full"
+ },
+ {
+  "q": "low disk space",
+  "expect": "disk-full"
+ },
+ {
+  "q": "laptop storage full aayi",
+  "expect": "disk-full"
+ },
+ {
+  "q": "forgot windows password",
+  "expect": "forgot-password"
+ },
+ {
+  "q": "password marannu",
+  "expect": "forgot-password"
+ },
+ {
+  "q": "പാസ്‌വേഡ് മറന്നുപോയി",
+  "expect": "forgot-password"
+ },
+ {
+  "q": "pin marannupoyi laptop",
+  "expect": "forgot-password"
+ },
+ {
+  "q": "time wrong aanu",
+  "expect": "wrong-time"
+ },
+ {
+  "q": "pc clock showing wrong date",
+  "expect": "wrong-time"
+ },
+ {
+  "q": "net kittunnilla",
+  "expect": "wifi-no-internet"
+ },
+ {
+  "q": "wifi connected but no internet",
+  "expect": "wifi-no-internet"
+ },
+ {
+  "q": "നെറ്റ് കിട്ടുന്നില്ല",
+  "expect": "wifi-no-internet"
+ },
+ {
+  "q": "wifi und pakshe net illa",
+  "expect": "wifi-no-internet"
+ },
+ {
+  "q": "wifi option kaanunnilla",
+  "expect": "wifi-missing"
+ },
+ {
+  "q": "wifi not showing in laptop",
+  "expect": "wifi-missing"
+ },
+ {
+  "q": "വൈഫൈ കാണിക്കുന്നില്ല",
+  "expect": "wifi-missing"
+ },
+ {
+  "q": "internet slow aanu",
+  "expect": "slow-internet"
+ },
+ {
+  "q": "wifi speed kuravu",
+  "expect": "slow-internet"
+ },
+ {
+  "q": "net valare slow",
+  "expect": "slow-internet"
+ },
+ {
+  "q": "lan cable work aakunnilla",
+  "expect": "lan-not-working"
+ },
+ {
+  "q": "ethernet unidentified network",
+  "expect": "lan-not-working"
+ },
+ {
+  "q": "website open aakunnilla",
+  "expect": "website-not-opening"
+ },
+ {
+  "q": "this site can't be reached",
+  "expect": "website-not-opening"
+ },
+ {
+  "q": "your connection is not private",
+  "expect": "website-not-opening"
+ },
+ {
+  "q": "printer offline",
+  "expect": "printer-offline"
+ },
+ {
+  "q": "printer offline kaanikkunnu",
+  "expect": "printer-offline"
+ },
+ {
+  "q": "printer work aakunnilla",
+  "expect": "print-queue-stuck"
+ },
+ {
+  "q": "printer not printing",
+  "expect": "print-queue-stuck"
+ },
+ {
+  "q": "print queue stuck",
+  "expect": "print-queue-stuck"
+ },
+ {
+  "q": "പ്രിന്റർ വർക്ക് ആകുന്നില്ല",
+  "expect": "print-queue-stuck"
+ },
+ {
+  "q": "print spooler error",
+  "expect": "print-queue-stuck"
+ },
+ {
+  "q": "paper jam",
+  "expect": "paper-jam"
+ },
+ {
+  "q": "printer il paper kudungi",
+  "expect": "paper-jam"
+ },
+ {
+  "q": "പേപ്പർ കുടുങ്ങി",
+  "expect": "paper-jam"
+ },
+ {
+  "q": "print faded aanu",
+  "expect": "print-quality"
+ },
+ {
+  "q": "printer lines varunnu",
+  "expect": "print-quality"
+ },
+ {
+  "q": "blank page print aakunnu",
+  "expect": "print-quality"
+ },
+ {
+  "q": "scanner not working",
+  "expect": "scanner-not-working"
+ },
+ {
+  "q": "scan cheyyan pattunnilla",
+  "expect": "scanner-not-working"
+ },
+ {
+  "q": "keyboard work aakunnilla",
+  "expect": "keyboard-not-working"
+ },
+ {
+  "q": "keyboard typing wrong letters",
+  "expect": "keyboard-not-working"
+ },
+ {
+  "q": "കീബോർഡ് പ്രവർത്തിക്കുന്നില്ല",
+  "expect": "keyboard-not-working"
+ },
+ {
+  "q": "touchpad not working",
+  "expect": "touchpad-not-working"
+ },
+ {
+  "q": "mouse pad work aakunnilla",
+  "expect": "touchpad-not-working"
+ },
+ {
+  "q": "mouse not working",
+  "expect": "mouse-not-working"
+ },
+ {
+  "q": "wireless mouse connect aakunnilla",
+  "expect": "mouse-not-working"
+ },
+ {
+  "q": "pendrive detect aakunnilla",
+  "expect": "usb-not-detected"
+ },
+ {
+  "q": "usb not recognized",
+  "expect": "usb-not-detected"
+ },
+ {
+  "q": "പെൻഡ്രൈവ് കാണിക്കുന്നില്ല",
+  "expect": "usb-not-detected"
+ },
+ {
+  "q": "bluetooth connect aakunnilla",
+  "expect": "bluetooth-not-working"
+ },
+ {
+  "q": "earbuds pair aakunnilla",
+  "expect": "bluetooth-not-working"
+ },
+ {
+  "q": "camera not working in teams",
+  "expect": "webcam-not-working"
+ },
+ {
+  "q": "webcam black screen",
+  "expect": "webcam-not-working"
+ },
+ {
+  "q": "sound illa",
+  "expect": "no-sound"
+ },
+ {
+  "q": "no sound in laptop",
+  "expect": "no-sound"
+ },
+ {
+  "q": "ശബ്ദം ഇല്ല",
+  "expect": "no-sound"
+ },
+ {
+  "q": "speaker work aakunnilla",
+  "expect": "no-sound"
+ },
+ {
+  "q": "mic not working",
+  "expect": "mic-not-working"
+ },
+ {
+  "q": "others can't hear me in zoom mic",
+  "expect": "mic-not-working"
+ },
+ {
+  "q": "projector il display varunnilla",
+  "expect": "projector-display"
+ },
+ {
+  "q": "hdmi not detected",
+  "expect": "projector-display"
+ },
+ {
+  "q": "second monitor not showing",
+  "expect": "projector-display"
+ },
+ {
+  "q": "screen black aayi",
+  "expect": "screen-black-flicker"
+ },
+ {
+  "q": "screen flickering",
+  "expect": "screen-black-flicker"
+ },
+ {
+  "q": "screen minnunnu",
+  "expect": "screen-black-flicker"
+ },
+ {
+  "q": "virus undo",
+  "expect": "virus-popups"
+ },
+ {
+  "q": "too many pop up ads in chrome",
+  "expect": "virus-popups"
+ },
+ {
+  "q": "പരസ്യം വരുന്നു",
+  "expect": "virus-popups"
+ },
+ {
+  "q": "microsoft support call asked to install anydesk",
+  "expect": "tech-support-scam"
+ },
+ {
+  "q": "someone asked otp on call",
+  "expect": "tech-support-scam"
+ },
+ {
+  "q": "anydesk install cheyyan paranju bank",
+  "expect": "tech-support-scam"
+ },
+ {
+  "q": "instagram hacked",
+  "expect": "account-hacked"
+ },
+ {
+  "q": "my gmail account hack aayi",
+  "expect": "account-hacked"
+ },
+ {
+  "q": "excel not responding",
+  "expect": "office-not-responding"
+ },
+ {
+  "q": "word hang aakunnu",
+  "expect": "office-not-responding"
+ },
+ {
+  "q": "excel crash aakunnu",
+  "expect": "office-not-responding"
+ },
+ {
+  "q": "outlook not sending emails",
+  "expect": "outlook-issues"
+ },
+ {
+  "q": "outlook password chodikkunnu",
+  "expect": "outlook-issues"
+ },
+ {
+  "q": "mail varunnilla outlook",
+  "expect": "outlook-issues"
+ },
+ {
+  "q": "deleted file recover",
+  "expect": "deleted-file"
+ },
+ {
+  "q": "file delete aayi thirichu kittan",
+  "expect": "deleted-file"
+ },
+ {
+  "q": "recycle bin",
+  "expect": "deleted-file"
+ },
+ {
+  "q": "phone storage full",
+  "expect": "phone-storage-full"
+ },
+ {
+  "q": "mobile memory full aayi",
+  "expect": "phone-storage-full"
+ },
+ {
+  "q": "ഫോൺ മെമ്മറി നിറഞ്ഞു",
+  "expect": "phone-storage-full"
+ },
+ {
+  "q": "whatsapp backup",
+  "expect": "whatsapp-backup"
+ },
+ {
+  "q": "whatsapp chat restore new phone",
+  "expect": "whatsapp-backup"
+ },
+ {
+  "q": "വാട്സ്ആപ്പ് ബാക്കപ്പ്",
+  "expect": "whatsapp-backup"
+ },
+ {
+  "q": "phone slow aanu",
+  "expect": "phone-slow"
+ },
+ {
+  "q": "mobile hang aakunnu",
+  "expect": "phone-slow"
+ },
+ {
+  "q": "phone charge aakunnilla",
+  "expect": "phone-not-charging"
+ },
+ {
+  "q": "mobile charging slow",
+  "expect": "phone-not-charging"
+ },
+ {
+  "q": "my computer takes forever to start",
+  "expect": "laptop-slow"
+ },
+ {
+  "q": "laptop il ninnu beep sound varunnu on aakunnilla",
+  "expect": "wont-power-on"
+ },
+ {
+  "q": "windows 11 restarting again and again",
+  "expect": "wont-boot"
+ },
+ {
+  "q": "CRITICAL_PROCESS_DIED blue screen",
+  "expect": "blue-screen"
+ },
+ {
+  "q": "laptop shuts down automatically when hot",
+  "expect": "overheating"
+ },
+ {
+  "q": "charger kuthiyittum charge kayarunnilla",
+  "expect": "not-charging"
+ },
+ {
+  "q": "cant connect to internet",
+  "expect": "wifi-no-internet"
+ },
+ {
+  "q": "jio fiber net illa",
+  "expect": "wifi-no-internet"
+ },
+ {
+  "q": "router il red light",
+  "expect": "wifi-no-internet"
+ },
+ {
+  "q": "print kittunnilla",
+  "expect": "print-queue-stuck"
+ },
+ {
+  "q": "printer is showing paper jam but no paper",
+  "expect": "paper-jam"
+ },
+ {
+  "q": "toner theernnu print light aanu",
+  "expect": "print-quality"
+ },
+ {
+  "q": "usb drive not showing in my computer",
+  "expect": "usb-not-detected"
+ },
+ {
+  "q": "headphone connect cheythittum sound illa",
+  "expect": "no-sound"
+ },
+ {
+  "q": "teams il ente voice kelkkunnilla",
+  "expect": "mic-not-working"
+ },
+ {
+  "q": "tv yil laptop connect cheyyan hdmi",
+  "expect": "projector-display"
+ },
+ {
+  "q": "chrome il ads varunnu",
+  "expect": "virus-popups"
+ },
+ {
+  "q": "facebook account hack aayi",
+  "expect": "account-hacked"
+ },
+ {
+  "q": "word file save cheythilla recover",
+  "expect": "deleted-file"
+ },
+ {
+  "q": "whatsapp chats new phone il kittan",
+  "expect": "whatsapp-backup"
+ },
+ {
+  "q": "phone heat aakunnu charging time",
+  "expect": "phone-not-charging"
+ },
+ {
+  "q": "keyboard keys not typing",
+  "expect": "keyboard-not-working"
+ },
+ {
+  "q": "cursor not moving laptop",
+  "expect": "touchpad-not-working"
+ },
+ {
+  "q": "ബ്ലൂടൂത്ത് കണക്ട് ആകുന്നില്ല",
+  "expect": "bluetooth-not-working"
+ },
+ {
+  "q": "പ്രിന്റർ ഓഫ്‌ലൈൻ",
+  "expect": "printer-offline"
+ },
+ {
+  "q": "ഫോൺ ഹാങ്ങ് ആകുന്നു",
+  "expect": "phone-slow"
+ },
+ {
+  "q": "സ്ക്രീൻ മിന്നുന്നു",
+  "expect": "screen-black-flicker"
+ },
+ {
+  "q": "മൗസ് വർക്ക് ചെയ്യുന്നില്ല",
+  "expect": "mouse-not-working"
+ },
+ {
+  "q": "ഫയൽ ഡിലീറ്റ് ആയി",
+  "expect": "deleted-file"
+ },
+ {
+  "q": "വൈറസ് ഉണ്ട്",
+  "expect": "virus-popups"
+ }
+]

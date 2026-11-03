@@ -1,0 +1,2634 @@
+{
+ "version": "1.0.0",
+ "updated": "2026-11-03",
+ "categories": [
+  {
+   "id": "performance",
+   "icon": "⚡",
+   "title": {
+    "en": "Speed & startup",
+    "ml": "വേഗതയും സ്റ്റാർട്ടപ്പും"
+   }
+  },
+  {
+   "id": "power",
+   "icon": "🔋",
+   "title": {
+    "en": "Power, battery & heat",
+    "ml": "Power, battery, ചൂട്"
+   }
+  },
+  {
+   "id": "windows",
+   "icon": "🪟",
+   "title": {
+    "en": "Windows & storage",
+    "ml": "Windows, storage"
+   }
+  },
+  {
+   "id": "network",
+   "icon": "📶",
+   "title": {
+    "en": "Internet & Wi-Fi",
+    "ml": "Internet, Wi-Fi"
+   }
+  },
+  {
+   "id": "printer",
+   "icon": "🖨️",
+   "title": {
+    "en": "Printer & scanner",
+    "ml": "Printer, scanner"
+   }
+  },
+  {
+   "id": "devices",
+   "icon": "⌨️",
+   "title": {
+    "en": "Keyboard, mouse & USB",
+    "ml": "Keyboard, mouse, USB"
+   }
+  },
+  {
+   "id": "display",
+   "icon": "🖥️",
+   "title": {
+    "en": "Display & sound",
+    "ml": "Display, sound"
+   }
+  },
+  {
+   "id": "security",
+   "icon": "🛡️",
+   "title": {
+    "en": "Security & scams",
+    "ml": "സുരക്ഷ, തട്ടിപ്പുകൾ"
+   }
+  },
+  {
+   "id": "office",
+   "icon": "📊",
+   "title": {
+    "en": "Office, email & files",
+    "ml": "Office, email, files"
+   }
+  },
+  {
+   "id": "phone",
+   "icon": "📱",
+   "title": {
+    "en": "Phone & WhatsApp",
+    "ml": "ഫോൺ, WhatsApp"
+   }
+  }
+ ],
+ "problems": [
+  {
+   "id": "laptop-slow",
+   "category": "performance",
+   "device": "pc",
+   "icon": "🐢",
+   "title": {
+    "en": "Laptop / PC is very slow",
+    "ml": "ലാപ്ടോപ്പ് / കമ്പ്യൂട്ടർ വളരെ സ്ലോ ആണ്"
+   },
+   "keywords": [
+    "slow",
+    "pc slow",
+    "pc less speed",
+    "speed less",
+    "pc hang^3",
+    "ram",
+    "pc slow open",
+    "boot slow^5",
+    "pc slow ram^9",
+    "pc boot slow^12",
+    "pc not^2"
+   ],
+   "quick": {
+    "en": [
+     "Restart the PC (not just close the lid). Many slow PCs have not been restarted for weeks.",
+     "Check free space on C: drive — open File Explorer › This PC. If the bar is red, see “Disk full”.",
+     "Is it slow only in one app or website, or everywhere?",
+     "Is Windows Update running in the background? (Settings › Windows Update)"
+    ],
+    "ml": [
+     "PC ഒന്ന് Restart ചെയ്യുക (lid അടച്ചാൽ മാത്രം പോരാ). ആഴ്ചകളായി restart ചെയ്യാത്തതാണ് പലപ്പോഴും കാരണം.",
+     "C: drive-ൽ സ്ഥലം ഉണ്ടോ നോക്കുക — File Explorer › This PC. ബാർ ചുവപ്പാണെങ്കിൽ “Disk full” നോക്കുക.",
+     "ഒരു app-ൽ മാത്രമാണോ സ്ലോ, അതോ എല്ലായിടത്തും?",
+     "Windows Update background-ൽ നടക്കുന്നുണ്ടോ? (Settings › Windows Update)"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Open Task Manager with Ctrl + Shift + Esc. Click the CPU, Memory and Disk column headers to sort. If one app is using a lot, select it and click End task (don't end apps you don't recognise as Windows processes).",
+     "Turn off startup apps: Task Manager › Startup apps (Windows 10: Startup tab). Right-click anything you don't need at boot (WhatsApp, Spotify, updaters) › Disable. Restart.",
+     "Free up space: Settings › System › Storage › Temporary files › Remove files. Keep at least 15–20% of C: free.",
+     "Set power mode: Windows 11: Settings › System › Power & battery › Power mode › Best performance (when plugged in). Windows 10: click the battery icon and move the slider right.",
+     "Uninstall apps you don't use: Settings › Apps › Installed apps (Windows 10: Apps & features). Remove extra “PC cleaner” or toolbar apps — they slow the PC down.",
+     "Run a virus scan: Windows Security › Virus & threat protection › Quick scan.",
+     "Install pending updates and restart: Settings › Windows Update › Check for updates.",
+     "If Task Manager shows Disk at 100% most of the time on an old hard disk (HDD), the PC will stay slow — an SSD upgrade is the single biggest speed boost. If Memory is always above 85%, more RAM helps."
+    ],
+    "ml": [
+     "Ctrl + Shift + Esc അമർത്തി Task Manager തുറക്കുക. CPU, Memory, Disk എന്നീ column-കളിൽ ക്ലിക്ക് ചെയ്ത് sort ചെയ്യുക. ഏതെങ്കിലും app കൂടുതൽ എടുക്കുന്നുണ്ടെങ്കിൽ അത് select ചെയ്ത് End task കൊടുക്കുക (അറിയാത്ത Windows process-കൾ end ചെയ്യരുത്).",
+     "Startup apps ഓഫ് ചെയ്യുക: Task Manager › Startup apps (Windows 10-ൽ Startup tab). ആവശ്യമില്ലാത്തവ (WhatsApp, Spotify, updaters) right-click › Disable. ശേഷം Restart.",
+     "സ്ഥലം ഉണ്ടാക്കുക: Settings › System › Storage › Temporary files › Remove files. C: drive-ൽ കുറഞ്ഞത് 15–20% free ആയിരിക്കണം.",
+     "Power mode മാറ്റുക: Windows 11: Settings › System › Power & battery › Power mode › Best performance (charger കുത്തിയിരിക്കുമ്പോൾ). Windows 10: battery icon ക്ലിക്ക് ചെയ്ത് slider വലത്തേക്ക് നീക്കുക.",
+     "ഉപയോഗിക്കാത്ത apps uninstall ചെയ്യുക: Settings › Apps › Installed apps (Windows 10: Apps & features). “PC cleaner”, toolbar പോലുള്ള apps കളയുക — ഇവ PC സ്ലോ ആക്കും.",
+     "Virus scan ചെയ്യുക: Windows Security › Virus & threat protection › Quick scan.",
+     "Pending updates install ചെയ്ത് restart ചെയ്യുക: Settings › Windows Update › Check for updates.",
+     "പഴയ hard disk (HDD) ഉള്ള PC-യിൽ Task Manager-ൽ Disk എപ്പോഴും 100% ആണെങ്കിൽ സ്ലോ മാറില്ല — SSD ഇടുന്നതാണ് ഏറ്റവും വലിയ speed boost. Memory എപ്പോഴും 85%-ന് മുകളിലാണെങ്കിൽ RAM കൂട്ടുന്നത് സഹായിക്കും."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if Disk stays at 100% (possible failing hard disk — back up your data first), if the PC makes clicking sounds, or for an SSD/RAM upgrade.",
+    "ml": "Disk എപ്പോഴും 100% ആണെങ്കിൽ (hard disk കേടാകുന്നതാവാം — ആദ്യം data backup എടുക്കുക), PC-യിൽ നിന്ന് ‘ടക് ടക്’ ശബ്ദം വരുന്നുണ്ടെങ്കിൽ, അല്ലെങ്കിൽ SSD/RAM upgrade-ന് technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "Don't install “speed booster” or “registry cleaner” apps from ads — many are adware.",
+    "ml": "പരസ്യങ്ങളിൽ കാണുന്ന “speed booster”, “registry cleaner” apps install ചെയ്യരുത് — പലതും adware ആണ്."
+   }
+  },
+  {
+   "id": "pc-freezing",
+   "category": "performance",
+   "device": "pc",
+   "icon": "🧊",
+   "title": {
+    "en": "PC hangs or freezes",
+    "ml": "PC ഹാങ് ആകുന്നു / ഫ്രീസ് ആകുന്നു"
+   },
+   "keywords": [
+    "hang^2",
+    "pc hang",
+    "pc stuck",
+    "pc notresponding",
+    "screen hang",
+    "hang restart",
+    "mouse hang^5",
+    "pc work not^2.5"
+   ],
+   "quick": {
+    "en": [
+     "Wait 1–2 minutes — sometimes Windows is just busy (updates, antivirus scan).",
+     "Does it freeze in one app only? Then see the problem for that app (e.g. “Excel / Word not responding”).",
+     "Did it start after a new app, update or device was added?"
+    ],
+    "ml": [
+     "1–2 മിനിറ്റ് കാത്തിരിക്കുക — ചിലപ്പോൾ Windows busy ആയിരിക്കും (update, antivirus scan).",
+     "ഒരു app-ൽ മാത്രമാണോ ഹാങ്? എങ്കിൽ ആ app-ന്റെ പ്രശ്നം നോക്കുക (ഉദാ: “Excel / Word not responding”).",
+     "പുതിയ app, update, device എന്തെങ്കിലും ഇട്ടതിന് ശേഷമാണോ തുടങ്ങിയത്?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Press Ctrl + Shift + Esc to open Task Manager. Select the app marked “Not responding” › End task.",
+     "If the screen is frozen or black, press Win + Ctrl + Shift + B together. This restarts the graphics driver — you'll hear a beep and the screen flashes.",
+     "If nothing responds, press Ctrl + Alt + Del › click the power icon (bottom right) › Restart.",
+     "Only if that fails: hold the power button for 10 seconds to force off. (Unsaved work will be lost.)",
+     "After restarting, check for updates: Settings › Windows Update. Also update the graphics driver from the laptop maker's support site.",
+     "Repair Windows files: right-click Start › Terminal (Admin) or Command Prompt (Admin), type sfc /scannow and press Enter. Wait till 100%, then restart.",
+     "Check the disk: in the same admin window, type chkdsk C: /scan and press Enter.",
+     "Find the cause: search Start for “Reliability history” (Reliability Monitor). Red X marks show which app or driver crashed and when."
+    ],
+    "ml": [
+     "Ctrl + Shift + Esc അമർത്തി Task Manager തുറക്കുക. “Not responding” എന്ന് കാണിക്കുന്ന app select ചെയ്ത് › End task.",
+     "Screen ഫ്രീസ് ആണെങ്കിലോ കറുപ്പാണെങ്കിലോ Win + Ctrl + Shift + B ഒരുമിച്ച് അമർത്തുക. ഇത് graphics driver restart ചെയ്യും — ഒരു beep കേൾക്കും, screen ഒന്ന് മിന്നും.",
+     "ഒന്നും പ്രതികരിക്കുന്നില്ലെങ്കിൽ Ctrl + Alt + Del › താഴെ വലതുവശത്തെ power icon › Restart.",
+     "അതും നടക്കുന്നില്ലെങ്കിൽ മാത്രം: power button 10 സെക്കൻഡ് അമർത്തിപ്പിടിച്ച് ഓഫ് ചെയ്യുക. (Save ചെയ്യാത്തത് പോകും.)",
+     "Restart ചെയ്ത ശേഷം updates നോക്കുക: Settings › Windows Update. Graphics driver ലാപ്ടോപ്പ് കമ്പനിയുടെ support site-ൽ നിന്ന് update ചെയ്യുക.",
+     "Windows files repair ചെയ്യുക: Start-ൽ right-click › Terminal (Admin) അല്ലെങ്കിൽ Command Prompt (Admin), sfc /scannow എന്ന് type ചെയ്ത് Enter. 100% ആകുന്നത് വരെ കാത്തിരുന്ന് restart ചെയ്യുക.",
+     "Disk check ചെയ്യുക: അതേ admin window-ൽ chkdsk C: /scan എന്ന് type ചെയ്ത് Enter.",
+     "കാരണം കണ്ടുപിടിക്കാൻ: Start-ൽ “Reliability history” search ചെയ്യുക. ചുവന്ന X ഏത് app/driver ആണ് crash ആയതെന്നും എപ്പോഴാണെന്നും കാണിക്കും."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if it freezes even in Safe Mode, if the PC is very hot, or if chkdsk reports bad sectors — the RAM or disk may be failing.",
+    "ml": "Safe Mode-ലും ഹാങ് ആകുന്നുണ്ടെങ്കിൽ, PC വളരെ ചൂടാകുന്നുണ്ടെങ്കിൽ, chkdsk bad sectors കാണിക്കുന്നുണ്ടെങ്കിൽ technician-നെ വിളിക്കുക — RAM അല്ലെങ്കിൽ disk കേടാകുന്നതാവാം."
+   },
+   "safety": {
+    "en": "Forcing power off often can corrupt files. Use it only as a last resort.",
+    "ml": "ഇടയ്ക്കിടെ force ആയി ഓഫ് ചെയ്യുന്നത് files കേടാക്കും. അവസാന വഴിയായി മാത്രം ഉപയോഗിക്കുക."
+   }
+  },
+  {
+   "id": "wont-power-on",
+   "category": "performance",
+   "device": "pc",
+   "icon": "🔌",
+   "title": {
+    "en": "PC / laptop won't turn on (no power)",
+    "ml": "PC / ലാപ്ടോപ്പ് ഓൺ ആകുന്നില്ല"
+   },
+   "keywords": [
+    "on not^3",
+    "pc on not",
+    "pc dead",
+    "dead",
+    "pc power not",
+    "power on not",
+    "pc on",
+    "pc start not^4",
+    "power button^4",
+    "pc work not^3"
+   ],
+   "quick": {
+    "en": [
+     "Is the power socket working? Test it with a phone charger or lamp.",
+     "Laptop: is the charger light on? Is the battery fully drained? Leave it on charge for 30 minutes.",
+     "Desktop: is the switch on the back of the CPU (power supply) turned on? Is the UPS on?",
+     "Does anything happen — lights, fan noise, beeps? Or totally dead?"
+    ],
+    "ml": [
+     "Power socket വർക്ക് ചെയ്യുന്നുണ്ടോ? ഫോൺ ചാർജർ അല്ലെങ്കിൽ lamp വച്ച് നോക്കുക.",
+     "ലാപ്ടോപ്പ്: ചാർജറിലെ light കത്തുന്നുണ്ടോ? Battery മുഴുവൻ തീർന്നതാണോ? 30 മിനിറ്റ് ചാർജിൽ ഇടുക.",
+     "Desktop: CPU-യുടെ പുറകിലുള്ള switch (power supply) ഓൺ ആണോ? UPS ഓൺ ആണോ?",
+     "എന്തെങ്കിലും സംഭവിക്കുന്നുണ്ടോ — light, fan ശബ്ദം, beep? അതോ പൂർണ്ണമായും dead?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Remove everything connected: USB drives, external disks, printer cable, HDMI. A faulty device can stop the PC from starting.",
+     "Power drain (laptop): unplug the charger, hold the power button for 30 seconds, then plug the charger back in and press power normally. (If the battery is removable, take it out during this.)",
+     "Desktop: unplug the power cable from the wall, hold the power button for 15–20 seconds, plug back in and try again. Try a different power cable or plug directly into the wall instead of a spike buster/UPS.",
+     "Check the monitor: maybe the PC is ON but the screen isn't. Are the CPU fans spinning? Is the monitor's light on, and is the cable firmly connected? Try the monitor's Input/Source button.",
+     "Laptop: if the power light comes on but the screen stays black, connect an external monitor or TV with HDMI and press Win + P. If the picture appears there, the laptop screen or its cable is the problem.",
+     "Listen for beeps or watch for a blinking light pattern on the charging/caps lock LED — note it down; the manufacturer's support page explains each code."
+    ],
+    "ml": [
+     "Connect ചെയ്ത എല്ലാം ഊരുക: USB drive, external disk, printer cable, HDMI. കേടായ ഒരു device PC start ആകുന്നത് തടയാം.",
+     "Power drain (ലാപ്ടോപ്പ്): ചാർജർ ഊരി, power button 30 സെക്കൻഡ് അമർത്തിപ്പിടിക്കുക. ശേഷം ചാർജർ കുത്തി സാധാരണ പോലെ power അമർത്തുക. (Battery ഊരാവുന്നതാണെങ്കിൽ ആ സമയം ഊരി വയ്ക്കുക.)",
+     "Desktop: power cable wall-ൽ നിന്ന് ഊരി, power button 15–20 സെക്കൻഡ് അമർത്തിപ്പിടിക്കുക. വീണ്ടും കുത്തി നോക്കുക. വേറെ power cable ഉപയോഗിക്കുക, spike buster/UPS ഒഴിവാക്കി നേരിട്ട് wall-ൽ കുത്തി നോക്കുക.",
+     "Monitor നോക്കുക: PC ഓൺ ആയിരിക്കും, screen ആവില്ല. CPU fan കറങ്ങുന്നുണ്ടോ? Monitor-ലെ light കത്തുന്നുണ്ടോ, cable ശരിക്ക് കുത്തിയിട്ടുണ്ടോ? Monitor-ലെ Input/Source button അമർത്തി നോക്കുക.",
+     "ലാപ്ടോപ്പ്: power light കത്തുന്നു പക്ഷേ screen കറുപ്പാണെങ്കിൽ HDMI വഴി external monitor/TV കണക്ട് ചെയ്ത് Win + P അമർത്തുക. അതിൽ picture വരുന്നുണ്ടെങ്കിൽ ലാപ്ടോപ്പ് screen-ന്റെയോ അതിന്റെ cable-ന്റെയോ പ്രശ്നമാണ്.",
+     "Beep ശബ്ദമോ charging/caps lock LED-ൽ മിന്നുന്ന pattern-ഓ ഉണ്ടെങ്കിൽ എഴുതി വയ്ക്കുക — കമ്പനിയുടെ support page-ൽ ഓരോ code-ന്റെയും അർത്ഥം ഉണ്ടാകും."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if there is a burning smell, if the charger or power supply is dead (test with another one), or if there are beep codes — it may be the power supply, RAM or motherboard.",
+    "ml": "കരിഞ്ഞ മണം വരുന്നുണ്ടെങ്കിൽ, ചാർജർ/power supply dead ആണെങ്കിൽ (വേറൊന്ന് വച്ച് നോക്കുക), beep codes ഉണ്ടെങ്കിൽ technician-നെ വിളിക്കുക — power supply, RAM, motherboard ഇവയിൽ ഏതെങ്കിലും ആവാം."
+   },
+   "safety": {
+    "en": "Never open a desktop power supply (SMPS) — it holds dangerous voltage even when unplugged. Stop if you smell burning.",
+    "ml": "Desktop power supply (SMPS) ഒരിക്കലും തുറക്കരുത് — ഊരിയിട്ടാലും അപകടകരമായ current ഉണ്ടാകും. കരിഞ്ഞ മണം വന്നാൽ ഉടനെ നിർത്തുക."
+   }
+  },
+  {
+   "id": "wont-boot",
+   "category": "performance",
+   "device": "pc",
+   "icon": "🔁",
+   "title": {
+    "en": "Windows won't start (stuck on logo / automatic repair / restart loop)",
+    "ml": "Windows start ആകുന്നില്ല (logo-യിൽ നിൽക്കുന്നു / automatic repair / restart loop)"
+   },
+   "keywords": [
+    "boot not^4",
+    "boot stuck",
+    "pc boot",
+    "repair",
+    "restart loop",
+    "loop",
+    "boot loop",
+    "restart",
+    "windows boot^4",
+    "windows boot not^9",
+    "boot repair^9",
+    "pc restart^4"
+   ],
+   "quick": {
+    "en": [
+     "Remove USB drives, phones, memory cards and external disks, then restart.",
+     "What exactly do you see? Logo with spinning dots, “Preparing Automatic Repair”, a black screen with “Boot device not found”, or a BitLocker recovery key screen?",
+     "Did this start right after a Windows update or a power cut?"
+    ],
+    "ml": [
+     "USB drive, ഫോൺ, memory card, external disk എല്ലാം ഊരി restart ചെയ്യുക.",
+     "കൃത്യമായി എന്താണ് കാണുന്നത്? കറങ്ങുന്ന dots ഉള്ള logo, “Preparing Automatic Repair”, “Boot device not found” എന്ന കറുത്ത screen, അതോ BitLocker recovery key screen?",
+     "Windows update അല്ലെങ്കിൽ current പോയതിന് ശേഷമാണോ ഇത് തുടങ്ങിയത്?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Give it time once: if dots are spinning, wait 20–30 minutes before switching off — an update may be finishing.",
+     "Open the recovery menu: if Windows fails to start, turn the PC on and, as soon as the logo appears, hold the power button to force off. Do this 3 times. The 4th time it opens “Automatic Repair” › Advanced options. (If you can reach the login screen, just hold Shift and click Power › Restart.)",
+     "In the blue menu go to Troubleshoot › Advanced options › Startup Repair. Let it run.",
+     "Still stuck? Troubleshoot › Advanced options › Uninstall Updates › Uninstall latest quality update. This undoes a bad update.",
+     "Or try System Restore (same menu) and pick a restore point from before the problem. Your files are not deleted.",
+     "Try Safe Mode: Troubleshoot › Advanced options › Startup Settings › Restart › press 4. If Safe Mode works, uninstall the last app or driver you installed, then restart normally.",
+     "“BitLocker recovery” screen: you need the 48-digit key. On a phone open aka.ms/myrecoverykey and sign in with the Microsoft account used on that PC. Office PCs: ask your IT team.",
+     "“Boot device not found / No bootable device”: enter BIOS (usually F2, F10, F12 or Del at power on) and check that the internal disk is listed and first in boot order. If the disk isn't listed at all, it may have failed."
+    ],
+    "ml": [
+     "ഒരിക്കൽ സമയം കൊടുക്കുക: dots കറങ്ങുന്നുണ്ടെങ്കിൽ ഓഫ് ചെയ്യുന്നതിന് മുൻപ് 20–30 മിനിറ്റ് കാത്തിരിക്കുക — update തീരുന്നതാവാം.",
+     "Recovery menu തുറക്കാൻ: Windows start ആകുന്നില്ലെങ്കിൽ PC ഓൺ ചെയ്ത്, logo വരുമ്പോൾ തന്നെ power button അമർത്തിപ്പിടിച്ച് ഓഫ് ചെയ്യുക. ഇങ്ങനെ 3 തവണ. 4-ാം തവണ “Automatic Repair” › Advanced options വരും. (Login screen വരെ എത്തുന്നുണ്ടെങ്കിൽ Shift അമർത്തിപ്പിടിച്ച് Power › Restart ക്ലിക്ക് ചെയ്താൽ മതി.)",
+     "നീല menu-വിൽ Troubleshoot › Advanced options › Startup Repair. അത് run ചെയ്യാൻ അനുവദിക്കുക.",
+     "ഇപ്പോഴും നിൽക്കുന്നുണ്ടോ? Troubleshoot › Advanced options › Uninstall Updates › Uninstall latest quality update. മോശം update ഇത് മാറ്റും.",
+     "അല്ലെങ്കിൽ System Restore (അതേ menu) ഉപയോഗിച്ച് പ്രശ്നം തുടങ്ങുന്നതിന് മുൻപുള്ള restore point തിരഞ്ഞെടുക്കുക. നിങ്ങളുടെ files delete ആകില്ല.",
+     "Safe Mode: Troubleshoot › Advanced options › Startup Settings › Restart › 4 അമർത്തുക. Safe Mode വർക്ക് ചെയ്യുന്നുണ്ടെങ്കിൽ അവസാനം install ചെയ്ത app/driver uninstall ചെയ്ത് normal ആയി restart ചെയ്യുക.",
+     "“BitLocker recovery” screen വന്നാൽ: 48 അക്ക key വേണം. ഫോണിൽ aka.ms/myrecoverykey തുറന്ന് ആ PC-യിൽ ഉപയോഗിച്ച Microsoft account-ൽ sign in ചെയ്യുക. Office PC ആണെങ്കിൽ IT team-നോട് ചോദിക്കുക.",
+     "“Boot device not found / No bootable device”: BIOS-ൽ കയറുക (സാധാരണ power on ചെയ്യുമ്പോൾ F2, F10, F12 അല്ലെങ്കിൽ Del) — internal disk list-ൽ ഉണ്ടോ, boot order-ൽ ഒന്നാമതാണോ എന്ന് നോക്കുക. Disk list-ൽ തന്നെ ഇല്ലെങ്കിൽ അത് കേടായതാവാം."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if the disk is not detected in BIOS, if Startup Repair and System Restore both fail, or before choosing “Reset this PC” when you have important files without a backup — a technician can usually copy them out first.",
+    "ml": "BIOS-ൽ disk കാണുന്നില്ലെങ്കിൽ, Startup Repair-ഉം System Restore-ഉം പരാജയപ്പെട്ടാൽ, അല്ലെങ്കിൽ backup ഇല്ലാത്ത പ്രധാന files ഉള്ളപ്പോൾ “Reset this PC” ചെയ്യുന്നതിന് മുൻപ് technician-നെ വിളിക്കുക — അവർക്ക് സാധാരണ files ആദ്യം copy ചെയ്തെടുക്കാൻ പറ്റും."
+   },
+   "safety": {
+    "en": "“Reset this PC” and reinstalling Windows can erase your files. Don't format the disk unless your data is safe elsewhere.",
+    "ml": "“Reset this PC”, Windows reinstall എന്നിവ files മായ്ക്കാം. Data വേറെ എവിടെയെങ്കിലും സുരക്ഷിതമല്ലെങ്കിൽ disk format ചെയ്യരുത്."
+   }
+  },
+  {
+   "id": "blue-screen",
+   "category": "performance",
+   "device": "pc",
+   "icon": "🟦",
+   "title": {
+    "en": "Blue screen error (BSOD)",
+    "ml": "നീല screen error (Blue Screen / BSOD)"
+   },
+   "keywords": [
+    "bsod^9",
+    "blue screen^6",
+    "screen blue",
+    "bsod restart^12",
+    "error screen blue^9",
+    "bsod loop^12"
+   ],
+   "quick": {
+    "en": [
+     "Note the stop code shown on the blue screen (e.g. IRQL_NOT_LESS_OR_EQUAL, CRITICAL_PROCESS_DIED) — take a photo with your phone.",
+     "Did it start after a new driver, update, app or hardware (RAM, printer, USB device)?",
+     "Does it happen once in a while, or every time on startup?"
+    ],
+    "ml": [
+     "നീല screen-ൽ കാണിക്കുന്ന stop code എഴുതി വയ്ക്കുക (ഉദാ: IRQL_NOT_LESS_OR_EQUAL, CRITICAL_PROCESS_DIED) — ഫോണിൽ ഫോട്ടോ എടുക്കുക.",
+     "പുതിയ driver, update, app അല്ലെങ്കിൽ hardware (RAM, printer, USB device) ഇട്ടതിന് ശേഷമാണോ തുടങ്ങിയത്?",
+     "ഇടയ്ക്ക് മാത്രമാണോ, അതോ ഓരോ start-ലും വരുന്നുണ്ടോ?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Unplug all USB devices except keyboard and mouse, then restart.",
+     "If it happens on every start, follow “Windows won't start” to open Troubleshoot › Advanced options and use Safe Mode or “Uninstall latest quality update”.",
+     "Install all updates: Settings › Windows Update › Check for updates (also look under Advanced options › Optional updates for driver updates).",
+     "Update or roll back the driver for the device you recently changed: right-click Start › Device Manager › right-click the device › Properties › Driver › Roll Back Driver (or Update driver).",
+     "Repair system files: open Terminal (Admin) / Command Prompt (Admin) and run: DISM /Online /Cleanup-Image /RestoreHealth — then — sfc /scannow. Restart.",
+     "Test the RAM: search Start for “Windows Memory Diagnostic” › Restart now and check for problems. The result appears after login.",
+     "Check the disk: in an admin Command Prompt run chkdsk C: /f and type Y to schedule it at next restart.",
+     "Search the stop code from your photo on Microsoft's support site — it usually points to the cause (driver, memory, disk)."
+    ],
+    "ml": [
+     "Keyboard, mouse ഒഴികെ എല്ലാ USB device-ഉം ഊരി restart ചെയ്യുക.",
+     "ഓരോ start-ലും വരുന്നുണ്ടെങ്കിൽ “Windows start ആകുന്നില്ല” എന്നതിലെ steps പോലെ Troubleshoot › Advanced options തുറന്ന് Safe Mode അല്ലെങ്കിൽ “Uninstall latest quality update” ഉപയോഗിക്കുക.",
+     "എല്ലാ updates-ഉം install ചെയ്യുക: Settings › Windows Update › Check for updates (Advanced options › Optional updates-ൽ driver updates-ഉം നോക്കുക).",
+     "അടുത്തിടെ മാറ്റിയ device-ന്റെ driver update/roll back ചെയ്യുക: Start-ൽ right-click › Device Manager › device-ൽ right-click › Properties › Driver › Roll Back Driver (അല്ലെങ്കിൽ Update driver).",
+     "System files repair: Terminal (Admin) / Command Prompt (Admin) തുറന്ന് DISM /Online /Cleanup-Image /RestoreHealth — ശേഷം — sfc /scannow. Restart ചെയ്യുക.",
+     "RAM test: Start-ൽ “Windows Memory Diagnostic” search ചെയ്ത് › Restart now and check for problems. Login ചെയ്ത ശേഷം result കാണിക്കും.",
+     "Disk check: admin Command Prompt-ൽ chkdsk C: /f എന്ന് type ചെയ്ത് Y കൊടുക്കുക — അടുത്ത restart-ൽ run ആകും.",
+     "ഫോട്ടോയിലെ stop code Microsoft support site-ൽ search ചെയ്യുക — കാരണം (driver, memory, disk) സാധാരണ അതിൽ ഉണ്ടാകും."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if Memory Diagnostic finds errors, chkdsk finds bad sectors, or the blue screen keeps coming after updates and driver rollback — RAM or disk replacement may be needed.",
+    "ml": "Memory Diagnostic error കാണിക്കുന്നുണ്ടെങ്കിൽ, chkdsk bad sectors കാണിക്കുന്നുണ്ടെങ്കിൽ, അല്ലെങ്കിൽ updates-ഉം driver rollback-ഉം കഴിഞ്ഞിട്ടും നീല screen വരുന്നുണ്ടെങ്കിൽ technician-നെ വിളിക്കുക — RAM/disk മാറ്റേണ്ടി വരാം."
+   },
+   "safety": {
+    "en": "Back up important files as soon as the PC is working — repeated blue screens can be a sign of a failing disk.",
+    "ml": "PC വർക്ക് ചെയ്യുന്ന സമയത്ത് തന്നെ പ്രധാന files backup എടുക്കുക — തുടർച്ചയായ നീല screen disk കേടാകുന്നതിന്റെ ലക്ഷണമാവാം."
+   }
+  },
+  {
+   "id": "overheating",
+   "category": "power",
+   "device": "pc",
+   "icon": "🔥",
+   "title": {
+    "en": "Laptop overheating / loud fan",
+    "ml": "ലാപ്ടോപ്പ് ചൂടാകുന്നു / fan ശബ്ദം കൂടുതൽ"
+   },
+   "keywords": [
+    "heat",
+    "pc heat",
+    "fan",
+    "fan noise",
+    "fan sound^4",
+    "heat shutdown^4",
+    "shutdown^2",
+    "pc shutdown^4",
+    "pc heat shutdown^9"
+   ],
+   "quick": {
+    "en": [
+     "Are you using it on a bed, pillow or lap? Soft surfaces block the air vents.",
+     "Is the room hot or is the laptop in direct sunlight?",
+     "Does it shut down by itself when hot? That is the PC protecting itself."
+    ],
+    "ml": [
+     "കിടക്ക, തലയണ, മടി ഇവയിൽ വച്ചാണോ ഉപയോഗിക്കുന്നത്? Soft surface air vents അടയ്ക്കും.",
+     "മുറിയിൽ ചൂട് കൂടുതലാണോ, വെയിലത്താണോ ലാപ്ടോപ്പ്?",
+     "ചൂടാകുമ്പോൾ തനിയെ ഓഫ് ആകുന്നുണ്ടോ? അത് PC സ്വയം സംരക്ഷിക്കുന്നതാണ്."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Use it on a hard, flat surface (table). Keep the vents (sides/bottom/back) open. A cheap laptop stand or cooling pad helps a lot.",
+     "Open Task Manager (Ctrl + Shift + Esc) › sort by CPU. End any app using high CPU for no reason. Close extra browser tabs.",
+     "Clean dust: shut down and unplug. Blow short bursts of compressed air into the vents. Don't let the fan spin fast from the air — hold it still with a toothpick through the grill if possible.",
+     "Set a balanced power mode: Windows 11: Settings › System › Power & battery › Power mode › Balanced. Windows 10: battery icon › middle slider.",
+     "Update BIOS and drivers from the laptop maker's app (HP Support Assistant, Lenovo Vantage, MyASUS, Dell SupportAssist) — fan control fixes often come through these.",
+     "Desktop: check the CPU and cabinet fans spin, and the cabinet isn't pushed against a wall."
+    ],
+    "ml": [
+     "Hard ആയ, നിരപ്പുള്ള സ്ഥലത്ത് (മേശ) വച്ച് ഉപയോഗിക്കുക. Vents (വശങ്ങൾ/അടിവശം/പുറകുവശം) തുറന്നിരിക്കണം. ചെറിയ laptop stand അല്ലെങ്കിൽ cooling pad വളരെ സഹായിക്കും.",
+     "Task Manager (Ctrl + Shift + Esc) › CPU അനുസരിച്ച് sort ചെയ്യുക. കാരണമില്ലാതെ കൂടുതൽ CPU എടുക്കുന്ന app End task ചെയ്യുക. അധികമുള്ള browser tabs അടയ്ക്കുക.",
+     "പൊടി കളയുക: shut down ചെയ്ത് charger ഊരുക. Vents-ലേക്ക് compressed air ചെറിയ തവണകളായി അടിക്കുക. കാറ്റിൽ fan വേഗത്തിൽ കറങ്ങാൻ വിടരുത് — പറ്റുമെങ്കിൽ ഒരു toothpick വച്ച് fan പിടിച്ചു നിർത്തുക.",
+     "Balanced power mode: Windows 11: Settings › System › Power & battery › Power mode › Balanced. Windows 10: battery icon › നടുവിലെ slider.",
+     "BIOS, drivers ലാപ്ടോപ്പ് കമ്പനിയുടെ app വഴി update ചെയ്യുക (HP Support Assistant, Lenovo Vantage, MyASUS, Dell SupportAssist) — fan control fixes പലപ്പോഴും ഇതിലൂടെ വരും.",
+     "Desktop: CPU fan-ഉം cabinet fan-ഉം കറങ്ങുന്നുണ്ടോ, cabinet ചുമരിനോട് ചേർത്ത് വച്ചിട്ടില്ലല്ലോ എന്ന് നോക്കുക."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if the laptop shuts down from heat, the fan makes grinding noise or doesn't spin, or it is more than 2–3 years old and never serviced — internal cleaning and new thermal paste usually fixes it.",
+    "ml": "ചൂട് കാരണം ഓഫ് ആകുന്നുണ്ടെങ്കിൽ, fan-ൽ നിന്ന് ഉരയുന്ന ശബ്ദം വരുന്നുണ്ടെങ്കിൽ/കറങ്ങുന്നില്ലെങ്കിൽ, 2–3 വർഷമായി service ചെയ്തിട്ടില്ലെങ്കിൽ technician-നെ വിളിക്കുക — ഉള്ളിലെ cleaning-ഉം പുതിയ thermal paste-ഉം സാധാരണ പ്രശ്നം തീർക്കും."
+   },
+   "safety": {
+    "en": "A swollen battery (case bulging, touchpad lifting) is a fire risk — stop using and charging it and get it replaced.",
+    "ml": "Battery വീർത്തിട്ടുണ്ടെങ്കിൽ (body പൊങ്ങുന്നു, touchpad ഉയരുന്നു) തീപിടിക്കാൻ സാധ്യതയുണ്ട് — ഉപയോഗവും ചാർജിങ്ങും നിർത്തി മാറ്റുക."
+   }
+  },
+  {
+   "id": "battery-drain",
+   "category": "power",
+   "device": "pc",
+   "icon": "🪫",
+   "title": {
+    "en": "Laptop battery draining fast",
+    "ml": "ലാപ്ടോപ്പ് battery പെട്ടെന്ന് തീരുന്നു"
+   },
+   "keywords": [
+    "battery",
+    "battery drain",
+    "drain",
+    "battery less",
+    "pc battery^4",
+    "pc battery drain^9",
+    "battery fast^4"
+   ],
+   "quick": {
+    "en": [
+     "How old is the laptop? Batteries lose capacity after 2–3 years — that's normal wear.",
+     "Is screen brightness at maximum? The screen uses the most power.",
+     "Is battery saver off and power mode on “Best performance”?"
+    ],
+    "ml": [
+     "ലാപ്ടോപ്പിന് എത്ര വർഷം പഴക്കമുണ്ട്? 2–3 വർഷം കഴിഞ്ഞാൽ battery capacity കുറയും — അത് സാധാരണയാണ്.",
+     "Screen brightness full ആണോ? ഏറ്റവും കൂടുതൽ power എടുക്കുന്നത് screen ആണ്.",
+     "Battery saver ഓഫ് ആണോ, power mode “Best performance”-ൽ ആണോ?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "See what uses battery: Windows 11: Settings › System › Power & battery › Battery usage. Windows 10: Settings › System › Battery › See which apps are affecting your battery life.",
+     "Lower brightness to 50–60% and turn on Battery saver: Windows 11: Settings › System › Power & battery › Battery saver. Windows 10: Settings › System › Battery.",
+     "Set Power mode to Balanced or Best power efficiency when on battery.",
+     "Close apps you aren't using, especially browsers with many tabs, video calls and games. Turn off Bluetooth and keyboard backlight when not needed.",
+     "Check battery health: open Command Prompt and run powercfg /batteryreport. Open the battery-report.html file it creates (path is shown) and compare DESIGN CAPACITY with FULL CHARGE CAPACITY. Below about 60% means the battery is worn out.",
+     "Update BIOS and the laptop maker's power/battery drivers via its support app."
+    ],
+    "ml": [
+     "എന്താണ് battery എടുക്കുന്നത് എന്ന് നോക്കുക: Windows 11: Settings › System › Power & battery › Battery usage. Windows 10: Settings › System › Battery › See which apps are affecting your battery life.",
+     "Brightness 50–60% ആക്കി Battery saver ഓൺ ചെയ്യുക: Windows 11: Settings › System › Power & battery › Battery saver. Windows 10: Settings › System › Battery.",
+     "Battery-ൽ ആയിരിക്കുമ്പോൾ Power mode Balanced അല്ലെങ്കിൽ Best power efficiency ആക്കുക.",
+     "ഉപയോഗിക്കാത്ത apps അടയ്ക്കുക — പ്രത്യേകിച്ച് ഒരുപാട് tabs ഉള്ള browser, video call, games. ആവശ്യമില്ലാത്തപ്പോൾ Bluetooth-ഉം keyboard backlight-ഉം ഓഫ് ചെയ്യുക.",
+     "Battery health: Command Prompt തുറന്ന് powercfg /batteryreport run ചെയ്യുക. ഉണ്ടാകുന്ന battery-report.html file (path കാണിക്കും) തുറന്ന് DESIGN CAPACITY-യും FULL CHARGE CAPACITY-യും താരതമ്യം ചെയ്യുക. ഏകദേശം 60%-ൽ താഴെയാണെങ്കിൽ battery തേഞ്ഞു.",
+     "ലാപ്ടോപ്പ് കമ്പനിയുടെ support app വഴി BIOS, power/battery drivers update ചെയ്യുക."
+    ]
+   },
+   "technician": {
+    "en": "Replace the battery (authorised service centre) if full charge capacity is below ~60% of design capacity, or the laptop dies suddenly at 20–30%.",
+    "ml": "Full charge capacity design capacity-യുടെ ~60%-ൽ താഴെയാണെങ്കിൽ, അല്ലെങ്കിൽ 20–30%-ൽ പെട്ടെന്ന് ഓഫ് ആകുന്നുണ്ടെങ്കിൽ battery മാറ്റുക (authorised service centre)."
+   },
+   "safety": {
+    "en": "Use only genuine or good-quality replacement batteries. A swollen battery must be replaced immediately.",
+    "ml": "Genuine അല്ലെങ്കിൽ നല്ല quality ഉള്ള battery മാത്രം ഇടുക. വീർത്ത battery ഉടനെ മാറ്റണം."
+   }
+  },
+  {
+   "id": "not-charging",
+   "category": "power",
+   "device": "pc",
+   "icon": "🔋",
+   "title": {
+    "en": "Laptop not charging (“plugged in, not charging”)",
+    "ml": "ലാപ്ടോപ്പ് ചാർജ് ആകുന്നില്ല (“plugged in, not charging”)"
+   },
+   "keywords": [
+    "charge not",
+    "pc charge^4",
+    "pc charge not^9",
+    "plug charge^4",
+    "charge",
+    "battery charge not^9",
+    "charge percent^4"
+   ],
+   "quick": {
+    "en": [
+     "Is the charger's light on? Try another wall socket (not a loose spike buster).",
+     "Is it the original charger with the right wattage? A phone USB-C charger may be too weak.",
+     "Does it stop charging at exactly 60% or 80%? That's probably a battery-care setting, not a fault."
+    ],
+    "ml": [
+     "ചാർജറിലെ light കത്തുന്നുണ്ടോ? വേറൊരു wall socket-ൽ കുത്തി നോക്കുക (ലൂസ് ആയ spike buster ഒഴിവാക്കുക).",
+     "Original ചാർജർ ആണോ, wattage ശരിയാണോ? ഫോണിന്റെ USB-C ചാർജർ മതിയാകാതെ വരാം.",
+     "കൃത്യം 60% അല്ലെങ്കിൽ 80%-ൽ ചാർജിങ് നിൽക്കുന്നുണ്ടോ? അത് battery-care setting ആയിരിക്കും, കേടല്ല."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Check both ends of the cable — the pin into the laptop should fit firmly and not wobble. Look for cuts or bends in the wire.",
+     "Battery-care limit: open the maker's app — Lenovo Vantage (Conservation mode), MyASUS (Battery Health Charging), HP (Battery Health Manager in BIOS / HP Power Manager), Dell Power Manager / Dell Optimizer (Battery settings). Switch to full charge if you need 100%.",
+     "Power reset: shut down, unplug the charger, hold the power button for 30 seconds, plug back in, then turn on.",
+     "Reset the battery driver: right-click Start › Device Manager › Batteries › right-click “Microsoft ACPI-Compliant Control Method Battery” › Uninstall device. Restart — Windows reinstalls it.",
+     "Update BIOS from the maker's support site/app — charging bugs are often fixed this way.",
+     "Try another charger of the same model (borrow a colleague's) to find out if the charger or the laptop is at fault."
+    ],
+    "ml": [
+     "Cable-ന്റെ രണ്ട് അറ്റവും നോക്കുക — ലാപ്ടോപ്പിൽ കുത്തുന്ന pin ശരിക്ക് ഇറുകി നിൽക്കണം, ആടരുത്. Wire-ൽ മുറിവോ മടക്കോ ഉണ്ടോ നോക്കുക.",
+     "Battery-care limit: കമ്പനിയുടെ app തുറക്കുക — Lenovo Vantage (Conservation mode), MyASUS (Battery Health Charging), HP (BIOS-ൽ Battery Health Manager / HP Power Manager), Dell Power Manager / Dell Optimizer (Battery settings). 100% വേണമെങ്കിൽ full charge-ലേക്ക് മാറ്റുക.",
+     "Power reset: shut down ചെയ്ത് ചാർജർ ഊരുക, power button 30 സെക്കൻഡ് അമർത്തിപ്പിടിക്കുക, വീണ്ടും കുത്തി ഓൺ ചെയ്യുക.",
+     "Battery driver reset: Start-ൽ right-click › Device Manager › Batteries › “Microsoft ACPI-Compliant Control Method Battery”-ൽ right-click › Uninstall device. Restart ചെയ്യുക — Windows തനിയെ വീണ്ടും install ചെയ്യും.",
+     "കമ്പനിയുടെ support site/app വഴി BIOS update ചെയ്യുക — charging bugs പലപ്പോഴും ഇങ്ങനെ മാറും.",
+     "അതേ model-ന്റെ വേറൊരു ചാർജർ വച്ച് നോക്കുക (സഹപ്രവർത്തകന്റേത്) — ചാർജറാണോ ലാപ്ടോപ്പാണോ പ്രശ്നം എന്ന് അറിയാം."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if the charging port is loose or burnt, another known-good charger also doesn't charge, or the battery shows 0% and “not detected”.",
+    "ml": "Charging port ലൂസ് ആണെങ്കിൽ/കരിഞ്ഞിട്ടുണ്ടെങ്കിൽ, നല്ല വേറൊരു ചാർജർ വച്ചിട്ടും ചാർജ് ആകുന്നില്ലെങ്കിൽ, battery 0% “not detected” കാണിക്കുന്നുണ്ടെങ്കിൽ technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "Never use a charger with exposed wires or a hot, melted plug. Cheap duplicate chargers can damage the laptop.",
+    "ml": "Wire പുറത്ത് കാണുന്ന, ചൂടായി ഉരുകിയ plug ഉള്ള ചാർജർ ഒരിക്കലും ഉപയോഗിക്കരുത്. വില കുറഞ്ഞ duplicate ചാർജർ ലാപ്ടോപ്പ് കേടാക്കാം."
+   }
+  },
+  {
+   "id": "update-stuck",
+   "category": "windows",
+   "device": "pc",
+   "icon": "⏳",
+   "title": {
+    "en": "Windows Update stuck or failing",
+    "ml": "Windows Update stuck ആകുന്നു / fail ആകുന്നു"
+   },
+   "keywords": [
+    "update",
+    "update stuck",
+    "windows update",
+    "update not",
+    "update error",
+    "percent",
+    "update percent^9",
+    "update fail^4",
+    "update loop^4",
+    "windows update stuck^9",
+    "update restart^4"
+   ],
+   "quick": {
+    "en": [
+     "Stuck on “Working on updates… Don't turn off your PC”? Big updates can take 1–2 hours. Wait if the hard disk light still blinks.",
+     "Is there at least 20 GB free on C: drive?",
+     "Is the internet stable? (Not on a mobile hotspot with low data.)"
+    ],
+    "ml": [
+     "“Working on updates… Don't turn off your PC”-ൽ നിൽക്കുന്നുണ്ടോ? വലിയ updates 1–2 മണിക്കൂർ എടുക്കാം. Hard disk light മിന്നുന്നുണ്ടെങ്കിൽ കാത്തിരിക്കുക.",
+     "C: drive-ൽ കുറഞ്ഞത് 20 GB free ഉണ്ടോ?",
+     "Internet stable ആണോ? (Data കുറഞ്ഞ mobile hotspot അല്ലല്ലോ.)"
+    ]
+   },
+   "steps": {
+    "en": [
+     "If the percentage hasn't moved for over 2 hours, hold the power button to turn off, then turn on. Windows will usually continue or undo the update safely.",
+     "Restart once more, then go to Settings › Windows Update (Windows 10: Settings › Update & security › Windows Update) › Check for updates.",
+     "Run the troubleshooter: Windows 11: Settings › System › Troubleshoot › Other troubleshooters › Windows Update › Run. Windows 10: Settings › Update & security › Troubleshoot › Additional troubleshooters › Windows Update. (On newer versions this opens the Get Help app.)",
+     "Free up space: Settings › System › Storage › Temporary files. Also tick “Windows Update Cleanup” in Disk Cleanup (search “Disk Cleanup” › Clean up system files).",
+     "Reset the update cache: open Command Prompt (Admin) and run, one line at a time: net stop wuauserv — net stop bits — ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old — net start wuauserv — net start bits. Then check for updates again.",
+     "Repair Windows: in the same admin window run DISM /Online /Cleanup-Image /RestoreHealth and then sfc /scannow.",
+     "If one update keeps failing, note its KB number (Settings › Windows Update › Update history), download it from the Microsoft Update Catalog website and install manually."
+    ],
+    "ml": [
+     "Percentage 2 മണിക്കൂറിൽ കൂടുതലായി മാറുന്നില്ലെങ്കിൽ power button അമർത്തിപ്പിടിച്ച് ഓഫ് ചെയ്ത് വീണ്ടും ഓൺ ചെയ്യുക. Windows സാധാരണ update തുടരുകയോ സുരക്ഷിതമായി undo ചെയ്യുകയോ ചെയ്യും.",
+     "ഒരിക്കൽ കൂടി restart ചെയ്ത് Settings › Windows Update (Windows 10: Settings › Update & security › Windows Update) › Check for updates.",
+     "Troubleshooter: Windows 11: Settings › System › Troubleshoot › Other troubleshooters › Windows Update › Run. Windows 10: Settings › Update & security › Troubleshoot › Additional troubleshooters › Windows Update. (പുതിയ versions-ൽ ഇത് Get Help app തുറക്കും.)",
+     "സ്ഥലം ഉണ്ടാക്കുക: Settings › System › Storage › Temporary files. Disk Cleanup-ൽ (“Disk Cleanup” search › Clean up system files) “Windows Update Cleanup” tick ചെയ്യുക.",
+     "Update cache reset: Command Prompt (Admin) തുറന്ന് ഓരോ വരിയായി run ചെയ്യുക: net stop wuauserv — net stop bits — ren C:\\Windows\\SoftwareDistribution SoftwareDistribution.old — net start wuauserv — net start bits. ശേഷം വീണ്ടും Check for updates.",
+     "Windows repair: അതേ admin window-ൽ DISM /Online /Cleanup-Image /RestoreHealth, ശേഷം sfc /scannow.",
+     "ഒരു update മാത്രം വീണ്ടും വീണ്ടും fail ആകുന്നുണ്ടെങ്കിൽ അതിന്റെ KB number നോക്കുക (Settings › Windows Update › Update history), Microsoft Update Catalog website-ൽ നിന്ന് download ചെയ്ത് manual ആയി install ചെയ്യുക."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician (or your office IT team) if the PC won't start after an update — see “Windows won't start” — or if updates fail with the same error after all these steps.",
+    "ml": "Update-ന് ശേഷം PC start ആകുന്നില്ലെങ്കിൽ (“Windows start ആകുന്നില്ല” നോക്കുക), അല്ലെങ്കിൽ ഈ steps എല്ലാം കഴിഞ്ഞിട്ടും ഒരേ error വരുന്നുണ്ടെങ്കിൽ technician-നെ (അല്ലെങ്കിൽ office IT team-നെ) വിളിക്കുക."
+   },
+   "safety": {
+    "en": "Office PCs are often managed by IT — don't reset update settings on a company laptop without asking.",
+    "ml": "Office PC-കൾ പലപ്പോഴും IT team ആണ് manage ചെയ്യുന്നത് — കമ്പനി ലാപ്ടോപ്പിൽ ചോദിക്കാതെ update settings reset ചെയ്യരുത്."
+   }
+  },
+  {
+   "id": "disk-full",
+   "category": "windows",
+   "device": "pc",
+   "icon": "💾",
+   "title": {
+    "en": "C: drive full / low disk space",
+    "ml": "C: drive നിറഞ്ഞു / disk space കുറവ്"
+   },
+   "keywords": [
+    "storage",
+    "storage full^4",
+    "disk full",
+    "disk storage",
+    "pc storage^4",
+    "pc full^4",
+    "disk",
+    "pc storage full^9",
+    "disk less^4",
+    "storage less^4"
+   ],
+   "quick": {
+    "en": [
+     "Open File Explorer › This PC. How much is free on C:? Red bar means less than 10%.",
+     "Is the Downloads folder or Desktop full of big files?",
+     "Is the Recycle Bin full?"
+    ],
+    "ml": [
+     "File Explorer › This PC തുറക്കുക. C:-ൽ എത്ര free ഉണ്ട്? ബാർ ചുവപ്പാണെങ്കിൽ 10%-ൽ താഴെ.",
+     "Downloads folder-ലോ Desktop-ലോ വലിയ files നിറഞ്ഞിട്ടുണ്ടോ?",
+     "Recycle Bin നിറഞ്ഞിട്ടുണ്ടോ?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Settings › System › Storage. Click Temporary files, tick the boxes (check Downloads before ticking it!) › Remove files.",
+     "Windows 11: on the same page, open Cleanup recommendations — it lists large, unused files and apps.",
+     "Turn on Storage Sense (Settings › System › Storage) so Windows cleans temp files and the Recycle Bin automatically.",
+     "Disk Cleanup: search “Disk Cleanup” › select C: › Clean up system files › tick Windows Update Cleanup and Previous Windows installation(s) if present › OK.",
+     "Move big personal files (videos, photos, old projects) to D: drive, an external disk or cloud storage. Empty the Recycle Bin after.",
+     "Uninstall apps and games you don't use: Settings › Apps › Installed apps (Windows 10: Apps & features) › sort by size.",
+     "Still full? A free tool like WinDirStat or TreeSize Free shows exactly which folders are biggest."
+    ],
+    "ml": [
+     "Settings › System › Storage. Temporary files ക്ലിക്ക് ചെയ്ത് boxes tick ചെയ്യുക (Downloads tick ചെയ്യുന്നതിന് മുൻപ് അതിൽ എന്താണെന്ന് നോക്കുക!) › Remove files.",
+     "Windows 11: അതേ page-ൽ Cleanup recommendations തുറക്കുക — വലിയ, ഉപയോഗിക്കാത്ത files-ഉം apps-ഉം കാണിക്കും.",
+     "Storage Sense ഓൺ ചെയ്യുക (Settings › System › Storage) — Windows temp files-ഉം Recycle Bin-ഉം തനിയെ clean ചെയ്യും.",
+     "Disk Cleanup: “Disk Cleanup” search › C: select › Clean up system files › Windows Update Cleanup, Previous Windows installation(s) ഉണ്ടെങ്കിൽ tick › OK.",
+     "വലിയ personal files (videos, photos, പഴയ projects) D: drive, external disk, cloud storage എന്നിവയിലേക്ക് മാറ്റുക. ശേഷം Recycle Bin empty ചെയ്യുക.",
+     "ഉപയോഗിക്കാത്ത apps, games uninstall ചെയ്യുക: Settings › Apps › Installed apps (Windows 10: Apps & features) › size അനുസരിച്ച് sort.",
+     "ഇപ്പോഴും നിറഞ്ഞിരിക്കുന്നോ? WinDirStat, TreeSize Free പോലുള്ള free tool ഏത് folder ആണ് വലുത് എന്ന് കൃത്യമായി കാണിക്കും."
+    ]
+   },
+   "technician": {
+    "en": "Ask a technician about a bigger SSD if C: fills up again quickly even after cleaning, or if your C: drive is smaller than 128 GB.",
+    "ml": "Clean ചെയ്തിട്ടും C: വേഗം വീണ്ടും നിറയുന്നുണ്ടെങ്കിൽ, അല്ലെങ്കിൽ C: drive 128 GB-യിൽ കുറവാണെങ്കിൽ വലിയ SSD-യെക്കുറിച്ച് technician-നോട് ചോദിക്കുക."
+   },
+   "safety": {
+    "en": "Never delete files inside C:\\Windows, Program Files or System32 by hand, and avoid “cleaner” apps that delete registry entries.",
+    "ml": "C:\\Windows, Program Files, System32 എന്നിവയിലെ files കൈകൊണ്ട് delete ചെയ്യരുത്. Registry delete ചെയ്യുന്ന “cleaner” apps ഒഴിവാക്കുക."
+   }
+  },
+  {
+   "id": "forgot-password",
+   "category": "windows",
+   "device": "pc",
+   "icon": "🔑",
+   "title": {
+    "en": "Forgot Windows password or PIN",
+    "ml": "Windows password / PIN മറന്നുപോയി"
+   },
+   "keywords": [
+    "password forgot",
+    "forgot",
+    "password not",
+    "lock",
+    "pc lock^4",
+    "pc password^4",
+    "login password^4",
+    "login not^3",
+    "password wrong^4",
+    "pc password forgot^9"
+   ],
+   "quick": {
+    "en": [
+     "Do you sign in with a Microsoft account (an email address) or a local account (just a name)?",
+     "Is this your own PC? Office PCs: contact your IT team — they can reset it in minutes.",
+     "Is Caps Lock on, or is the keyboard language different (e.g. Malayalam input)?"
+    ],
+    "ml": [
+     "Microsoft account (email address) ഉപയോഗിച്ചാണോ sign in, അതോ local account (പേര് മാത്രം)?",
+     "ഇത് നിങ്ങളുടെ സ്വന്തം PC ആണോ? Office PC ആണെങ്കിൽ IT team-നെ ബന്ധപ്പെടുക — അവർക്ക് മിനിറ്റുകൾക്കുള്ളിൽ reset ചെയ്യാം.",
+     "Caps Lock ഓൺ ആണോ, keyboard language മാറിയിട്ടുണ്ടോ (ഉദാ: Malayalam input)?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "PIN forgotten but password known: on the sign-in screen click “I forgot my PIN” and follow the steps, or choose Sign-in options › password.",
+     "Microsoft account: on the sign-in screen click “I forgot my password”, or on any phone open account.live.com/password/reset. Verify with the code sent to your phone/email, set a new password, then sign in on the PC (it must be online).",
+     "Local account (Windows 10 version 1803 or later / Windows 11): type a wrong password once, then click “Reset password” and answer your security questions.",
+     "If you made a password reset disk/USB earlier, plug it in and click “Reset password”.",
+     "If another admin account exists on the PC, sign in with it › Settings › Accounts › Other users (or Family & other users) — or run netplwiz — select your account › Reset Password.",
+     "Last resort (erases apps and settings): on the sign-in screen hold Shift, click Power › Restart › Troubleshoot › Reset this PC › Remove everything. Back up first if you can — this cannot be undone."
+    ],
+    "ml": [
+     "PIN മറന്നു, password അറിയാം: sign-in screen-ൽ “I forgot my PIN” ക്ലിക്ക് ചെയ്യുക, അല്ലെങ്കിൽ Sign-in options › password തിരഞ്ഞെടുക്കുക.",
+     "Microsoft account: sign-in screen-ൽ “I forgot my password” ക്ലിക്ക് ചെയ്യുക, അല്ലെങ്കിൽ ഏതെങ്കിലും ഫോണിൽ account.live.com/password/reset തുറക്കുക. ഫോൺ/email-ൽ വരുന്ന code കൊണ്ട് verify ചെയ്ത് പുതിയ password ഇടുക, ശേഷം PC-യിൽ sign in ചെയ്യുക (PC online ആയിരിക്കണം).",
+     "Local account (Windows 10 version 1803 മുതൽ / Windows 11): ഒരു തവണ തെറ്റായ password അടിച്ച ശേഷം “Reset password” ക്ലിക്ക് ചെയ്ത് security questions-ന് ഉത്തരം കൊടുക്കുക.",
+     "മുൻപ് password reset disk/USB ഉണ്ടാക്കിയിട്ടുണ്ടെങ്കിൽ അത് കുത്തി “Reset password” ക്ലിക്ക് ചെയ്യുക.",
+     "PC-യിൽ വേറൊരു admin account ഉണ്ടെങ്കിൽ അതിൽ sign in ചെയ്ത് › Settings › Accounts › Other users (അല്ലെങ്കിൽ Family & other users) — അല്ലെങ്കിൽ netplwiz run ചെയ്ത് — നിങ്ങളുടെ account select › Reset Password.",
+     "അവസാന വഴി (apps-ഉം settings-ഉം മായും): sign-in screen-ൽ Shift അമർത്തിപ്പിടിച്ച് Power › Restart › Troubleshoot › Reset this PC › Remove everything. പറ്റുമെങ്കിൽ ആദ്യം backup എടുക്കുക — ഇത് തിരിച്ചെടുക്കാൻ പറ്റില്ല."
+    ]
+   },
+   "technician": {
+    "en": "Call your IT team for office/domain PCs. For a personal PC with important files and no way to reset, an authorised service centre can help (bring proof of ownership, like the purchase bill).",
+    "ml": "Office/domain PC-ക്ക് IT team-നെ വിളിക്കുക. Reset ചെയ്യാൻ വഴിയില്ലാത്ത, പ്രധാന files ഉള്ള personal PC-ക്ക് authorised service centre സഹായിക്കും (purchase bill പോലെ ownership proof കൊണ്ടുപോകുക)."
+   },
+   "safety": {
+    "en": "Only unlock computers you own or are authorised to manage. Avoid “password cracker” downloads — many carry malware.",
+    "ml": "സ്വന്തം അല്ലെങ്കിൽ manage ചെയ്യാൻ അനുമതിയുള്ള computers മാത്രം unlock ചെയ്യുക. “Password cracker” downloads ഒഴിവാക്കുക — പലതിലും malware ഉണ്ടാകും."
+   }
+  },
+  {
+   "id": "wrong-time",
+   "category": "windows",
+   "device": "pc",
+   "icon": "🕒",
+   "title": {
+    "en": "Wrong date/time on PC",
+    "ml": "PC-യിൽ സമയം / തീയതി തെറ്റാണ്"
+   },
+   "keywords": [
+    "time wrong",
+    "time",
+    "time not",
+    "time change^4",
+    "pc time^4",
+    "time reset^4"
+   ],
+   "quick": {
+    "en": [
+     "Is the time zone correct? India is (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi.",
+     "Does the time reset every time the PC is switched off at the wall? That points to the motherboard (CMOS) battery.",
+     "Wrong time causes errors like “Your connection is not private” in browsers."
+    ],
+    "ml": [
+     "Time zone ശരിയാണോ? ഇന്ത്യക്ക് (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi.",
+     "Wall-ൽ നിന്ന് ഓഫ് ചെയ്യുമ്പോഴെല്ലാം സമയം reset ആകുന്നുണ്ടോ? എങ്കിൽ motherboard (CMOS) battery ആണ് പ്രശ്നം.",
+     "തെറ്റായ സമയം browser-ൽ “Your connection is not private” പോലുള്ള errors ഉണ്ടാക്കും."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Windows 11: Settings › Time & language › Date & time. Windows 10: Settings › Time & Language › Date & time.",
+     "Turn on “Set time automatically” and “Set time zone automatically” (or pick (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi manually).",
+     "Click “Sync now” under Additional settings / Synchronise your clock.",
+     "If Sync fails: press Win + R, type services.msc, find “Windows Time” › right-click › Start (set Startup type to Automatic).",
+     "If the time is wrong after every cold start, the CMOS coin battery (CR2032) on the motherboard is weak — a cheap replacement."
+    ],
+    "ml": [
+     "സമയ settings തുറക്കുക — Windows 11: Settings › Time & language › Date & time. Windows 10: Settings › Time & Language › Date & time.",
+     "“Set time automatically”, “Set time zone automatically” ഓൺ ചെയ്യുക (അല്ലെങ്കിൽ (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi manual ആയി തിരഞ്ഞെടുക്കുക).",
+     "Additional settings / Synchronise your clock-ന് താഴെ “Sync now” ക്ലിക്ക് ചെയ്യുക.",
+     "Sync fail ആണെങ്കിൽ: Win + R അമർത്തി services.msc type ചെയ്യുക, “Windows Time” കണ്ടെത്തി › right-click › Start (Startup type Automatic ആക്കുക).",
+     "ഓരോ cold start-ന് ശേഷവും സമയം തെറ്റുന്നുണ്ടെങ്കിൽ motherboard-ലെ CMOS coin battery (CR2032) weak ആണ് — വില കുറഞ്ഞ replacement മതി."
+    ]
+   },
+   "technician": {
+    "en": "A technician can replace the CMOS battery in a few minutes (desktops are easy; some laptops need the bottom cover opened).",
+    "ml": "Technician-ന് കുറച്ച് മിനിറ്റിൽ CMOS battery മാറ്റാം (desktop-ൽ എളുപ്പമാണ്; ചില ലാപ്ടോപ്പുകളിൽ അടിഭാഗം തുറക്കേണ്ടി വരും)."
+   },
+   "safety": {
+    "en": "",
+    "ml": ""
+   }
+  },
+  {
+   "id": "wifi-no-internet",
+   "category": "network",
+   "device": "any",
+   "icon": "📶",
+   "title": {
+    "en": "Wi-Fi connected but no internet",
+    "ml": "Wi-Fi connect ആണ്, പക്ഷേ internet ഇല്ല"
+   },
+   "keywords": [
+    "nointernet^6",
+    "internet not^4",
+    "internet get^4",
+    "wifi internet^4",
+    "wifi connect internet^9",
+    "wifi nointernet^9",
+    "connect internet not^9",
+    "internet",
+    "wifi connect^3",
+    "internet work not^9",
+    "nointernet pc^9",
+    "router^3",
+    "router internet^6",
+    "router not^4",
+    "wifi not^3"
+   ],
+   "quick": {
+    "en": [
+     "Do other devices (phone) on the same Wi-Fi have internet? If none do, the problem is the router or the internet provider.",
+     "Are the router/ONT lights normal? A red “LOS” or “PON” light means a fibre line problem — call your provider.",
+     "Has the recharge/bill for your broadband expired?"
+    ],
+    "ml": [
+     "അതേ Wi-Fi-യിലുള്ള മറ്റ് devices-ൽ (ഫോൺ) internet ഉണ്ടോ? ഒന്നിലും ഇല്ലെങ്കിൽ router-ന്റെയോ internet provider-ന്റെയോ പ്രശ്നമാണ്.",
+     "Router/ONT lights സാധാരണ പോലെയാണോ? ചുവന്ന “LOS” അല്ലെങ്കിൽ “PON” light fibre line പ്രശ്നമാണ് — provider-നെ വിളിക്കുക.",
+     "Broadband recharge/bill കാലാവധി കഴിഞ്ഞോ?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Restart the router: switch it off at the plug, wait 30 seconds, switch on, wait 2–3 minutes for the lights to settle.",
+     "On the PC: turn Wi-Fi off and on, or click the Wi-Fi network › Forget, then connect again with the password.",
+     "Reset network settings with commands: right-click Start › Terminal (Admin) or Command Prompt (Admin), run one by one: ipconfig /release — ipconfig /renew — ipconfig /flushdns — netsh winsock reset. Restart the PC.",
+     "Turn off any VPN or proxy: Settings › Network & internet › Proxy › make sure “Use a proxy server” is off.",
+     "Try a public DNS: Settings › Network & internet › Wi-Fi › (your network) Hardware properties › DNS server assignment › Edit › Manual › IPv4 on › Preferred 1.1.1.1, Alternate 8.8.8.8 › Save.",
+     "Full network reset (forgets saved Wi-Fi passwords): Windows 11: Settings › Network & internet › Advanced network settings › Network reset. Windows 10: Settings › Network & Internet › Status › Network reset. Restart.",
+     "Update the Wi-Fi driver: Device Manager › Network adapters › your Wi-Fi adapter (Intel, Realtek, MediaTek…) › Update driver, or download it from the laptop maker's site using another device."
+    ],
+    "ml": [
+     "Router restart ചെയ്യുക: plug-ൽ നിന്ന് ഓഫ് ചെയ്ത് 30 സെക്കൻഡ് കാത്തിരുന്ന് ഓൺ ചെയ്യുക, lights ശരിയാകാൻ 2–3 മിനിറ്റ് കാത്തിരിക്കുക.",
+     "PC-യിൽ: Wi-Fi ഓഫ് ചെയ്ത് ഓൺ ചെയ്യുക, അല്ലെങ്കിൽ Wi-Fi network-ൽ ക്ലിക്ക് ചെയ്ത് › Forget, വീണ്ടും password അടിച്ച് connect ചെയ്യുക.",
+     "Commands കൊണ്ട് network reset: Start-ൽ right-click › Terminal (Admin) അല്ലെങ്കിൽ Command Prompt (Admin), ഓരോന്നായി run ചെയ്യുക: ipconfig /release — ipconfig /renew — ipconfig /flushdns — netsh winsock reset. PC restart ചെയ്യുക.",
+     "VPN, proxy ഓഫ് ചെയ്യുക: Settings › Network & internet › Proxy › “Use a proxy server” ഓഫ് ആണെന്ന് ഉറപ്പാക്കുക.",
+     "Public DNS ഇട്ട് നോക്കുക: Settings › Network & internet › Wi-Fi › (നിങ്ങളുടെ network) Hardware properties › DNS server assignment › Edit › Manual › IPv4 ഓൺ › Preferred 1.1.1.1, Alternate 8.8.8.8 › Save.",
+     "Full network reset (save ചെയ്ത Wi-Fi passwords പോകും): Windows 11: Settings › Network & internet › Advanced network settings › Network reset. Windows 10: Settings › Network & Internet › Status › Network reset. Restart.",
+     "Wi-Fi driver update: Device Manager › Network adapters › നിങ്ങളുടെ Wi-Fi adapter (Intel, Realtek, MediaTek…) › Update driver, അല്ലെങ്കിൽ വേറൊരു device ഉപയോഗിച്ച് ലാപ്ടോപ്പ് കമ്പനിയുടെ site-ൽ നിന്ന് download ചെയ്യുക."
+    ]
+   },
+   "technician": {
+    "en": "Call your internet provider (BSNL, Kerala Vision, Asianet, JioFiber, Airtel etc.) if no device has internet after a router restart, or the router shows a red light. Call a technician if only this PC fails after a network reset.",
+    "ml": "Router restart ചെയ്തിട്ടും ഒരു device-ലും internet ഇല്ലെങ്കിൽ, router-ൽ ചുവന്ന light ഉണ്ടെങ്കിൽ internet provider-നെ (BSNL, Kerala Vision, Asianet, JioFiber, Airtel മുതലായവ) വിളിക്കുക. Network reset കഴിഞ്ഞിട്ടും ഈ PC-യിൽ മാത്രം പ്രശ്നമാണെങ്കിൽ technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "Don't press the router's tiny Reset hole unless you know your provider's login settings — it erases the internet setup.",
+    "ml": "Provider-ന്റെ login settings അറിയില്ലെങ്കിൽ router-ലെ ചെറിയ Reset hole അമർത്തരുത് — internet setup മുഴുവൻ മായും."
+   }
+  },
+  {
+   "id": "wifi-missing",
+   "category": "network",
+   "device": "pc",
+   "icon": "📡",
+   "title": {
+    "en": "Wi-Fi not showing / can't find networks",
+    "ml": "Wi-Fi കാണിക്കുന്നില്ല / networks കാണുന്നില്ല"
+   },
+   "keywords": [
+    "wifi detect^6",
+    "wifi not^3",
+    "wifi",
+    "wifi get not^6",
+    "wifi work not^6",
+    "wifi icon^4",
+    "wifi on not^6",
+    "pc wifi^4",
+    "wifi connect not^6",
+    "network detect^4"
+   ],
+   "quick": {
+    "en": [
+     "Is Airplane mode on? Check the quick settings panel (click the network/battery icons in the taskbar).",
+     "Some laptops have a Wi-Fi key (antenna icon, often Fn + F-key) — press it once.",
+     "Can you see your phone's hotspot? If yes, the problem is the router, not the PC."
+    ],
+    "ml": [
+     "Airplane mode ഓൺ ആണോ? Taskbar-ലെ network/battery icons ക്ലിക്ക് ചെയ്ത് quick settings നോക്കുക.",
+     "ചില ലാപ്ടോപ്പുകളിൽ Wi-Fi key ഉണ്ട് (antenna icon, പലപ്പോഴും Fn + F-key) — ഒരിക്കൽ അമർത്തുക.",
+     "ഫോണിന്റെ hotspot കാണുന്നുണ്ടോ? ഉണ്ടെങ്കിൽ PC അല്ല, router ആണ് പ്രശ്നം."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Turn Airplane mode off and Wi-Fi on: Settings › Network & internet › Wi-Fi › On.",
+     "Restart the PC (a full Restart, not Shut down).",
+     "Device Manager (right-click Start) › Network adapters. If the Wi-Fi adapter has a down-arrow, right-click › Enable device. If it has a yellow mark, right-click › Uninstall device (don't tick delete driver) › restart.",
+     "If there's no Wi-Fi adapter at all: View › Show hidden devices, or Action › Scan for hardware changes. Install the Wi-Fi driver from the laptop maker's website (download on another PC/phone and copy by USB).",
+     "Network reset: Windows 11: Settings › Network & internet › Advanced network settings › Network reset. Windows 10: Settings › Network & Internet › Status › Network reset.",
+     "Only your home Wi-Fi missing? Restart the router. Old laptops may not see 5 GHz networks — use the 2.4 GHz network name instead."
+    ],
+    "ml": [
+     "Airplane mode ഓഫ് ചെയ്ത് Wi-Fi ഓൺ ചെയ്യുക: Settings › Network & internet › Wi-Fi › On.",
+     "PC restart ചെയ്യുക (Shut down അല്ല, Restart).",
+     "Device Manager (Start-ൽ right-click) › Network adapters. Wi-Fi adapter-ൽ താഴോട്ടുള്ള arrow ഉണ്ടെങ്കിൽ right-click › Enable device. മഞ്ഞ mark ഉണ്ടെങ്കിൽ right-click › Uninstall device (delete driver tick ചെയ്യരുത്) › restart.",
+     "Wi-Fi adapter തന്നെ ഇല്ലെങ്കിൽ: View › Show hidden devices, അല്ലെങ്കിൽ Action › Scan for hardware changes. ലാപ്ടോപ്പ് കമ്പനിയുടെ website-ൽ നിന്ന് Wi-Fi driver install ചെയ്യുക (വേറൊരു PC/ഫോണിൽ download ചെയ്ത് USB വഴി copy ചെയ്യുക).",
+     "നെറ്റ്‌വർക്ക് മുഴുവൻ reset ചെയ്യുക — Network reset: Windows 11: Settings › Network & internet › Advanced network settings › Network reset. Windows 10: Settings › Network & Internet › Status › Network reset.",
+     "വീട്ടിലെ Wi-Fi മാത്രം കാണുന്നില്ലേ? Router restart ചെയ്യുക. പഴയ ലാപ്ടോപ്പുകൾക്ക് 5 GHz network കാണാൻ പറ്റില്ല — 2.4 GHz network name ഉപയോഗിക്കുക."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if the Wi-Fi adapter doesn't appear in Device Manager even after installing the driver — the Wi-Fi card may be loose or faulty. A USB Wi-Fi dongle is a cheap workaround.",
+    "ml": "Driver install ചെയ്തിട്ടും Device Manager-ൽ Wi-Fi adapter കാണുന്നില്ലെങ്കിൽ technician-നെ വിളിക്കുക — Wi-Fi card ലൂസ്/കേടായതാവാം. വില കുറഞ്ഞ USB Wi-Fi dongle താൽക്കാലിക പരിഹാരമാണ്."
+   },
+   "safety": {
+    "en": "",
+    "ml": ""
+   }
+  },
+  {
+   "id": "slow-internet",
+   "category": "network",
+   "device": "any",
+   "icon": "🐌",
+   "title": {
+    "en": "Internet is slow",
+    "ml": "Internet സ്ലോ ആണ്"
+   },
+   "keywords": [
+    "internet slow^6",
+    "wifi slow^6",
+    "internet speed^4",
+    "speed internet less^9",
+    "internet less^4",
+    "wifi speed^4",
+    "pc internet slow^9",
+    "pc wifi slow^9",
+    "phone internet slow^9",
+    "browser slow^4",
+    "website slow^4"
+   ],
+   "quick": {
+    "en": [
+     "Run a speed test (fast.com or speedtest.net) and compare with your plan's speed.",
+     "Is someone else downloading, streaming in HD or on a video call?",
+     "Is it slow on all devices or just one? Near the router or only far away?",
+     "Has your monthly data limit (FUP) been crossed? Check your provider's app."
+    ],
+    "ml": [
+     "Speed test ചെയ്യുക (fast.com അല്ലെങ്കിൽ speedtest.net) — നിങ്ങളുടെ plan speed-മായി താരതമ്യം ചെയ്യുക.",
+     "വേറെ ആരെങ്കിലും download, HD streaming, video call ചെയ്യുന്നുണ്ടോ?",
+     "എല്ലാ devices-ലും സ്ലോ ആണോ അതോ ഒന്നിൽ മാത്രമോ? Router-ന് അടുത്തും സ്ലോ ആണോ, ദൂരെ മാത്രമോ?",
+     "മാസത്തെ data limit (FUP) കഴിഞ്ഞോ? Provider-ന്റെ app-ൽ നോക്കുക."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Restart the router (off 30 seconds, then on) and the device.",
+     "Move closer to the router or keep it in an open, central, high place — not inside a cupboard or behind the TV. Walls and metal block Wi-Fi.",
+     "If your router has two networks, use the 5 GHz one near the router (faster) and 2.4 GHz far away (longer range).",
+     "Pause big background downloads: Windows Update (Settings › Windows Update › Pause), OneDrive/Google Drive sync, game launchers.",
+     "Stop Windows sharing updates with other PCs: Settings › Windows Update › Advanced options › Delivery Optimization › turn off “Allow downloads from other devices”.",
+     "Change Wi-Fi password if unknown devices are connected (check the router's admin page or provider app).",
+     "If it's slow even with a LAN cable near the router, call your provider with the speed test results."
+    ],
+    "ml": [
+     "Router-ഉം (30 സെക്കൻഡ് ഓഫ്, ശേഷം ഓൺ) device-ഉം restart ചെയ്യുക.",
+     "Router-ന് അടുത്തേക്ക് മാറുക, അല്ലെങ്കിൽ router തുറന്ന, നടുവിലുള്ള, ഉയരമുള്ള സ്ഥലത്ത് വയ്ക്കുക — അലമാരയ്ക്കുള്ളിലോ TV-യുടെ പിന്നിലോ അല്ല. ചുമരും metal-ഉം Wi-Fi തടയും.",
+     "Router-ന് രണ്ട് networks ഉണ്ടെങ്കിൽ, router-ന് അടുത്ത് 5 GHz (വേഗം കൂടുതൽ), ദൂരെ 2.4 GHz (range കൂടുതൽ) ഉപയോഗിക്കുക.",
+     "Background-ലെ വലിയ downloads pause ചെയ്യുക: Windows Update (Settings › Windows Update › Pause), OneDrive/Google Drive sync, game launchers.",
+     "മറ്റ് PC-കളുമായി updates share ചെയ്യുന്നത് നിർത്തുക: Settings › Windows Update › Advanced options › Delivery Optimization › “Allow downloads from other devices” ഓഫ്.",
+     "അറിയാത്ത devices connect ആയിട്ടുണ്ടെങ്കിൽ Wi-Fi password മാറ്റുക (router admin page അല്ലെങ്കിൽ provider app-ൽ നോക്കുക).",
+     "Router-ന് അടുത്ത് LAN cable ഇട്ടിട്ടും സ്ലോ ആണെങ്കിൽ speed test results-മായി provider-നെ വിളിക്കുക."
+    ]
+   },
+   "technician": {
+    "en": "Call your provider if wired speed is much lower than your plan. For a big house with dead zones, a technician can set up a mesh system or extra access point.",
+    "ml": "Wired speed plan-നേക്കാൾ വളരെ കുറവാണെങ്കിൽ provider-നെ വിളിക്കുക. Signal കിട്ടാത്ത മുറികളുള്ള വലിയ വീടിന് technician-ന് mesh system അല്ലെങ്കിൽ extra access point set ചെയ്യാം."
+   },
+   "safety": {
+    "en": "",
+    "ml": ""
+   }
+  },
+  {
+   "id": "lan-not-working",
+   "category": "network",
+   "device": "pc",
+   "icon": "🔗",
+   "title": {
+    "en": "LAN / Ethernet cable not working (“Unidentified network”)",
+    "ml": "LAN / Ethernet cable വർക്ക് ചെയ്യുന്നില്ല (“Unidentified network”)"
+   },
+   "keywords": [
+    "lan^5",
+    "lan not^6",
+    "cable internet^4",
+    "network cable^4",
+    "lan internet^9",
+    "lan connect^9",
+    "network not^3",
+    "cable network^4"
+   ],
+   "quick": {
+    "en": [
+     "Are the small lights next to the LAN port blinking? No lights = cable or port problem.",
+     "Does the same cable work on another PC or another router port?",
+     "Office network: does a colleague's PC on the same switch work?"
+    ],
+    "ml": [
+     "LAN port-ന് അടുത്തുള്ള ചെറിയ lights മിന്നുന്നുണ്ടോ? Light ഇല്ലെങ്കിൽ cable/port പ്രശ്നമാണ്.",
+     "അതേ cable വേറൊരു PC-യിലോ router-ന്റെ വേറൊരു port-ലോ വർക്ക് ചെയ്യുന്നുണ്ടോ?",
+     "Office network: അതേ switch-ലുള്ള സഹപ്രവർത്തകന്റെ PC വർക്ക് ചെയ്യുന്നുണ്ടോ?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Unplug and firmly re-plug the cable at both ends until it clicks. Try a different router/switch port and a different cable.",
+     "Check the adapter is enabled: Windows 11: Settings › Network & internet › Advanced network settings — the Ethernet adapter should be enabled. Windows 10: Control Panel › Network and Sharing Center › Change adapter settings › right-click Ethernet › Enable.",
+     "Renew the address: Command Prompt (Admin) › ipconfig /release — ipconfig /renew. If you see an address starting with 169.254, the PC isn't getting an address from the router.",
+     "Restart the router or switch.",
+     "Update or reinstall the Ethernet driver: Device Manager › Network adapters › (Realtek/Intel Ethernet) › Uninstall device › restart.",
+     "Office PCs with a fixed (static) IP: don't change IP settings yourself — ask IT for the correct IP, gateway and DNS."
+    ],
+    "ml": [
+     "Cable രണ്ട് അറ്റത്തും ഊരി ‘ക്ലിക്ക്’ ശബ്ദം കേൾക്കുന്നത് വരെ ഉറപ്പിച്ച് കുത്തുക. Router/switch-ന്റെ വേറൊരു port-ഉം വേറൊരു cable-ഉം നോക്കുക.",
+     "Adapter enable ആണോ: Windows 11: Settings › Network & internet › Advanced network settings — Ethernet adapter enabled ആയിരിക്കണം. Windows 10: Control Panel › Network and Sharing Center › Change adapter settings › Ethernet-ൽ right-click › Enable.",
+     "Address renew: Command Prompt (Admin) › ipconfig /release — ipconfig /renew. 169.254-ൽ തുടങ്ങുന്ന address കാണിക്കുന്നുണ്ടെങ്കിൽ router-ൽ നിന്ന് PC-ക്ക് address കിട്ടുന്നില്ല.",
+     "Router അല്ലെങ്കിൽ switch restart ചെയ്യുക.",
+     "ഡ്രൈവർ വീണ്ടും ഇടുക — Ethernet driver update/reinstall: Device Manager › Network adapters › (Realtek/Intel Ethernet) › Uninstall device › restart.",
+     "Fixed (static) IP ഉള്ള office PC: IP settings സ്വയം മാറ്റരുത് — ശരിയായ IP, gateway, DNS എന്നിവ IT-യോട് ചോദിക്കുക."
+    ]
+   },
+   "technician": {
+    "en": "Call IT/a technician if the port lights stay off with a known-good cable (wall socket or switch port may be dead), or the cable's plastic clip is broken.",
+    "ml": "നല്ല cable ഇട്ടിട്ടും port lights കത്തുന്നില്ലെങ്കിൽ (wall socket/switch port dead ആയിരിക്കും), അല്ലെങ്കിൽ cable-ന്റെ plastic clip പൊട്ടിയിട്ടുണ്ടെങ്കിൽ IT/technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "",
+    "ml": ""
+   }
+  },
+  {
+   "id": "website-not-opening",
+   "category": "network",
+   "device": "any",
+   "icon": "🌐",
+   "title": {
+    "en": "Website not opening / “This site can't be reached”",
+    "ml": "Website തുറക്കുന്നില്ല / “This site can't be reached”"
+   },
+   "keywords": [
+    "website^4",
+    "website open not^9",
+    "website not^6",
+    "website open^6",
+    "browser open not^6",
+    "browser website^9",
+    "website error^6",
+    "open not browser^9"
+   ],
+   "quick": {
+    "en": [
+     "Do other websites open? If nothing opens, see “Wi-Fi connected but no internet”.",
+     "Does the site open on your phone using mobile data? If not, the website itself may be down.",
+     "Is the PC's date and time correct? Wrong time breaks secure (https) sites."
+    ],
+    "ml": [
+     "മറ്റ് websites തുറക്കുന്നുണ്ടോ? ഒന്നും തുറക്കുന്നില്ലെങ്കിൽ “Wi-Fi connect ആണ്, പക്ഷേ internet ഇല്ല” നോക്കുക.",
+     "ഫോണിൽ mobile data-യിൽ ആ site തുറക്കുന്നുണ്ടോ? ഇല്ലെങ്കിൽ website തന്നെ down ആയിരിക്കും.",
+     "PC-യിലെ തീയതിയും സമയവും ശരിയാണോ? തെറ്റായ സമയം secure (https) sites തടയും."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Check the spelling of the address. Try opening it in a private/incognito window (Ctrl + Shift + N in Chrome/Edge).",
+     "Clear the browser cache: press Ctrl + Shift + Delete › Cached images and files (and Cookies for that site) › Clear data.",
+     "Try another browser (Edge/Chrome/Firefox). If it works there, disable extensions in the first browser one by one.",
+     "Flush DNS: Command Prompt › ipconfig /flushdns. Or set DNS to 1.1.1.1 / 8.8.8.8 (see “Wi-Fi connected but no internet”).",
+     "Turn off VPN and proxy (Settings › Network & internet › Proxy). Temporarily pause any third-party antivirus web shield to test, then turn it back on.",
+     "“Your connection is not private”: fix the date/time first. Never click “Proceed anyway” on banking or login pages."
+    ],
+    "ml": [
+     "Address-ന്റെ spelling നോക്കുക. Private/incognito window-ൽ തുറന്ന് നോക്കുക (Chrome/Edge-ൽ Ctrl + Shift + N).",
+     "Browser cache clear ചെയ്യുക: Ctrl + Shift + Delete › Cached images and files (ആ site-ന്റെ Cookies-ഉം) › Clear data.",
+     "വേറൊരു browser-ൽ നോക്കുക (Edge/Chrome/Firefox). അതിൽ തുറക്കുന്നുണ്ടെങ്കിൽ ആദ്യ browser-ലെ extensions ഓരോന്നായി disable ചെയ്ത് നോക്കുക.",
+     "DNS flush: Command Prompt › ipconfig /flushdns. അല്ലെങ്കിൽ DNS 1.1.1.1 / 8.8.8.8 ആക്കുക (“Wi-Fi connect ആണ്, പക്ഷേ internet ഇല്ല” നോക്കുക).",
+     "VPN, proxy ഓഫ് ചെയ്യുക (Settings › Network & internet › Proxy). Test ചെയ്യാൻ third-party antivirus-ന്റെ web shield താൽക്കാലികമായി pause ചെയ്ത്, ശേഷം വീണ്ടും ഓൺ ചെയ്യുക.",
+     "“Your connection is not private”: ആദ്യം തീയതി/സമയം ശരിയാക്കുക. Banking/login pages-ൽ ഒരിക്കലും “Proceed anyway” ക്ലിക്ക് ചെയ്യരുത്."
+    ]
+   },
+   "technician": {
+    "en": "Office network: some sites are blocked on purpose by the firewall — ask IT. If a site fails only on your PC after all steps, a technician can check for malware or a corrupted network stack.",
+    "ml": "Office network-ൽ ചില sites firewall മനഃപൂർവം block ചെയ്തിരിക്കും — IT-യോട് ചോദിക്കുക. എല്ലാ steps-ഉം കഴിഞ്ഞിട്ടും നിങ്ങളുടെ PC-യിൽ മാത്രം തുറക്കുന്നില്ലെങ്കിൽ technician-ന് malware/network പ്രശ്നം പരിശോധിക്കാം."
+   },
+   "safety": {
+    "en": "A certificate warning on a bank or payment site can mean someone is intercepting your connection — stop and use mobile data or another network.",
+    "ml": "Bank/payment site-ൽ certificate warning വന്നാൽ ആരെങ്കിലും connection തടയുന്നതാവാം — നിർത്തി mobile data അല്ലെങ്കിൽ വേറൊരു network ഉപയോഗിക്കുക."
+   }
+  },
+  {
+   "id": "printer-offline",
+   "category": "printer",
+   "device": "pc",
+   "icon": "🖨️",
+   "title": {
+    "en": "Printer shows “Offline”",
+    "ml": "Printer “Offline” എന്ന് കാണിക്കുന്നു"
+   },
+   "keywords": [
+    "printer offline^9",
+    "offline^4",
+    "printer detect^6",
+    "printer connect^6",
+    "printer connect not^9",
+    "printer wifi^9",
+    "printer show^6",
+    "printer network^6"
+   ],
+   "quick": {
+    "en": [
+     "Is the printer switched on, with no error light or message on its panel?",
+     "USB printer: is the cable firmly in both ends? Wi-Fi printer: is it on the same Wi-Fi as the PC?",
+     "Did the router restart recently? Network printers can get a new IP address."
+    ],
+    "ml": [
+     "Printer ഓൺ ആണോ, panel-ൽ error light/message ഇല്ലല്ലോ?",
+     "USB printer: cable രണ്ട് അറ്റത്തും ഉറപ്പിച്ച് കുത്തിയിട്ടുണ്ടോ? Wi-Fi printer: PC-യുടെ അതേ Wi-Fi-യിൽ ആണോ?",
+     "Router അടുത്തിടെ restart ആയോ? Network printer-ന് പുതിയ IP address കിട്ടിയിരിക്കാം."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Turn the printer off, wait 30 seconds, turn it on. Restart the PC too.",
+     "Open the printer list: Windows 11: Settings › Bluetooth & devices › Printers & scanners. Windows 10: Settings › Devices › Printers & scanners. Click your printer › Open print queue.",
+     "In the queue window click the Printer menu and untick “Use Printer Offline”. Also clear stuck jobs (Printer › Cancel All Documents).",
+     "Set the right default: if you see copies like “HP LaserJet (Copy 1)”, print to the one that shows Ready/Idle and remove the extra copies.",
+     "Wi-Fi printer: print a network configuration page from the printer's menu to see its IP address. Reconnect the printer to Wi-Fi using its panel or the maker's app (HP Smart, Epson Smart Panel, Canon PRINT) if needed.",
+     "Remove and re-add the printer: in Printers & scanners click your printer › Remove, then Add device. If it doesn't appear, install the latest full driver from the maker's website.",
+     "USB printer: try a different USB port (directly on the PC, not a hub) and a shorter cable."
+    ],
+    "ml": [
+     "Printer ഓഫ് ചെയ്ത് 30 സെക്കൻഡ് കാത്തിരുന്ന് ഓൺ ചെയ്യുക. PC-യും restart ചെയ്യുക.",
+     "Printer list തുറക്കുക: Windows 11: Settings › Bluetooth & devices › Printers & scanners. Windows 10: Settings › Devices › Printers & scanners. നിങ്ങളുടെ printer ക്ലിക്ക് ചെയ്ത് › Open print queue.",
+     "Queue window-ൽ Printer menu ക്ലിക്ക് ചെയ്ത് “Use Printer Offline” untick ചെയ്യുക. Stuck jobs-ഉം കളയുക (Printer › Cancel All Documents).",
+     "ശരിയായ default: “HP LaserJet (Copy 1)” പോലുള്ള copies ഉണ്ടെങ്കിൽ Ready/Idle കാണിക്കുന്നതിലേക്ക് print ചെയ്യുക, അധിക copies remove ചെയ്യുക.",
+     "Wi-Fi printer: printer menu-വിൽ നിന്ന് network configuration page print ചെയ്ത് IP address നോക്കുക. ആവശ്യമെങ്കിൽ panel വഴിയോ കമ്പനിയുടെ app വഴിയോ (HP Smart, Epson Smart Panel, Canon PRINT) printer വീണ്ടും Wi-Fi-യിൽ connect ചെയ്യുക.",
+     "Printer remove ചെയ്ത് വീണ്ടും add ചെയ്യുക: Printers & scanners-ൽ printer › Remove, ശേഷം Add device. കാണുന്നില്ലെങ്കിൽ കമ്പനിയുടെ website-ൽ നിന്ന് latest full driver install ചെയ്യുക.",
+     "USB printer: വേറൊരു USB port (hub അല്ല, PC-യിൽ നേരിട്ട്), ചെറിയ cable എന്നിവ ഉപയോഗിച്ച് നോക്കുക."
+    ]
+   },
+   "technician": {
+    "en": "Call IT/a technician for shared office printers (they may need a fixed IP on the router), or if the printer shows a hardware error code on its panel.",
+    "ml": "Office-ലെ shared printer-ന് (router-ൽ fixed IP വേണ്ടിവരാം), അല്ലെങ്കിൽ printer panel-ൽ hardware error code കാണിക്കുന്നുണ്ടെങ്കിൽ IT/technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "",
+    "ml": ""
+   }
+  },
+  {
+   "id": "print-queue-stuck",
+   "category": "printer",
+   "device": "pc",
+   "icon": "📄",
+   "title": {
+    "en": "Printer not printing / jobs stuck in queue (Print Spooler)",
+    "ml": "Printer print ചെയ്യുന്നില്ല / queue-ൽ കുടുങ്ങുന്നു (Print Spooler)"
+   },
+   "keywords": [
+    "printer not^5",
+    "printer work not^6",
+    "printer^2",
+    "queue^5",
+    "printer queue^9",
+    "spooler^9",
+    "printer error^6",
+    "printer stuck^6",
+    "printer on not^6",
+    "printer get not^6",
+    "printer open not^4",
+    "printer pc^3"
+   ],
+   "quick": {
+    "en": [
+     "Is there paper, and is the tray pushed in fully? Any blinking light or error on the printer panel?",
+     "Open the print queue — is one document showing “Error” or stuck at the top?",
+     "Can the printer print its own test/configuration page from its buttons? If yes, the printer is fine and the problem is on the PC."
+    ],
+    "ml": [
+     "പേപ്പർ ഉണ്ടോ, tray മുഴുവനായി അകത്തേക്ക് തള്ളിയിട്ടുണ്ടോ? Printer panel-ൽ മിന്നുന്ന light/error ഉണ്ടോ?",
+     "Print queue തുറക്കുക — ഏതെങ്കിലും document “Error” ആയോ മുകളിൽ കുടുങ്ങിയോ കിടക്കുന്നുണ്ടോ?",
+     "Printer-ന്റെ buttons വഴി test/configuration page print ആകുന്നുണ്ടോ? ആകുന്നുണ്ടെങ്കിൽ printer ശരിയാണ്, PC-യിലാണ് പ്രശ്നം."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Open the queue: Settings › Bluetooth & devices › Printers & scanners (Windows 10: Settings › Devices › Printers & scanners) › your printer › Open print queue › Printer › Cancel All Documents.",
+     "If jobs won't delete, restart the Print Spooler: press Win + R, type services.msc, Enter. Find “Print Spooler” › right-click › Stop.",
+     "Leave that window open. Press Win + R, type C:\\Windows\\System32\\spool\\PRINTERS and press Enter (click Continue if asked). Delete everything inside this folder only.",
+     "Back in Services, right-click “Print Spooler” › Start. Make sure Startup type is Automatic.",
+     "Print a test page: Printers & scanners › your printer › Printer properties › Print Test Page.",
+     "Still nothing? Make sure you are printing to the right printer (not “Microsoft Print to PDF” or “OneNote”), then remove and re-add the printer with the latest driver from the maker's site.",
+     "Run the troubleshooter: Windows 11: Settings › System › Troubleshoot › Other troubleshooters › Printer. Windows 10: Settings › Update & security › Troubleshoot › Additional troubleshooters › Printer."
+    ],
+    "ml": [
+     "Queue തുറക്കുക: Settings › Bluetooth & devices › Printers & scanners (Windows 10: Settings › Devices › Printers & scanners) › നിങ്ങളുടെ printer › Open print queue › Printer › Cancel All Documents.",
+     "Jobs delete ആകുന്നില്ലെങ്കിൽ Print Spooler restart ചെയ്യുക: Win + R അമർത്തി services.msc type ചെയ്ത് Enter. “Print Spooler” കണ്ടെത്തി › right-click › Stop.",
+     "ആ window അടയ്ക്കരുത്. Win + R അമർത്തി C:\\Windows\\System32\\spool\\PRINTERS type ചെയ്ത് Enter (ചോദിച്ചാൽ Continue). ഈ folder-നുള്ളിലെ എല്ലാം മാത്രം delete ചെയ്യുക.",
+     "Services-ൽ തിരിച്ചുവന്ന് “Print Spooler”-ൽ right-click › Start. Startup type Automatic ആണെന്ന് ഉറപ്പാക്കുക.",
+     "ഒരു test page print ചെയ്ത് നോക്കുക — Test page print: Printers & scanners › printer › Printer properties › Print Test Page.",
+     "ഇപ്പോഴും ഇല്ലേ? ശരിയായ printer-ലേക്കാണോ print ചെയ്യുന്നത് എന്ന് നോക്കുക (“Microsoft Print to PDF”, “OneNote” അല്ല). ശേഷം കമ്പനിയുടെ site-ലെ latest driver-ഓടെ printer remove ചെയ്ത് വീണ്ടും add ചെയ്യുക.",
+     "ഇപ്പോഴും ശരിയായില്ലെങ്കിൽ — Troubleshooter: Windows 11: Settings › System › Troubleshoot › Other troubleshooters › Printer. Windows 10: Settings › Update & security › Troubleshoot › Additional troubleshooters › Printer."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if the printer can't print even its own test page, shows a hardware error (e.g. fuser, scanner or carriage error), or makes grinding noises.",
+    "ml": "Printer-ന് സ്വന്തം test page പോലും print ചെയ്യാൻ പറ്റുന്നില്ലെങ്കിൽ, hardware error കാണിക്കുന്നുണ്ടെങ്കിൽ (ഉദാ: fuser, scanner, carriage error), അല്ലെങ്കിൽ ഉരയുന്ന ശബ്ദം വരുന്നുണ്ടെങ്കിൽ technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "In the spool folder, delete only the files inside PRINTERS — never delete other Windows folders.",
+    "ml": "Spool folder-ൽ PRINTERS-നുള്ളിലെ files മാത്രം delete ചെയ്യുക — മറ്റ് Windows folders ഒരിക്കലും delete ചെയ്യരുത്."
+   }
+  },
+  {
+   "id": "paper-jam",
+   "category": "printer",
+   "device": "pc",
+   "icon": "🧻",
+   "title": {
+    "en": "Printer paper jam",
+    "ml": "Printer-ൽ പേപ്പർ കുടുങ്ങി (Paper jam)"
+   },
+   "keywords": [
+    "jam^9",
+    "paper stuck^9",
+    "paper jam^9",
+    "printer paper^6",
+    "printer stuck paper^9",
+    "paper^2",
+    "printer jam^9"
+   ],
+   "quick": {
+    "en": [
+     "Turn the printer off and unplug it before reaching inside.",
+     "Laser printers: the area near the fuser (where paper comes out) gets very hot — wait 10–15 minutes.",
+     "Does the printer still say “jam” even when no paper is visible? A small torn piece may be stuck inside."
+    ],
+    "ml": [
+     "ഉള്ളിലേക്ക് കൈയിടുന്നതിന് മുൻപ് printer ഓഫ് ചെയ്ത് plug ഊരുക.",
+     "Laser printer: fuser-ന് അടുത്തുള്ള ഭാഗം (പേപ്പർ പുറത്ത് വരുന്നിടം) വളരെ ചൂടായിരിക്കും — 10–15 മിനിറ്റ് കാത്തിരിക്കുക.",
+     "പേപ്പർ കാണാനില്ലെങ്കിലും printer “jam” എന്ന് പറയുന്നുണ്ടോ? ചെറിയ കീറിയ കഷ്ണം ഉള്ളിൽ കുടുങ്ങിയിരിക്കാം."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Open every door and tray the printer has: front cover, back door, input tray, output area, and the toner/cartridge door. Check the printer's manual or the picture on the panel for jam locations.",
+     "Hold the stuck paper with both hands and pull slowly and evenly in the direction the paper normally travels. Don't yank — torn bits are harder to remove.",
+     "Use a torch to look for small torn pieces. Remove them gently with your fingers — no knives, scissors or metal tools.",
+     "Inkjet: make sure the cartridge carriage can move freely; remove anything blocking it.",
+     "Close all doors, plug in, turn on. Cancel and resend the job.",
+     "Prevent jams: fan the paper stack before loading, don't overfill the tray, adjust the paper guides to touch the stack lightly, use dry paper of the right size/thickness, and never reload already-printed or curled sheets."
+    ],
+    "ml": [
+     "Printer-ന്റെ എല്ലാ doors-ഉം trays-ഉം തുറക്കുക: front cover, back door, input tray, output area, toner/cartridge door. Jam ഉണ്ടാകുന്ന സ്ഥലങ്ങൾ printer manual-ലോ panel-ലെ ചിത്രത്തിലോ നോക്കുക.",
+     "കുടുങ്ങിയ പേപ്പർ രണ്ട് കൈ കൊണ്ടും പിടിച്ച്, പേപ്പർ സാധാരണ പോകുന്ന ദിശയിൽ പതുക്കെ ഒരേ പോലെ വലിക്കുക. ശക്തിയായി വലിക്കരുത് — കീറിയാൽ എടുക്കാൻ ബുദ്ധിമുട്ടാണ്.",
+     "Torch വച്ച് ചെറിയ കീറിയ കഷ്ണങ്ങൾ ഉണ്ടോ നോക്കുക. വിരലുകൾ കൊണ്ട് പതുക്കെ എടുക്കുക — കത്തി, കത്രിക, metal tools ഉപയോഗിക്കരുത്.",
+     "Inkjet: cartridge carriage സുഗമമായി നീങ്ങുന്നുണ്ടോ നോക്കുക; തടസ്സമുള്ളത് എടുത്ത് മാറ്റുക.",
+     "എല്ലാ doors-ഉം അടച്ച്, plug കുത്തി ഓൺ ചെയ്യുക. Job cancel ചെയ്ത് വീണ്ടും അയക്കുക.",
+     "Jam ഒഴിവാക്കാൻ: load ചെയ്യുന്നതിന് മുൻപ് പേപ്പർ ഒന്ന് കുടഞ്ഞ് (fan) വേർപെടുത്തുക, tray അമിതമായി നിറയ്ക്കരുത്, paper guides stack-നെ ചെറുതായി തൊടുന്ന പോലെ വയ്ക്കുക, ഈർപ്പമില്ലാത്ത ശരിയായ size/കനമുള്ള പേപ്പർ ഉപയോഗിക്കുക, print ചെയ്തതോ ചുരുണ്ടതോ ആയ പേപ്പർ വീണ്ടും ഇടരുത്."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if paper is stuck deep inside where you can't reach, the jam message stays with no paper inside, or jams keep happening every few pages (worn pickup rollers are a common cause).",
+    "ml": "കൈയെത്താത്ത ഉള്ളിൽ പേപ്പർ കുടുങ്ങിയിട്ടുണ്ടെങ്കിൽ, പേപ്പർ ഇല്ലാതിരുന്നിട്ടും jam message പോകുന്നില്ലെങ്കിൽ, അല്ലെങ്കിൽ കുറച്ച് പേജ് കൂടുമ്പോൾ jam ആകുന്നുണ്ടെങ്കിൽ (തേഞ്ഞ pickup rollers സാധാരണ കാരണമാണ്) technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "The fuser in laser printers can burn — wait for it to cool. Never put tools inside while the printer is plugged in.",
+    "ml": "Laser printer-ലെ fuser പൊള്ളലേൽപ്പിക്കും — തണുക്കാൻ കാത്തിരിക്കുക. Printer plug-ൽ ഇരിക്കുമ്പോൾ ഒരിക്കലും tools ഉള്ളിലിടരുത്."
+   }
+  },
+  {
+   "id": "print-quality",
+   "category": "printer",
+   "device": "pc",
+   "icon": "🎨",
+   "title": {
+    "en": "Faded print, lines, streaks or blank pages",
+    "ml": "Print മങ്ങുന്നു, വരകൾ, അല്ലെങ്കിൽ blank page വരുന്നു"
+   },
+   "keywords": [
+    "quality^6",
+    "printer quality^9",
+    "blank^5",
+    "printer blank^9",
+    "ink^5",
+    "printer ink^9",
+    "ink less^9",
+    "printer media^4",
+    "paper blank^9"
+   ],
+   "quick": {
+    "en": [
+     "Check ink/toner levels: from the printer panel or the maker's app (HP Smart, Epson, Canon).",
+     "Is it only one colour missing, or everything faded?",
+     "Was the printer unused for weeks? Inkjet nozzles dry up."
+    ],
+    "ml": [
+     "Ink/toner level നോക്കുക: printer panel-ലോ കമ്പനിയുടെ app-ലോ (HP Smart, Epson, Canon).",
+     "ഒരു colour മാത്രമാണോ പോയത്, അതോ മുഴുവൻ മങ്ങിയോ?",
+     "Printer ആഴ്ചകളായി ഉപയോഗിക്കാതെ ഇരുന്നോ? Inkjet nozzles ഉണങ്ങിപ്പോകും."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Make sure “Draft”, “Toner save” or “Grayscale” isn't selected: when printing, open Printer properties/Preferences and set quality to Normal or Best.",
+     "Inkjet: run Nozzle check and Head cleaning from the printer's own menu (Setup/Maintenance) or from Printing Preferences › Maintenance (Epson/Canon) / the HP Smart app. Run cleaning at most 2–3 times, then let it rest for a few hours.",
+     "Inkjet: run Print head alignment from the same menu if lines look broken or doubled.",
+     "Laser: take the toner cartridge out and gently rock it side to side 5–6 times to spread the toner, then put it back. Vertical lines often mean a dirty or scratched drum.",
+     "Blank pages: check the protective tape/seal was removed from a new cartridge, and that the cartridge is clicked fully into place.",
+     "Use the correct paper type setting (plain vs photo paper). Damp paper causes smudges.",
+     "Replace the cartridge if levels are low or nozzle check still has gaps after cleaning. Refilled/compatible cartridges can cause quality problems."
+    ],
+    "ml": [
+     "“Draft”, “Toner save”, “Grayscale” ഒന്നും select ചെയ്തിട്ടില്ലെന്ന് ഉറപ്പാക്കുക: print ചെയ്യുമ്പോൾ Printer properties/Preferences തുറന്ന് quality Normal അല്ലെങ്കിൽ Best ആക്കുക.",
+     "Inkjet: printer-ന്റെ menu-വിൽ (Setup/Maintenance) നിന്നോ Printing Preferences › Maintenance (Epson/Canon) / HP Smart app-ൽ നിന്നോ Nozzle check, Head cleaning run ചെയ്യുക. Cleaning പരമാവധി 2–3 തവണ, ശേഷം കുറച്ച് മണിക്കൂർ വിശ്രമം കൊടുക്കുക.",
+     "Inkjet: വരകൾ മുറിഞ്ഞോ ഇരട്ടിച്ചോ കാണുന്നുണ്ടെങ്കിൽ അതേ menu-വിൽ നിന്ന് Print head alignment run ചെയ്യുക.",
+     "Laser: toner cartridge പുറത്തെടുത്ത് 5–6 തവണ പതുക്കെ വശങ്ങളിലേക്ക് ആട്ടുക (toner പരക്കാൻ), തിരികെ ഇടുക. നീളത്തിലുള്ള വരകൾ പലപ്പോഴും drum അഴുക്ക്/scratch ആണ്.",
+     "Blank pages: പുതിയ cartridge-ലെ protective tape/seal കളഞ്ഞിട്ടുണ്ടോ, cartridge ‘ക്ലിക്ക്’ ആയി ശരിയായി ഇരിക്കുന്നുണ്ടോ എന്ന് നോക്കുക.",
+     "ശരിയായ paper type setting ഉപയോഗിക്കുക (plain / photo paper). ഈർപ്പമുള്ള പേപ്പർ smudge ഉണ്ടാക്കും.",
+     "Level കുറവാണെങ്കിലോ cleaning കഴിഞ്ഞിട്ടും nozzle check-ൽ gaps ഉണ്ടെങ്കിലോ cartridge മാറ്റുക. Refill/compatible cartridges quality പ്രശ്നം ഉണ്ടാക്കാം."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if lines stay after a new cartridge/toner, or for ink-tank printers with air in the tubes or a blocked print head.",
+    "ml": "പുതിയ cartridge/toner ഇട്ടിട്ടും വരകൾ പോകുന്നില്ലെങ്കിൽ, അല്ലെങ്കിൽ ink-tank printer-ന്റെ tubes-ൽ air കയറിയാലോ print head block ആയാലോ technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "Keep toner away from skin and eyes and don't shake it hard. Too many head cleanings waste ink.",
+    "ml": "Toner തൊലിയിലും കണ്ണിലും ആകാതെ നോക്കുക, ശക്തിയായി കുലുക്കരുത്. Head cleaning അധികമായാൽ ink പാഴാകും."
+   }
+  },
+  {
+   "id": "scanner-not-working",
+   "category": "printer",
+   "device": "pc",
+   "icon": "🖼️",
+   "title": {
+    "en": "Scanner not working",
+    "ml": "Scanner വർക്ക് ചെയ്യുന്നില്ല"
+   },
+   "keywords": [
+    "scan^6",
+    "scan not^9",
+    "scan work^9",
+    "printer scan^9",
+    "scan detect^9",
+    "scan error^9"
+   ],
+   "quick": {
+    "en": [
+     "Does the copy function work on the printer (photocopy a page)? If yes, the scanner hardware is fine.",
+     "Is the full driver/software from the maker installed, not just the basic printer driver?",
+     "Is the scanner glass clean and the lid fully closed?"
+    ],
+    "ml": [
+     "Printer-ൽ copy (photocopy) ചെയ്യാൻ പറ്റുന്നുണ്ടോ? പറ്റുന്നുണ്ടെങ്കിൽ scanner hardware ശരിയാണ്.",
+     "Basic printer driver മാത്രമല്ല, കമ്പനിയുടെ full driver/software install ചെയ്തിട്ടുണ്ടോ?",
+     "Scanner glass വൃത്തിയാണോ, lid ശരിക്ക് അടച്ചിട്ടുണ്ടോ?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Use the maker's scan app: HP Smart, Epson Scan 2, Canon IJ Scan Utility / Canon PRINT, Brother iPrint&Scan. Or try Windows' built-in “Windows Scan” app (from Microsoft Store) or “Windows Fax and Scan”.",
+     "Restart the printer and PC. For Wi-Fi models, check the printer is on the same network (see “Printer shows Offline”).",
+     "Make sure the Windows Image Acquisition service runs: Win + R › services.msc › “Windows Image Acquisition (WIA)” › Start, Startup type Automatic.",
+     "Reinstall the full driver package from the maker's website (search your model number + “full feature software”).",
+     "USB: try another port and cable. Avoid USB hubs.",
+     "Office multifunction printers that scan to email/folder: the saved password or folder path may have changed — ask IT."
+    ],
+    "ml": [
+     "കമ്പനിയുടെ scan app ഉപയോഗിക്കുക: HP Smart, Epson Scan 2, Canon IJ Scan Utility / Canon PRINT, Brother iPrint&Scan. അല്ലെങ്കിൽ Windows-ന്റെ “Windows Scan” app (Microsoft Store) അല്ലെങ്കിൽ “Windows Fax and Scan” നോക്കുക.",
+     "Printer-ഉം PC-യും restart ചെയ്യുക. Wi-Fi model ആണെങ്കിൽ printer അതേ network-ൽ ആണോ എന്ന് നോക്കുക (“Printer Offline” കാണുക).",
+     "Windows Image Acquisition service run ആകണം: Win + R › services.msc › “Windows Image Acquisition (WIA)” › Start, Startup type Automatic.",
+     "കമ്പനിയുടെ website-ൽ നിന്ന് full driver package reinstall ചെയ്യുക (model number + “full feature software” search ചെയ്യുക).",
+     "USB: വേറൊരു port-ഉം cable-ഉം നോക്കുക. USB hub ഒഴിവാക്കുക.",
+     "Scan to email/folder ചെയ്യുന്ന office multifunction printers: save ചെയ്ത password അല്ലെങ്കിൽ folder path മാറിയിരിക്കാം — IT-യോട് ചോദിക്കുക."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if photocopy also fails, the scanner light doesn't move, or there's a “scanner error” code on the panel.",
+    "ml": "Photocopy-യും നടക്കുന്നില്ലെങ്കിൽ, scanner light നീങ്ങുന്നില്ലെങ്കിൽ, panel-ൽ “scanner error” code ഉണ്ടെങ്കിൽ technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "",
+    "ml": ""
+   }
+  },
+  {
+   "id": "keyboard-not-working",
+   "category": "devices",
+   "device": "pc",
+   "icon": "⌨️",
+   "title": {
+    "en": "Keyboard not working / wrong letters",
+    "ml": "Keyboard വർക്ക് ചെയ്യുന്നില്ല / തെറ്റായ letters വരുന്നു"
+   },
+   "keywords": [
+    "keyboard^4",
+    "keyboard not^9",
+    "keyboard work^9",
+    "typing not^6",
+    "keyboard typing^9",
+    "keyboard wrong^9",
+    "typing wrong^6",
+    "keyboard detect^9"
+   ],
+   "quick": {
+    "en": [
+     "Is it only some keys, or the whole keyboard? Do the Caps Lock/Num Lock lights respond?",
+     "External keyboard: try another USB port, or new batteries for wireless.",
+     "Wrong characters? The input language may have changed (e.g. ENG ↔ Malayalam). Look at the language letters on the taskbar."
+    ],
+    "ml": [
+     "ചില keys മാത്രമാണോ, അതോ മുഴുവൻ keyboard-ഉം? Caps Lock/Num Lock lights പ്രതികരിക്കുന്നുണ്ടോ?",
+     "External keyboard: വേറൊരു USB port നോക്കുക, wireless ആണെങ്കിൽ പുതിയ battery ഇടുക.",
+     "തെറ്റായ letters ആണോ വരുന്നത്? Input language മാറിയിരിക്കാം (ഉദാ: ENG ↔ Malayalam). Taskbar-ലെ language letters നോക്കുക."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Restart the PC. On the login screen, check if the keyboard works there — if yes, it's a software problem.",
+     "Wrong language: press Win + Space to switch input language, or remove extra languages in Settings › Time & language › Language & region.",
+     "Keys typing slowly or not registering? Turn off Filter Keys: Windows 11: Settings › Accessibility › Keyboard › Filter keys off. Windows 10: Settings › Ease of Access › Keyboard. Also turn off Sticky keys.",
+     "Number keys on the right not working? Press Num Lock.",
+     "Device Manager › Keyboards › right-click your keyboard › Uninstall device › restart (Windows reinstalls it).",
+     "Need to type right now? Open the on-screen keyboard with Win + Ctrl + O.",
+     "Laptop after a liquid spill: shut down immediately, unplug, turn it upside down and let it dry for 48 hours before trying again."
+    ],
+    "ml": [
+     "PC restart ചെയ്യുക. Login screen-ൽ keyboard വർക്ക് ചെയ്യുന്നുണ്ടോ നോക്കുക — ഉണ്ടെങ്കിൽ software പ്രശ്നമാണ്.",
+     "Language മാറിയാൽ: Win + Space അമർത്തി input language മാറ്റുക, അല്ലെങ്കിൽ Settings › Time & language › Language & region-ൽ അധിക languages remove ചെയ്യുക.",
+     "Keys പതുക്കെ type ആകുന്നു / കയറുന്നില്ലേ? Filter Keys ഓഫ് ചെയ്യുക: Windows 11: Settings › Accessibility › Keyboard › Filter keys ഓഫ്. Windows 10: Settings › Ease of Access › Keyboard. Sticky keys-ഉം ഓഫ് ചെയ്യുക.",
+     "വലതുവശത്തെ number keys വർക്ക് ചെയ്യുന്നില്ലേ? Num Lock അമർത്തുക.",
+     "Device Manager › Keyboards › keyboard-ൽ right-click › Uninstall device › restart (Windows തനിയെ reinstall ചെയ്യും).",
+     "ഇപ്പോൾ തന്നെ type ചെയ്യണോ? Win + Ctrl + O അമർത്തി on-screen keyboard തുറക്കുക.",
+     "ലാപ്ടോപ്പിൽ വെള്ളം വീണാൽ: ഉടനെ shut down ചെയ്ത് charger ഊരുക, തലകീഴായി വച്ച് 48 മണിക്കൂർ ഉണങ്ങാൻ വിടുക, ശേഷം മാത്രം ഓൺ ചെയ്യുക."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if the laptop keyboard doesn't work even in BIOS/login screen, after a liquid spill, or if a row of keys is dead — the keyboard may need replacement. A cheap USB keyboard works meanwhile.",
+    "ml": "BIOS/login screen-ലും ലാപ്ടോപ്പ് keyboard വർക്ക് ചെയ്യുന്നില്ലെങ്കിൽ, വെള്ളം വീണതിന് ശേഷം, അല്ലെങ്കിൽ ഒരു നിര keys മുഴുവൻ dead ആണെങ്കിൽ technician-നെ വിളിക്കുക — keyboard മാറ്റേണ്ടി വരാം. അതുവരെ ഒരു USB keyboard ഉപയോഗിക്കാം."
+   },
+   "safety": {
+    "en": "After a spill, don't switch the laptop on to “check” it — that's what causes short circuits.",
+    "ml": "വെള്ളം വീണാൽ “നോക്കാൻ” വേണ്ടി ഓൺ ചെയ്യരുത് — അതാണ് short circuit ഉണ്ടാക്കുന്നത്."
+   }
+  },
+  {
+   "id": "touchpad-not-working",
+   "category": "devices",
+   "device": "pc",
+   "icon": "🖐️",
+   "title": {
+    "en": "Touchpad not working",
+    "ml": "Touchpad (mouse pad) വർക്ക് ചെയ്യുന്നില്ല"
+   },
+   "keywords": [
+    "touchpad^6",
+    "touchpad not^9",
+    "touchpad work^9",
+    "cursor^3",
+    "cursor not^4",
+    "pc cursor^4",
+    "touchpad click^9",
+    "cursor move^4"
+   ],
+   "quick": {
+    "en": [
+     "Many laptops have a touchpad on/off key (Fn + an F-key with a touchpad icon) — press it once.",
+     "Some HP laptops: double-tap the top-left corner of the touchpad to turn it on/off.",
+     "Is a USB mouse connected? Some laptops disable the touchpad when a mouse is plugged in."
+    ],
+    "ml": [
+     "പല ലാപ്ടോപ്പുകളിലും touchpad on/off key ഉണ്ട് (touchpad icon ഉള്ള Fn + F-key) — ഒരിക്കൽ അമർത്തുക.",
+     "ചില HP ലാപ്ടോപ്പുകൾ: touchpad-ന്റെ മുകളിലെ ഇടത് മൂലയിൽ രണ്ട് തവണ tap ചെയ്താൽ on/off ആകും.",
+     "USB mouse connect ചെയ്തിട്ടുണ്ടോ? ചില ലാപ്ടോപ്പുകൾ mouse കുത്തുമ്പോൾ touchpad ഓഫ് ആക്കും."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Windows 11: Settings › Bluetooth & devices › Touchpad › turn Touchpad on. Windows 10: Settings › Devices › Touchpad. (Use Tab and arrow keys + Space if there's no mouse.)",
+     "On the same page, check “Leave touchpad on when a mouse is connected” is ticked.",
+     "Restart the laptop.",
+     "Device Manager (Win + X › Device Manager) › Human Interface Devices / Mice and other pointing devices › right-click the touchpad (e.g. “HID-compliant touch pad”, Synaptics, ELAN, Precision) › Uninstall device › restart.",
+     "Install the touchpad driver from the laptop maker's support site.",
+     "Clean the touchpad surface; wet or oily fingers make it erratic."
+    ],
+    "ml": [
+     "Windows 11: Settings › Bluetooth & devices › Touchpad › Touchpad ഓൺ ചെയ്യുക. Windows 10: Settings › Devices › Touchpad. (Mouse ഇല്ലെങ്കിൽ Tab, arrow keys, Space ഉപയോഗിക്കുക.)",
+     "അതേ page-ൽ “Leave touchpad on when a mouse is connected” tick ചെയ്തിട്ടുണ്ടോ നോക്കുക.",
+     "ലാപ്ടോപ്പ് restart ചെയ്യുക.",
+     "Device Manager (Win + X › Device Manager) › Human Interface Devices / Mice and other pointing devices › touchpad-ൽ right-click (ഉദാ: “HID-compliant touch pad”, Synaptics, ELAN, Precision) › Uninstall device › restart.",
+     "ലാപ്ടോപ്പ് കമ്പനിയുടെ support site-ൽ നിന്ന് touchpad driver install ചെയ്യുക.",
+     "Touchpad surface വൃത്തിയാക്കുക; നനഞ്ഞ/എണ്ണമയമുള്ള വിരലുകൾ പ്രശ്നം ഉണ്ടാക്കും."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if the touchpad doesn't appear in Device Manager at all, or it's lifting/raised — a raised touchpad usually means a swelling battery underneath (fire risk).",
+    "ml": "Device Manager-ൽ touchpad കാണുന്നില്ലെങ്കിൽ, അല്ലെങ്കിൽ touchpad പൊങ്ങി നിൽക്കുന്നുണ്ടെങ്കിൽ technician-നെ വിളിക്കുക — പൊങ്ങിയ touchpad സാധാരണ താഴെയുള്ള battery വീർത്തതിന്റെ ലക്ഷണമാണ് (തീപിടിക്കാൻ സാധ്യത)."
+   },
+   "safety": {
+    "en": "A raised touchpad = possible swollen battery. Stop charging and get it checked.",
+    "ml": "പൊങ്ങിയ touchpad = battery വീർത്തതാവാം. ചാർജിങ് നിർത്തി പരിശോധിപ്പിക്കുക."
+   }
+  },
+  {
+   "id": "mouse-not-working",
+   "category": "devices",
+   "device": "pc",
+   "icon": "🖱️",
+   "title": {
+    "en": "Mouse not working",
+    "ml": "Mouse വർക്ക് ചെയ്യുന്നില്ല"
+   },
+   "keywords": [
+    "mouse^4",
+    "mouse not^9",
+    "mouse work^9",
+    "mouse cursor^9",
+    "mouse click^9",
+    "mouse detect^9",
+    "mouse connect^9"
+   ],
+   "quick": {
+    "en": [
+     "Wireless mouse: is it switched on (switch underneath)? Replace the battery.",
+     "Is the USB receiver plugged in? Try another USB port.",
+     "Is the surface glossy or glass? Optical mice need a mouse pad."
+    ],
+    "ml": [
+     "Wireless mouse: ഓൺ ആണോ (അടിയിലെ switch)? Battery മാറ്റുക.",
+     "USB receiver കുത്തിയിട്ടുണ്ടോ? വേറൊരു USB port നോക്കുക.",
+     "Glass/തിളങ്ങുന്ന surface ആണോ? Optical mouse-ന് mouse pad വേണം."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Plug the mouse/receiver directly into the PC (not a hub or keyboard port). Restart.",
+     "Bluetooth mouse: Settings › Bluetooth & devices (Windows 10: Devices › Bluetooth & other devices) › remove the mouse, then hold its pairing button and Add device again.",
+     "Test on another PC — if it fails there too, the mouse is faulty.",
+     "Device Manager › Mice and other pointing devices › right-click › Uninstall device › restart.",
+     "Cursor too slow/fast or buttons swapped? Settings › Bluetooth & devices › Mouse (Windows 10: Devices › Mouse) — set speed and primary button.",
+     "Clean the sensor underneath with a dry cloth or cotton bud."
+    ],
+    "ml": [
+     "Mouse/receiver hub-ലോ keyboard port-ലോ അല്ല, PC-യിൽ നേരിട്ട് കുത്തുക. Restart ചെയ്യുക.",
+     "Bluetooth mouse: Settings › Bluetooth & devices (Windows 10: Devices › Bluetooth & other devices) › mouse remove ചെയ്ത്, mouse-ന്റെ pairing button അമർത്തിപ്പിടിച്ച് വീണ്ടും Add device.",
+     "വേറൊരു PC-യിൽ നോക്കുക — അവിടെയും വർക്ക് ചെയ്യുന്നില്ലെങ്കിൽ mouse കേടാണ്.",
+     "ഡ്രൈവർ വീണ്ടും ഇടുക — Device Manager › Mice and other pointing devices › right-click › Uninstall device › restart.",
+     "Cursor വളരെ പതുക്കെ/വേഗത്തിലോ buttons മാറിയോ? Settings › Bluetooth & devices › Mouse (Windows 10: Devices › Mouse) — speed, primary button ശരിയാക്കുക.",
+     "അടിയിലെ sensor ഉണങ്ങിയ തുണി/cotton bud കൊണ്ട് വൃത്തിയാക്കുക."
+    ]
+   },
+   "technician": {
+    "en": "A mouse is cheap to replace — if it fails on two PCs, buy a new one. If no USB device works on this PC, see “USB device not detected”.",
+    "ml": "Mouse മാറ്റാൻ ചിലവ് കുറവാണ് — രണ്ട് PC-യിലും വർക്ക് ചെയ്യുന്നില്ലെങ്കിൽ പുതിയത് വാങ്ങുക. ഈ PC-യിൽ ഒരു USB device-ഉം വർക്ക് ചെയ്യുന്നില്ലെങ്കിൽ “USB device detect ആകുന്നില്ല” നോക്കുക."
+   },
+   "safety": {
+    "en": "",
+    "ml": ""
+   }
+  },
+  {
+   "id": "usb-not-detected",
+   "category": "devices",
+   "device": "pc",
+   "icon": "💽",
+   "title": {
+    "en": "USB / pen drive not detected",
+    "ml": "USB / pen drive detect ആകുന്നില്ല"
+   },
+   "keywords": [
+    "usb^4",
+    "usb detect^9",
+    "usb not^9",
+    "usb show^9",
+    "external^4",
+    "external detect^9",
+    "usb open^9",
+    "disk usb^6",
+    "usb pc^6",
+    "usb work^9"
+   ],
+   "quick": {
+    "en": [
+     "Try another USB port, preferably directly on the PC (back ports on desktops).",
+     "Does the pen drive work on another PC or phone (with OTG)?",
+     "Does Windows make the “device connected” sound? Does the drive's light blink?"
+    ],
+    "ml": [
+     "വേറൊരു USB port നോക്കുക, PC-യിൽ നേരിട്ട് (desktop-ൽ പുറകിലെ ports).",
+     "Pen drive വേറൊരു PC-യിലോ ഫോണിലോ (OTG വഴി) വർക്ക് ചെയ്യുന്നുണ്ടോ?",
+     "Windows “device connected” ശബ്ദം ഉണ്ടാക്കുന്നുണ്ടോ? Drive-ലെ light മിന്നുന്നുണ്ടോ?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Open Disk Management: right-click Start › Disk Management. If the drive is listed but has no letter, right-click its partition › Change Drive Letter and Paths › Add › pick a letter.",
+     "If it shows “Unallocated” or RAW, the drive is empty or damaged. Don't format yet if it has important data.",
+     "Device Manager › Universal Serial Bus controllers › right-click each “USB Root Hub” › Uninstall device › restart (Windows reinstalls them).",
+     "“USB device not recognized” message: unplug, restart the PC, plug in again. Try a different cable for external hard disks.",
+     "External hard disks need enough power — plug directly into the PC, not a hub or front port; use both plugs if the cable has a Y-split.",
+     "If the drive opens but files look like shortcuts, it may have a virus — scan it with Windows Security before opening files (right-click the drive › Scan with Microsoft Defender)."
+    ],
+    "ml": [
+     "Disk Management തുറക്കുക: Start-ൽ right-click › Disk Management. Drive list-ൽ ഉണ്ട് പക്ഷേ letter ഇല്ലെങ്കിൽ partition-ൽ right-click › Change Drive Letter and Paths › Add › ഒരു letter തിരഞ്ഞെടുക്കുക.",
+     "“Unallocated” അല്ലെങ്കിൽ RAW കാണിക്കുന്നുണ്ടെങ്കിൽ drive empty ആണ് അല്ലെങ്കിൽ കേടാണ്. പ്രധാന data ഉണ്ടെങ്കിൽ ഇപ്പോൾ format ചെയ്യരുത്.",
+     "Device Manager › Universal Serial Bus controllers › ഓരോ “USB Root Hub”-ലും right-click › Uninstall device › restart (Windows തനിയെ reinstall ചെയ്യും).",
+     "“USB device not recognized” message: ഊരി PC restart ചെയ്ത് വീണ്ടും കുത്തുക. External hard disk ആണെങ്കിൽ വേറൊരു cable നോക്കുക.",
+     "External hard disk-ന് മതിയായ power വേണം — hub/front port അല്ല, PC-യിൽ നേരിട്ട് കുത്തുക; cable-ന് Y-split ഉണ്ടെങ്കിൽ രണ്ട് plug-ഉം കുത്തുക.",
+     "Drive തുറക്കുമ്പോൾ files shortcuts പോലെ കാണുന്നുണ്ടെങ്കിൽ virus ആവാം — files തുറക്കുന്നതിന് മുൻപ് Windows Security കൊണ്ട് scan ചെയ്യുക (drive-ൽ right-click › Scan with Microsoft Defender)."
+    ]
+   },
+   "technician": {
+    "en": "Call a data recovery technician if a drive with important data shows RAW, asks to be formatted, or makes clicking noises — every extra try can make recovery harder.",
+    "ml": "പ്രധാന data ഉള്ള drive RAW കാണിക്കുന്നുണ്ടെങ്കിൽ, format ചെയ്യാൻ ആവശ്യപ്പെടുന്നുണ്ടെങ്കിൽ, ‘ടക് ടക്’ ശബ്ദം ഉണ്ടാക്കുന്നുണ്ടെങ്കിൽ data recovery technician-നെ വിളിക്കുക — ഓരോ അധിക ശ്രമവും recovery ബുദ്ധിമുട്ടാക്കും."
+   },
+   "safety": {
+    "en": "Clicking “Format disk” when Windows asks erases everything. Only format a drive whose data you don't need.",
+    "ml": "Windows ചോദിക്കുമ്പോൾ “Format disk” ക്ലിക്ക് ചെയ്താൽ എല്ലാം മായും. Data ആവശ്യമില്ലാത്ത drive മാത്രം format ചെയ്യുക."
+   }
+  },
+  {
+   "id": "bluetooth-not-working",
+   "category": "devices",
+   "device": "any",
+   "icon": "🔵",
+   "title": {
+    "en": "Bluetooth not working / can't pair",
+    "ml": "Bluetooth വർക്ക് ചെയ്യുന്നില്ല / pair ആകുന്നില്ല"
+   },
+   "keywords": [
+    "bluetooth^6",
+    "bluetooth not^9",
+    "bluetooth connect^9",
+    "pair^5",
+    "bluetooth pair^9",
+    "headphone connect^6",
+    "bluetooth detect^9",
+    "bluetooth headphone^9",
+    "pc bluetooth^9"
+   ],
+   "quick": {
+    "en": [
+     "Is Bluetooth on (quick settings panel), and Airplane mode off?",
+     "Is the device (earbuds/speaker) charged and in pairing mode? Usually: hold its button until the light blinks.",
+     "Is it still connected to your phone? Many earbuds connect to only one device at a time — turn Bluetooth off on the phone."
+    ],
+    "ml": [
+     "Bluetooth ഓൺ ആണോ (quick settings), Airplane mode ഓഫ് ആണോ?",
+     "Device (earbuds/speaker) ചാർജ് ഉണ്ടോ, pairing mode-ൽ ആണോ? സാധാരണ: light മിന്നുന്നത് വരെ button അമർത്തിപ്പിടിക്കുക.",
+     "ഫോണുമായി ഇപ്പോഴും connect ആണോ? പല earbuds-ഉം ഒരു സമയം ഒരു device-ൽ മാത്രമേ connect ആകൂ — ഫോണിൽ Bluetooth ഓഫ് ചെയ്യുക."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Windows 11: Settings › Bluetooth & devices. Windows 10: Settings › Devices › Bluetooth & other devices. Turn Bluetooth off and on.",
+     "Remove the device from the list (… › Remove device), put it in pairing mode, then Add device › Bluetooth.",
+     "Keep the device within 1–2 metres of the PC while pairing.",
+     "Paired but no sound? Click the speaker icon on the taskbar and pick the Bluetooth device as the output.",
+     "Bluetooth button missing? Device Manager › Bluetooth › right-click the adapter › Enable / Update driver. If there is no Bluetooth section, install the driver from the laptop maker's site (desktops often have no Bluetooth — a USB Bluetooth dongle adds it).",
+     "Restart the Bluetooth Support Service: Win + R › services.msc › “Bluetooth Support Service” › Restart.",
+     "Phone: forget the device in Bluetooth settings and pair again; restart the phone."
+    ],
+    "ml": [
+     "Windows 11: Settings › Bluetooth & devices. Windows 10: Settings › Devices › Bluetooth & other devices. Bluetooth ഓഫ് ചെയ്ത് ഓൺ ചെയ്യുക.",
+     "List-ൽ നിന്ന് device remove ചെയ്യുക (… › Remove device), pairing mode-ൽ ആക്കി Add device › Bluetooth.",
+     "Pair ചെയ്യുമ്പോൾ device PC-യുടെ 1–2 മീറ്ററിനുള്ളിൽ വയ്ക്കുക.",
+     "Pair ആയി, പക്ഷേ sound ഇല്ലേ? Taskbar-ലെ speaker icon ക്ലിക്ക് ചെയ്ത് Bluetooth device output ആയി തിരഞ്ഞെടുക്കുക.",
+     "Bluetooth button കാണുന്നില്ലേ? Device Manager › Bluetooth › adapter-ൽ right-click › Enable / Update driver. Bluetooth section തന്നെ ഇല്ലെങ്കിൽ ലാപ്ടോപ്പ് കമ്പനിയുടെ site-ൽ നിന്ന് driver install ചെയ്യുക (desktop-ൽ പലപ്പോഴും Bluetooth ഉണ്ടാകില്ല — USB Bluetooth dongle ഇട്ടാൽ മതി).",
+     "Bluetooth service വീണ്ടും തുടങ്ങുക — Bluetooth Support Service restart: Win + R › services.msc › “Bluetooth Support Service” › Restart.",
+     "ഫോൺ: Bluetooth settings-ൽ device forget ചെയ്ത് വീണ്ടും pair ചെയ്യുക; ഫോൺ restart ചെയ്യുക."
+    ]
+   },
+   "technician": {
+    "en": "If the device won't pair with any phone or PC, it may need a factory reset (see its manual) or replacement. If no Bluetooth device works on the PC, a technician can check the wireless card.",
+    "ml": "ഒരു ഫോണിലും PC-യിലും pair ആകുന്നില്ലെങ്കിൽ device factory reset ചെയ്യേണ്ടി വരും (manual നോക്കുക) അല്ലെങ്കിൽ മാറ്റേണ്ടി വരും. PC-യിൽ ഒരു Bluetooth device-ഉം വർക്ക് ചെയ്യുന്നില്ലെങ്കിൽ technician-ന് wireless card പരിശോധിക്കാം."
+   },
+   "safety": {
+    "en": "",
+    "ml": ""
+   }
+  },
+  {
+   "id": "webcam-not-working",
+   "category": "devices",
+   "device": "pc",
+   "icon": "📷",
+   "title": {
+    "en": "Webcam / camera not working (Teams, Zoom, Meet)",
+    "ml": "Webcam / camera വർക്ക് ചെയ്യുന്നില്ല (Teams, Zoom, Meet)"
+   },
+   "keywords": [
+    "camera^5",
+    "camera not^9",
+    "camera work^9",
+    "camera detect^9",
+    "pc camera^9",
+    "camera black^9",
+    "camera call^4"
+   ],
+   "quick": {
+    "en": [
+     "Does the laptop have a privacy shutter (small slider over the camera) or a camera key (camera icon on an F-key)?",
+     "Is another app (Teams, Zoom, WhatsApp) already using the camera? Close them all.",
+     "Does the Windows “Camera” app show a picture? If yes, the problem is the meeting app's permissions."
+    ],
+    "ml": [
+     "ലാപ്ടോപ്പിൽ privacy shutter (camera-യുടെ മുകളിലെ ചെറിയ slider) അല്ലെങ്കിൽ camera key (F-key-ൽ camera icon) ഉണ്ടോ?",
+     "വേറൊരു app (Teams, Zoom, WhatsApp) camera ഉപയോഗിക്കുന്നുണ്ടോ? എല്ലാം അടയ്ക്കുക.",
+     "Windows-ന്റെ “Camera” app-ൽ picture വരുന്നുണ്ടോ? വരുന്നുണ്ടെങ്കിൽ meeting app-ന്റെ permission ആണ് പ്രശ്നം."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Allow camera access: Windows 11: Settings › Privacy & security › Camera › turn on Camera access, Let apps access your camera, and Let desktop apps access your camera. Windows 10: Settings › Privacy › Camera.",
+     "In the meeting app, pick the right camera: Teams › Settings › Devices; Zoom › Settings › Video.",
+     "Browser meetings (Google Meet): click the lock/camera icon in the address bar › allow Camera, then reload.",
+     "Device Manager › Cameras (or Imaging devices) › right-click the webcam › Enable device / Uninstall device › restart.",
+     "External webcam: try another USB port directly on the PC.",
+     "Some antivirus apps block the camera — check its webcam protection settings."
+    ],
+    "ml": [
+     "Camera access അനുവദിക്കുക: Windows 11: Settings › Privacy & security › Camera › Camera access, Let apps access your camera, Let desktop apps access your camera ഓൺ ചെയ്യുക. Windows 10: Settings › Privacy › Camera.",
+     "Meeting app-ൽ ശരിയായ camera തിരഞ്ഞെടുക്കുക: Teams › Settings › Devices; Zoom › Settings › Video.",
+     "Browser meetings (Google Meet): address bar-ലെ lock/camera icon ക്ലിക്ക് ചെയ്ത് › Camera allow ചെയ്ത് reload ചെയ്യുക.",
+     "Device Manager › Cameras (അല്ലെങ്കിൽ Imaging devices) › webcam-ൽ right-click › Enable device / Uninstall device › restart.",
+     "External webcam: PC-യിൽ നേരിട്ട് വേറൊരു USB port-ൽ കുത്തി നോക്കുക.",
+     "ചില antivirus apps camera block ചെയ്യും — അതിന്റെ webcam protection settings നോക്കുക."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if the camera doesn't appear in Device Manager at all (even under hidden devices) — the internal camera cable may be loose. A USB webcam works as a quick replacement.",
+    "ml": "Device Manager-ൽ (hidden devices-ലും) camera കാണുന്നില്ലെങ്കിൽ technician-നെ വിളിക്കുക — ഉള്ളിലെ camera cable ലൂസ് ആയിരിക്കാം. പെട്ടെന്ന് ഒരു USB webcam ഉപയോഗിക്കാം."
+   },
+   "safety": {
+    "en": "",
+    "ml": ""
+   }
+  },
+  {
+   "id": "no-sound",
+   "category": "display",
+   "device": "pc",
+   "icon": "🔇",
+   "title": {
+    "en": "No sound from laptop / PC",
+    "ml": "ലാപ്ടോപ്പ് / PC-യിൽ sound ഇല്ല"
+   },
+   "keywords": [
+    "sound^3",
+    "sound not^9",
+    "sound work^9",
+    "hear not^6",
+    "sound less^6",
+    "pc sound^9",
+    "headphone^4",
+    "headphone sound^9",
+    "sound speaker^4",
+    "sound pc not^12",
+    "media sound^4"
+   ],
+   "quick": {
+    "en": [
+     "Is the volume up and not muted? Check the speaker icon on the taskbar and the laptop's mute key.",
+     "Are headphones or a Bluetooth speaker connected? The sound may be going there.",
+     "Does sound play in YouTube but not one app? Then check that app's own volume."
+    ],
+    "ml": [
+     "Volume കൂട്ടിയിട്ടുണ്ടോ, mute അല്ലല്ലോ? Taskbar-ലെ speaker icon-ഉം ലാപ്ടോപ്പിലെ mute key-ഉം നോക്കുക.",
+     "Headphones അല്ലെങ്കിൽ Bluetooth speaker connect ആണോ? Sound അങ്ങോട്ട് പോകുന്നതാവാം.",
+     "YouTube-ൽ sound ഉണ്ട്, ഒരു app-ൽ മാത്രം ഇല്ലേ? എങ്കിൽ ആ app-ന്റെ സ്വന്തം volume നോക്കുക."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Pick the right output: click the speaker icon on the taskbar › the arrow next to the volume slider › choose “Speakers” (or your headphones). Or Settings › System › Sound › Output.",
+     "Check app volumes: right-click the speaker icon › Open volume mixer — make sure the app isn't muted.",
+     "Run the audio troubleshooter: right-click the speaker icon › Troubleshoot sound problems.",
+     "Restart the audio service: Win + R › services.msc › “Windows Audio” › right-click › Restart.",
+     "Device Manager › Sound, video and game controllers › right-click your audio device (Realtek, Intel SST, etc.) › Update driver, or Uninstall device › restart.",
+     "Turn off audio enhancements: Settings › System › Sound › your speaker › Audio enhancements › Off (Windows 10: Sound Control Panel › Properties › Enhancements).",
+     "Sound stopped after a Windows update? Install the audio driver from the laptop maker's support site."
+    ],
+    "ml": [
+     "ശരിയായ output തിരഞ്ഞെടുക്കുക: taskbar-ലെ speaker icon › volume slider-ന് അടുത്തുള്ള arrow › “Speakers” (അല്ലെങ്കിൽ headphones). അല്ലെങ്കിൽ Settings › System › Sound › Output.",
+     "App volumes നോക്കുക: speaker icon-ൽ right-click › Open volume mixer — app mute അല്ലെന്ന് ഉറപ്പാക്കുക.",
+     "Audio troubleshooter: speaker icon-ൽ right-click › Troubleshoot sound problems.",
+     "Audio service വീണ്ടും തുടങ്ങുക — Audio service restart: Win + R › services.msc › “Windows Audio” › right-click › Restart.",
+     "Device Manager › Sound, video and game controllers › audio device-ൽ (Realtek, Intel SST മുതലായവ) right-click › Update driver, അല്ലെങ്കിൽ Uninstall device › restart.",
+     "Audio enhancements ഓഫ്: Settings › System › Sound › speaker › Audio enhancements › Off (Windows 10: Sound Control Panel › Properties › Enhancements).",
+     "Windows update-ന് ശേഷം sound പോയോ? ലാപ്ടോപ്പ് കമ്പനിയുടെ support site-ൽ നിന്ന് audio driver install ചെയ്യുക."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if headphones work but the built-in speakers don't (speaker hardware fault), or if no audio device appears in Device Manager.",
+    "ml": "Headphones-ൽ sound ഉണ്ട്, built-in speakers-ൽ ഇല്ലെങ്കിൽ (speaker hardware കേട്), അല്ലെങ്കിൽ Device Manager-ൽ audio device തന്നെ ഇല്ലെങ്കിൽ technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "",
+    "ml": ""
+   }
+  },
+  {
+   "id": "mic-not-working",
+   "category": "display",
+   "device": "pc",
+   "icon": "🎙️",
+   "title": {
+    "en": "Microphone not working (others can't hear me)",
+    "ml": "Mic വർക്ക് ചെയ്യുന്നില്ല (മറ്റുള്ളവർക്ക് എന്നെ കേൾക്കുന്നില്ല)"
+   },
+   "keywords": [
+    "mic^6",
+    "mic not^9",
+    "mic work^9",
+    "mic hear^9",
+    "hear call^4",
+    "mic call^9",
+    "headphone mic^9",
+    "mic sound^9"
+   ],
+   "quick": {
+    "en": [
+     "Are you muted in the meeting app (Teams/Zoom/Meet mic icon) or by a mute button on the headset?",
+     "Is the right microphone selected in the app (laptop mic vs headset)?",
+     "Some laptops have a mic-mute key (F-key with a crossed mic) — press it once."
+    ],
+    "ml": [
+     "Meeting app-ൽ (Teams/Zoom/Meet mic icon) അല്ലെങ്കിൽ headset-ലെ mute button കൊണ്ട് mute ആണോ?",
+     "App-ൽ ശരിയായ microphone ആണോ select ചെയ്തിരിക്കുന്നത് (laptop mic / headset)?",
+     "ചില ലാപ്ടോപ്പുകളിൽ mic-mute key ഉണ്ട് (വെട്ടിയ mic ഉള്ള F-key) — ഒരിക്കൽ അമർത്തുക."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Allow microphone access: Windows 11: Settings › Privacy & security › Microphone › turn on Microphone access, Let apps access your microphone and Let desktop apps access your microphone. Windows 10: Settings › Privacy › Microphone.",
+     "Choose and test the input: Settings › System › Sound › Input › pick your mic, speak and watch the level bar move. Raise the input volume.",
+     "In the app: Teams › Settings › Devices › Microphone; Zoom › Settings › Audio › Test Mic; Google Meet: allow Microphone from the address bar icon.",
+     "Wired headset with one 3.5 mm plug on a laptop with separate mic/headphone jacks needs a splitter (and vice versa).",
+     "Device Manager › Audio inputs and outputs › right-click the microphone › Update driver / Uninstall device › restart.",
+     "Run the troubleshooter: Settings › System › Sound › Input › Troubleshoot (or Get Help app › “Fix sound recording problems”)."
+    ],
+    "ml": [
+     "Microphone access അനുവദിക്കുക: Windows 11: Settings › Privacy & security › Microphone › Microphone access, Let apps access your microphone, Let desktop apps access your microphone ഓൺ ചെയ്യുക. Windows 10: Settings › Privacy › Microphone.",
+     "Input തിരഞ്ഞെടുത്ത് test ചെയ്യുക: Settings › System › Sound › Input › mic select ചെയ്ത് സംസാരിക്കുക, level bar അനങ്ങുന്നുണ്ടോ നോക്കുക. Input volume കൂട്ടുക.",
+     "App-ൽ: Teams › Settings › Devices › Microphone; Zoom › Settings › Audio › Test Mic; Google Meet: address bar icon-ൽ നിന്ന് Microphone allow ചെയ്യുക.",
+     "ഒരു 3.5 mm plug ഉള്ള wired headset, mic/headphone jacks വേറെ വേറെ ഉള്ള ലാപ്ടോപ്പിൽ ഉപയോഗിക്കാൻ splitter വേണം (തിരിച്ചും).",
+     "Device Manager › Audio inputs and outputs › microphone-ൽ right-click › Update driver / Uninstall device › restart.",
+     "Troubleshooter: Settings › System › Sound › Input › Troubleshoot (അല്ലെങ്കിൽ Get Help app › “Fix sound recording problems”)."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if no microphone shows under Input even with drivers installed, or the built-in mic stopped after a drop or spill.",
+    "ml": "Drivers install ചെയ്തിട്ടും Input-ൽ microphone കാണുന്നില്ലെങ്കിൽ, അല്ലെങ്കിൽ താഴെ വീണതിനോ വെള്ളം വീണതിനോ ശേഷം built-in mic പോയെങ്കിൽ technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "",
+    "ml": ""
+   }
+  },
+  {
+   "id": "projector-display",
+   "category": "display",
+   "device": "pc",
+   "icon": "📽️",
+   "title": {
+    "en": "Projector / second monitor / TV not showing",
+    "ml": "Projector / രണ്ടാം monitor / TV-യിൽ display വരുന്നില്ല"
+   },
+   "keywords": [
+    "projector^6",
+    "monitor^4",
+    "hdmi^5",
+    "projector detect^9",
+    "monitor detect^9",
+    "hdmi screen^9",
+    "projector screen^9",
+    "projector not^9",
+    "monitor not^6",
+    "hdmi not^9",
+    "screen detect^4"
+   ],
+   "quick": {
+    "en": [
+     "Is the projector/TV set to the right input (HDMI 1, HDMI 2, VGA)? Use its Source/Input button.",
+     "Is the cable firmly in on both ends? Try another HDMI cable if you can.",
+     "Is the projector lamp on and warmed up (wait 30–60 seconds)?"
+    ],
+    "ml": [
+     "Projector/TV ശരിയായ input-ൽ ആണോ (HDMI 1, HDMI 2, VGA)? Source/Input button ഉപയോഗിക്കുക.",
+     "Cable രണ്ട് അറ്റത്തും ഉറപ്പിച്ച് കുത്തിയിട്ടുണ്ടോ? പറ്റുമെങ്കിൽ വേറൊരു HDMI cable നോക്കുക.",
+     "Projector lamp ഓൺ ആയി ചൂടായോ (30–60 സെക്കൻഡ് കാത്തിരിക്കുക)?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Press Win + P and choose Duplicate (same picture on both) or Extend (separate desktop). Wait a few seconds after each choice.",
+     "Settings › System › Display › Multiple displays › Detect. (Windows 10: Settings › System › Display › Detect.)",
+     "Picture cut off or blurry? In Settings › System › Display, select the projector/TV (click Identify), then set its Display resolution to the recommended value — 1920 × 1080 or 1280 × 720 works on most projectors.",
+     "Using a USB-C/Type-C adapter? Check your laptop's USB-C port supports display (DisplayPort/Thunderbolt symbol). Try the adapter in the other port.",
+     "No sound on the TV? Click the speaker icon on the taskbar and pick the TV/HDMI device as output.",
+     "Update the graphics driver: Device Manager › Display adapters › Update driver (or from Intel/AMD/NVIDIA or the laptop maker's site).",
+     "Wireless display: press Win + K to cast to a Miracast TV/projector on the same network."
+    ],
+    "ml": [
+     "Win + P അമർത്തി Duplicate (രണ്ടിലും ഒരേ picture) അല്ലെങ്കിൽ Extend (വേറെ desktop) തിരഞ്ഞെടുക്കുക. ഓരോന്നിനും ശേഷം കുറച്ച് സെക്കൻഡ് കാത്തിരിക്കുക.",
+     "Display കണ്ടെത്താൻ — Settings › System › Display › Multiple displays › Detect. (Windows 10: Settings › System › Display › Detect.)",
+     "Picture മുറിഞ്ഞോ മങ്ങിയോ? Settings › System › Display-ൽ projector/TV select ചെയ്ത് (Identify ക്ലിക്ക് ചെയ്യുക), Display resolution recommended ആക്കുക — മിക്ക projectors-ലും 1920 × 1080 അല്ലെങ്കിൽ 1280 × 720 ശരിയാകും.",
+     "USB-C/Type-C adapter ആണോ? ലാപ്ടോപ്പിന്റെ USB-C port display support ചെയ്യുന്നുണ്ടോ (DisplayPort/Thunderbolt symbol) നോക്കുക. Adapter വേറൊരു port-ൽ കുത്തി നോക്കുക.",
+     "TV-യിൽ sound ഇല്ലേ? Taskbar-ലെ speaker icon ക്ലിക്ക് ചെയ്ത് TV/HDMI device output ആയി തിരഞ്ഞെടുക്കുക.",
+     "Graphics driver update: Device Manager › Display adapters › Update driver (അല്ലെങ്കിൽ Intel/AMD/NVIDIA / ലാപ്ടോപ്പ് കമ്പനിയുടെ site-ൽ നിന്ന്).",
+     "Wireless display: അതേ network-ലുള്ള Miracast TV/projector-ലേക്ക് cast ചെയ്യാൻ Win + K അമർത്തുക."
+    ]
+   },
+   "technician": {
+    "en": "Call IT/a technician if no device works on that HDMI port (port may be damaged), or for conference-room setups with switches, extenders or wall plates.",
+    "ml": "ആ HDMI port-ൽ ഒരു device-ഉം വർക്ക് ചെയ്യുന്നില്ലെങ്കിൽ (port കേടായിരിക്കാം), അല്ലെങ്കിൽ switches, extenders, wall plates ഉള്ള conference-room setup-ന് IT/technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "",
+    "ml": ""
+   }
+  },
+  {
+   "id": "screen-black-flicker",
+   "category": "display",
+   "device": "pc",
+   "icon": "🖥️",
+   "title": {
+    "en": "Screen black, flickering or showing lines",
+    "ml": "Screen കറുപ്പ് / മിന്നുന്നു / വരകൾ കാണിക്കുന്നു"
+   },
+   "keywords": [
+    "black^4",
+    "screen black^9",
+    "flicker^6",
+    "screen flicker^9",
+    "screen^2",
+    "screen not^4",
+    "pc screen^4",
+    "screen quality^6",
+    "black cursor^9",
+    "screen dark^9",
+    "screen less^4"
+   ],
+   "quick": {
+    "en": [
+     "Is the PC actually on (power light, fan)? If not, see “PC won't turn on”.",
+     "Is brightness at zero? Try the brightness keys.",
+     "Is the problem visible on an external monitor too? If the external screen is fine, the laptop panel or its cable is the issue."
+    ],
+    "ml": [
+     "PC ശരിക്കും ഓൺ ആണോ (power light, fan)? അല്ലെങ്കിൽ “PC ഓൺ ആകുന്നില്ല” നോക്കുക.",
+     "Brightness പൂജ്യം ആണോ? Brightness keys അമർത്തി നോക്കുക.",
+     "External monitor-ലും പ്രശ്നമുണ്ടോ? External screen ശരിയാണെങ്കിൽ ലാപ്ടോപ്പ് panel/cable ആണ് പ്രശ്നം."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Press Win + Ctrl + Shift + B to restart the graphics driver.",
+     "Black screen with only a mouse pointer after login: press Ctrl + Alt + Del › Task Manager › File › Run new task › type explorer.exe › OK.",
+     "Shine a torch on the black laptop screen. If you can faintly see the desktop, the backlight has failed (hardware).",
+     "Flickering: Settings › System › Display › Advanced display › choose the recommended refresh rate (often 60 Hz).",
+     "Flicker only in some apps, or after an update? Device Manager › Display adapters › right-click › Properties › Driver › Roll Back Driver, or install the latest driver from the laptop maker's site.",
+     "Desktop: reseat the monitor cable at both ends and try another cable/port (HDMI vs DisplayPort).",
+     "Lines or flicker that change when you move the laptop lid usually mean a loose or damaged display cable."
+    ],
+    "ml": [
+     "Graphics driver restart ചെയ്യാൻ Win + Ctrl + Shift + B അമർത്തുക.",
+     "Login-ന് ശേഷം mouse pointer മാത്രമുള്ള കറുത്ത screen: Ctrl + Alt + Del › Task Manager › File › Run new task › explorer.exe type ചെയ്ത് › OK.",
+     "കറുത്ത ലാപ്ടോപ്പ് screen-ൽ torch അടിച്ച് നോക്കുക. Desktop മങ്ങിയെങ്കിലും കാണുന്നുണ്ടെങ്കിൽ backlight പോയതാണ് (hardware).",
+     "മിന്നൽ: Settings › System › Display › Advanced display › recommended refresh rate തിരഞ്ഞെടുക്കുക (സാധാരണ 60 Hz).",
+     "ചില apps-ൽ മാത്രമാണോ മിന്നൽ, അല്ലെങ്കിൽ update-ന് ശേഷമാണോ? Device Manager › Display adapters › right-click › Properties › Driver › Roll Back Driver, അല്ലെങ്കിൽ ലാപ്ടോപ്പ് കമ്പനിയുടെ site-ൽ നിന്ന് latest driver install ചെയ്യുക.",
+     "Desktop: monitor cable രണ്ട് അറ്റത്തും ഊരി കുത്തുക, വേറൊരു cable/port (HDMI / DisplayPort) നോക്കുക.",
+     "Lid അനക്കുമ്പോൾ മാറുന്ന വരകൾ/മിന്നൽ സാധാരണ display cable ലൂസ് ആയതോ കേടായതോ ആണ്."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician for a failed backlight, lines that move with the lid, cracked/leaking panels, or if an external monitor also shows nothing.",
+    "ml": "Backlight പോയാൽ, lid-നൊപ്പം നീങ്ങുന്ന വരകൾ, പൊട്ടിയ/ചോരുന്ന panel, അല്ലെങ്കിൽ external monitor-ലും ഒന്നും വരുന്നില്ലെങ്കിൽ technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "Don't press on a cracked screen; liquid crystal from a broken panel shouldn't touch skin.",
+    "ml": "പൊട്ടിയ screen-ൽ അമർത്തരുത്; പൊട്ടിയ panel-ലെ liquid crystal തൊലിയിൽ ആകരുത്."
+   }
+  },
+  {
+   "id": "virus-popups",
+   "category": "security",
+   "device": "any",
+   "icon": "🦠",
+   "title": {
+    "en": "Virus, pop-up ads or browser hijacked",
+    "ml": "Virus / pop-up പരസ്യങ്ങൾ / browser hijack"
+   },
+   "keywords": [
+    "virus^6",
+    "popup^6",
+    "browser popup^9",
+    "virus pc^9",
+    "popup pc^9",
+    "virus popup^12",
+    "browser virus^9",
+    "phone popup^9",
+    "popup media^6"
+   ],
+   "quick": {
+    "en": [
+     "Are the pop-ups only inside the browser (like “Your PC is infected!” or notification spam), or all over Windows?",
+     "Did you recently install a free app, a “crack”, or a browser extension?",
+     "Is Windows Security turned on (green ticks)?"
+    ],
+    "ml": [
+     "Pop-ups browser-നുള്ളിൽ മാത്രമാണോ (“Your PC is infected!”, notification spam പോലെ), അതോ Windows-ൽ എല്ലായിടത്തും?",
+     "അടുത്തിടെ free app, “crack”, browser extension എന്തെങ്കിലും install ചെയ്തോ?",
+     "Windows Security ഓൺ ആണോ (പച്ച ticks)?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Never call a phone number shown in a pop-up. Close the tab; if it won't close, press Ctrl + Shift + Esc and end the browser task.",
+     "Block notification spam: Chrome › Settings › Privacy and security › Site settings › Notifications — remove unknown sites. Edge › Settings › Cookies and site permissions › Notifications.",
+     "Remove unknown extensions: Chrome › Extensions › Manage extensions; Edge › Extensions. Then reset the browser: Chrome › Settings › Reset settings › Restore settings to their original defaults.",
+     "Uninstall unknown apps installed around the time it started: Settings › Apps › Installed apps (Windows 10: Apps & features) › sort by install date.",
+     "Run a full scan: Windows Security › Virus & threat protection › Scan options › Full scan. Then run Microsoft Defender Offline scan from the same menu (PC restarts and scans before Windows loads).",
+     "For a second opinion, use a reputable free scanner such as Malwarebytes (free version) — download only from the official website.",
+     "Android phone: pop-ups over the home screen come from an app. Settings › Apps — uninstall recently added cleaner/booster/VPN/wallpaper apps; also check Settings › Security › Device admin apps."
+    ],
+    "ml": [
+     "Pop-up-ൽ കാണിക്കുന്ന phone number-ലേക്ക് ഒരിക്കലും വിളിക്കരുത്. Tab അടയ്ക്കുക; അടയുന്നില്ലെങ്കിൽ Ctrl + Shift + Esc അമർത്തി browser task end ചെയ്യുക.",
+     "Notification spam block: Chrome › Settings › Privacy and security › Site settings › Notifications — അറിയാത്ത sites remove ചെയ്യുക. Edge › Settings › Cookies and site permissions › Notifications.",
+     "അറിയാത്ത extensions കളയുക: Chrome › Extensions › Manage extensions; Edge › Extensions. ശേഷം browser reset: Chrome › Settings › Reset settings › Restore settings to their original defaults.",
+     "പ്രശ്നം തുടങ്ങിയ സമയത്ത് install ചെയ്ത അറിയാത്ത apps uninstall ചെയ്യുക: Settings › Apps › Installed apps (Windows 10: Apps & features) › install date അനുസരിച്ച് sort.",
+     "Full scan: Windows Security › Virus & threat protection › Scan options › Full scan. ശേഷം അതേ menu-വിൽ നിന്ന് Microsoft Defender Offline scan (Windows load ആകുന്നതിന് മുൻപ് PC restart ചെയ്ത് scan ചെയ്യും).",
+     "രണ്ടാമതൊരു പരിശോധനയ്ക്ക് Malwarebytes (free version) പോലുള്ള വിശ്വസനീയമായ scanner ഉപയോഗിക്കുക — official website-ൽ നിന്ന് മാത്രം download ചെയ്യുക.",
+     "Android ഫോൺ: home screen-ന് മുകളിൽ വരുന്ന pop-ups ഒരു app-ൽ നിന്നാണ്. Settings › Apps — അടുത്തിടെ ഇട്ട cleaner/booster/VPN/wallpaper apps uninstall ചെയ്യുക; Settings › Security › Device admin apps-ഉം നോക്കുക."
+    ]
+   },
+   "technician": {
+    "en": "Call a technician if files are encrypted with a ransom note (disconnect from the network immediately), if the antivirus can't be turned on, or if pop-ups return after all steps.",
+    "ml": "Files encrypt ആയി ransom note കാണിക്കുന്നുണ്ടെങ്കിൽ (ഉടനെ network-ൽ നിന്ന് disconnect ചെയ്യുക), antivirus ഓൺ ആകുന്നില്ലെങ്കിൽ, അല്ലെങ്കിൽ എല്ലാ steps-ഉം കഴിഞ്ഞിട്ടും pop-ups തിരിച്ചുവരുന്നുണ്ടെങ്കിൽ technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "After an infection, change important passwords (email, banking) from a clean device. Pirated software and “cracks” are the most common source of viruses.",
+    "ml": "Virus ബാധിച്ചാൽ പ്രധാന passwords (email, banking) വൃത്തിയുള്ള വേറൊരു device-ൽ നിന്ന് മാറ്റുക. Pirated software-ഉം “cracks”-ഉം ആണ് virus-ന്റെ ഏറ്റവും സാധാരണ ഉറവിടം."
+   }
+  },
+  {
+   "id": "tech-support-scam",
+   "category": "security",
+   "device": "any",
+   "icon": "☎️",
+   "title": {
+    "en": "Fake tech-support / remote-access (AnyDesk) scam",
+    "ml": "വ്യാജ tech-support / AnyDesk തട്ടിപ്പ്"
+   },
+   "keywords": [
+    "scam^6",
+    "remote^6",
+    "remote scam^12",
+    "call scam^9",
+    "scam bank^9",
+    "otp^6",
+    "remote call^9",
+    "remote bank^9",
+    "scam pc^9",
+    "call remote^9",
+    "otp call^9"
+   ],
+   "quick": {
+    "en": [
+     "Did someone call or message claiming to be from Microsoft, your bank, a courier, KSEB, police, or “customer care” and ask you to install AnyDesk, TeamViewer or QuickSupport?",
+     "Did you share an OTP, UPI PIN, or card details?",
+     "Is the remote-access app still installed or running?"
+    ],
+    "ml": [
+     "Microsoft, bank, courier, KSEB, police, “customer care” എന്നൊക്കെ പറഞ്ഞ് ആരെങ്കിലും വിളിച്ച്/message ചെയ്ത് AnyDesk, TeamViewer, QuickSupport install ചെയ്യാൻ പറഞ്ഞോ?",
+     "OTP, UPI PIN, card details എന്തെങ്കിലും share ചെയ്തോ?",
+     "Remote-access app ഇപ്പോഴും install ആയി / run ആയി ഇരിക്കുന്നുണ്ടോ?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Hang up. Real companies never call you to fix your PC, and never ask for OTP, UPI PIN or remote access.",
+     "If you gave remote access: disconnect the internet (Wi-Fi off / unplug LAN) right away. Then uninstall AnyDesk/TeamViewer/QuickSupport (Settings › Apps; on phones, Settings › Apps).",
+     "If money was lost or card/bank details were shared: call your bank's official helpline immediately to block cards/UPI, and call the National Cyber Crime Helpline 1930 (as fast as possible — the first hours matter). Also report at cybercrime.gov.in.",
+     "From a different, clean device, change passwords for email, banking, UPI and social media. Turn on two-step verification.",
+     "Run a full Windows Security scan (Virus & threat protection › Scan options › Full scan).",
+     "Check your bank statement and email for unknown transactions or password-reset messages over the next few days."
+    ],
+    "ml": [
+     "Phone cut ചെയ്യുക. യഥാർത്ഥ കമ്പനികൾ PC ശരിയാക്കാൻ നിങ്ങളെ അങ്ങോട്ട് വിളിക്കില്ല, OTP, UPI PIN, remote access ഒരിക്കലും ചോദിക്കില്ല.",
+     "Remote access കൊടുത്തുപോയെങ്കിൽ: ഉടനെ internet disconnect ചെയ്യുക (Wi-Fi ഓഫ് / LAN ഊരുക). ശേഷം AnyDesk/TeamViewer/QuickSupport uninstall ചെയ്യുക (Settings › Apps; ഫോണിൽ Settings › Apps).",
+     "പണം പോയെങ്കിലോ card/bank details share ചെയ്തെങ്കിലോ: ഉടനെ bank-ന്റെ official helpline-ൽ വിളിച്ച് cards/UPI block ചെയ്യുക, National Cyber Crime Helpline 1930-ൽ വിളിക്കുക (എത്രയും വേഗം — ആദ്യ മണിക്കൂറുകൾ പ്രധാനമാണ്). cybercrime.gov.in-ലും report ചെയ്യുക.",
+     "വേറൊരു വൃത്തിയുള്ള device-ൽ നിന്ന് email, banking, UPI, social media passwords മാറ്റുക. Two-step verification ഓൺ ചെയ്യുക.",
+     "Windows Security full scan run ചെയ്യുക (Virus & threat protection › Scan options › Full scan).",
+     "അടുത്ത കുറച്ച് ദിവസം bank statement-ഉം email-ഉം നോക്കുക — അറിയാത്ത transactions, password-reset messages ഉണ്ടോ എന്ന്."
+    ]
+   },
+   "technician": {
+    "en": "Ask a trusted technician to check the PC for leftover remote tools if you're unsure. For money lost, the bank and 1930 / cybercrime.gov.in are the right places — not a “recovery agent” who contacts you.",
+    "ml": "സംശയമുണ്ടെങ്കിൽ ബാക്കിയുള്ള remote tools ഉണ്ടോ എന്ന് വിശ്വസ്തനായ technician-നെ കൊണ്ട് പരിശോധിപ്പിക്കുക. പണം പോയാൽ bank-ഉം 1930 / cybercrime.gov.in-ഉം ആണ് ശരിയായ വഴി — നിങ്ങളെ ബന്ധപ്പെടുന്ന “recovery agent” അല്ല."
+   },
+   "safety": {
+    "en": "Never share OTP, UPI PIN, CVV or passwords on a call. “Refund” or “KYC update” calls asking you to install apps are scams.",
+    "ml": "Call-ൽ OTP, UPI PIN, CVV, passwords ഒരിക്കലും share ചെയ്യരുത്. Apps install ചെയ്യാൻ പറയുന്ന “Refund”, “KYC update” calls തട്ടിപ്പാണ്."
+   }
+  },
+  {
+   "id": "account-hacked",
+   "category": "security",
+   "device": "any",
+   "icon": "🔓",
+   "title": {
+    "en": "Email / social media account hacked",
+    "ml": "Email / social media account hack ആയി"
+   },
+   "keywords": [
+    "hacked^6",
+    "account hacked^9",
+    "account password^4",
+    "account lock^6",
+    "account login not^9",
+    "hacked whatsapp^9",
+    "account^2",
+    "email hacked^9",
+    "password hacked^9"
+   ],
+   "quick": {
+    "en": [
+     "Can you still log in? If yes, act fast before the hacker changes the password.",
+     "Did you get an email saying your password or recovery phone was changed?",
+     "Are friends getting strange messages or money requests from your account?"
+    ],
+    "ml": [
+     "ഇപ്പോഴും login ചെയ്യാൻ പറ്റുന്നുണ്ടോ? ഉണ്ടെങ്കിൽ hacker password മാറ്റുന്നതിന് മുൻപ് വേഗം ചെയ്യുക.",
+     "Password അല്ലെങ്കിൽ recovery phone മാറ്റി എന്ന് email വന്നോ?",
+     "നിങ്ങളുടെ account-ൽ നിന്ന് സുഹൃത്തുക്കൾക്ക് വിചിത്ര messages, പണം ചോദിക്കുന്ന messages പോകുന്നുണ്ടോ?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Still logged in: change the password now (long and unique), sign out of all other devices, and check the recovery email/phone are yours.",
+     "Google/Gmail: go to g.co/recover to recover the account, then open myaccount.google.com › Security › Your devices and Recent security activity.",
+     "Facebook: facebook.com/hacked. Instagram: instagram.com/hacked. Follow the steps to secure the account.",
+     "WhatsApp: reinstall and verify with your number — this logs the other person out. Then turn on Settings › Account › Two-step verification, and check Linked devices.",
+     "Turn on two-step verification (2FA) everywhere, preferably with an authenticator app.",
+     "Tell your contacts not to send money or codes to “you”. Change the same password on any other site where you used it.",
+     "Scan your PC/phone for malware — stolen passwords often come from an infected device."
+    ],
+    "ml": [
+     "ഇപ്പോഴും login ആണെങ്കിൽ: ഉടനെ password മാറ്റുക (നീളമുള്ളതും വേറെ എവിടെയും ഉപയോഗിക്കാത്തതും), മറ്റ് എല്ലാ devices-ൽ നിന്നും sign out ചെയ്യുക, recovery email/phone നിങ്ങളുടേതാണെന്ന് ഉറപ്പാക്കുക.",
+     "Google/Gmail: account തിരിച്ചെടുക്കാൻ g.co/recover തുറക്കുക, ശേഷം myaccount.google.com › Security › Your devices, Recent security activity നോക്കുക.",
+     "Facebook: facebook.com/hacked. Instagram: instagram.com/hacked. Account സുരക്ഷിതമാക്കാനുള്ള steps follow ചെയ്യുക.",
+     "WhatsApp: reinstall ചെയ്ത് നിങ്ങളുടെ number കൊണ്ട് verify ചെയ്യുക — മറ്റേ ആൾ logout ആകും. ശേഷം Settings › Account › Two-step verification ഓൺ ചെയ്യുക, Linked devices നോക്കുക.",
+     "എല്ലായിടത്തും two-step verification (2FA) ഓൺ ചെയ്യുക, പറ്റുമെങ്കിൽ authenticator app കൊണ്ട്.",
+     "“നിങ്ങൾക്ക്” പണമോ codes-ഓ അയക്കരുതെന്ന് contacts-നോട് പറയുക. അതേ password ഉപയോഗിച്ച മറ്റ് sites-ലും password മാറ്റുക.",
+     "PC/ഫോൺ malware scan ചെയ്യുക — മോഷ്ടിക്കപ്പെടുന്ന passwords പലപ്പോഴും virus ബാധിച്ച device-ൽ നിന്നാണ്."
+    ]
+   },
+   "technician": {
+    "en": "If money was requested or lost, report at cybercrime.gov.in or call 1930. For office email accounts, inform your IT team immediately.",
+    "ml": "പണം ചോദിക്കുകയോ നഷ്ടപ്പെടുകയോ ചെയ്താൽ cybercrime.gov.in-ൽ report ചെയ്യുക അല്ലെങ്കിൽ 1930-ൽ വിളിക്കുക. Office email account ആണെങ്കിൽ ഉടനെ IT team-നെ അറിയിക്കുക."
+   },
+   "safety": {
+    "en": "Never pay anyone who offers to “hack back” or recover an account for a fee — that's another scam.",
+    "ml": "Fee വാങ്ങി account “തിരിച്ച് hack” ചെയ്യാമെന്ന് പറയുന്നവർക്ക് ഒരിക്കലും പണം കൊടുക്കരുത് — അതും തട്ടിപ്പാണ്."
+   }
+  },
+  {
+   "id": "office-not-responding",
+   "category": "office",
+   "device": "pc",
+   "icon": "📊",
+   "title": {
+    "en": "Excel / Word not responding or crashing",
+    "ml": "Excel / Word not responding / crash ആകുന്നു"
+   },
+   "keywords": [
+    "office^4",
+    "office notresponding^9",
+    "office hang^9",
+    "office crash^9",
+    "office open not^9",
+    "office not^6",
+    "office slow^9",
+    "office error^6",
+    "office file^4",
+    "office stuck^9",
+    "office respond not^9"
+   ],
+   "quick": {
+    "en": [
+     "Wait a minute — big files or files on a network drive/OneDrive can take time to save or open.",
+     "Does it happen with every file or just one file?",
+     "Is a dialog box hidden behind the window? Press Alt + Tab to check."
+    ],
+    "ml": [
+     "ഒരു മിനിറ്റ് കാത്തിരിക്കുക — വലിയ files, network drive/OneDrive-ലെ files save/open ആകാൻ സമയമെടുക്കും.",
+     "എല്ലാ files-ലും ഉണ്ടോ, അതോ ഒരു file-ൽ മാത്രമോ?",
+     "Window-യുടെ പിന്നിൽ ഏതെങ്കിലും dialog box ഒളിഞ്ഞിരിക്കുന്നുണ്ടോ? Alt + Tab അമർത്തി നോക്കുക."
+    ]
+   },
+   "steps": {
+    "en": [
+     "If frozen, end it: Ctrl + Shift + Esc › select Excel/Word › End task. When you reopen, use the Document Recovery panel on the left to get your work back.",
+     "Start in Safe Mode: press Win + R, type excel /safe (or winword /safe) and press Enter. If it works in Safe Mode, an add-in is the problem.",
+     "Disable add-ins: File › Options › Add-ins › Manage: COM Add-ins › Go › untick all › OK. Restart the app and enable them one by one to find the bad one.",
+     "Repair Office: Settings › Apps › Installed apps (Windows 10: Apps & features) › Microsoft 365 / Office › Modify › Quick Repair. If that doesn't help, Online Repair.",
+     "Install Office updates: open Word/Excel › File › Account › Update Options › Update Now.",
+     "One file always crashes? Open it with File › Open › Browse › select the file › click the arrow next to Open › Open and Repair.",
+     "Unsaved work lost: File › Info › Manage Workbook/Document › Recover Unsaved Workbooks/Documents."
+    ],
+    "ml": [
+     "ഫ്രീസ് ആയെങ്കിൽ end ചെയ്യുക: Ctrl + Shift + Esc › Excel/Word select › End task. വീണ്ടും തുറക്കുമ്പോൾ ഇടതുവശത്തെ Document Recovery panel വഴി work തിരിച്ചെടുക്കുക.",
+     "Safe Mode-ൽ തുറക്കുക: Win + R അമർത്തി excel /safe (അല്ലെങ്കിൽ winword /safe) type ചെയ്ത് Enter. Safe Mode-ൽ ശരിയാണെങ്കിൽ ഒരു add-in ആണ് പ്രശ്നം.",
+     "Add-ins disable: File › Options › Add-ins › Manage: COM Add-ins › Go › എല്ലാം untick › OK. App restart ചെയ്ത് ഓരോന്നായി enable ചെയ്ത് മോശമായത് കണ്ടെത്തുക.",
+     "Office repair: Settings › Apps › Installed apps (Windows 10: Apps & features) › Microsoft 365 / Office › Modify › Quick Repair. ശരിയായില്ലെങ്കിൽ Online Repair.",
+     "Office updates: Word/Excel തുറന്ന് › File › Account › Update Options › Update Now.",
+     "ഒരു file മാത്രം എപ്പോഴും crash ആകുന്നോ? File › Open › Browse › file select › Open-ന് അടുത്തുള്ള arrow › Open and Repair.",
+     "Save ചെയ്യാത്ത work പോയോ? File › Info › Manage Workbook/Document › Recover Unsaved Workbooks/Documents."
+    ]
+   },
+   "technician": {
+    "en": "Call IT/a technician if Office won't open even after Online Repair, shows licence/activation errors, or crashes on every PC with the same file (the file may need professional recovery).",
+    "ml": "Online Repair കഴിഞ്ഞിട്ടും Office തുറക്കുന്നില്ലെങ്കിൽ, licence/activation errors കാണിക്കുന്നുണ്ടെങ്കിൽ, അല്ലെങ്കിൽ ഒരേ file എല്ലാ PC-യിലും crash ആകുന്നുണ്ടെങ്കിൽ IT/technician-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "Turn on AutoSave (files on OneDrive) or set AutoRecover to every 5 minutes: File › Options › Save.",
+    "ml": "AutoSave ഓൺ ചെയ്യുക (OneDrive-ലെ files) അല്ലെങ്കിൽ AutoRecover 5 മിനിറ്റിൽ ഒരിക്കൽ ആക്കുക: File › Options › Save."
+   }
+  },
+  {
+   "id": "outlook-issues",
+   "category": "office",
+   "device": "pc",
+   "icon": "📧",
+   "title": {
+    "en": "Outlook / email not sending or receiving",
+    "ml": "Outlook / email അയക്കുന്നില്ല / വരുന്നില്ല"
+   },
+   "keywords": [
+    "outlook^9",
+    "email^4",
+    "email send^9",
+    "email send not^12",
+    "email receive^9",
+    "email receive not^12",
+    "email not^6",
+    "outlook password^12",
+    "email password^6",
+    "email stuck^9",
+    "email open not^9",
+    "outlook not^12"
+   ],
+   "quick": {
+    "en": [
+     "Is Outlook showing “Working Offline” or “Disconnected” at the bottom?",
+     "Is there a big attachment stuck in the Outbox?",
+     "Can you send/receive from webmail (outlook.office.com / Gmail in a browser)? If not, the account or server is the issue, not Outlook."
+    ],
+    "ml": [
+     "Outlook-ന്റെ താഴെ “Working Offline” അല്ലെങ്കിൽ “Disconnected” കാണിക്കുന്നുണ്ടോ?",
+     "Outbox-ൽ വലിയ attachment ഉള്ള mail കുടുങ്ങിയിട്ടുണ്ടോ?",
+     "Webmail-ൽ (browser-ൽ outlook.office.com / Gmail) അയക്കാനും കിട്ടാനും പറ്റുന്നുണ്ടോ? ഇല്ലെങ്കിൽ account/server ആണ് പ്രശ്നം, Outlook അല്ല."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Classic Outlook: Send/Receive tab › click Work Offline so it is not highlighted. Then Send/Receive All Folders (F9).",
+     "Outbox stuck: open Outbox, delete or move the stuck mail to Drafts, reduce the attachment (most servers limit to 20–25 MB; share a OneDrive/Google Drive link instead) and resend.",
+     "Mailbox full? File › Info shows mailbox size. Empty Deleted Items and Junk, archive old mail.",
+     "Repeated password prompts: sign out and back in (File › Office Account), or File › Account Settings › Account Settings › select account › Repair. Check the password works on webmail.",
+     "Start Outlook in Safe Mode: Win + R › outlook /safe. If fine, disable add-ins: File › Options › Add-ins › COM Add-ins › Go.",
+     "Create a new profile: close Outlook › Control Panel › Mail (Microsoft Outlook) › Show Profiles › Add. Set up the account, then choose “Always use this profile”.",
+     "New Outlook for Windows: Settings (gear) › Accounts › remove and re-add the account. Toggle back to classic Outlook if your company requires it."
+    ],
+    "ml": [
+     "Classic Outlook: Send/Receive tab › Work Offline highlight ആയിരിക്കരുത് (ക്ലിക്ക് ചെയ്ത് ഓഫ് ആക്കുക). ശേഷം Send/Receive All Folders (F9).",
+     "Outbox stuck: Outbox തുറന്ന് കുടുങ്ങിയ mail delete ചെയ്യുക/Drafts-ലേക്ക് മാറ്റുക, attachment ചെറുതാക്കുക (മിക്ക servers-ലും 20–25 MB limit; പകരം OneDrive/Google Drive link share ചെയ്യുക), വീണ്ടും അയക്കുക.",
+     "Mailbox നിറഞ്ഞോ? File › Info-ൽ mailbox size കാണാം. Deleted Items, Junk empty ചെയ്യുക, പഴയ mail archive ചെയ്യുക.",
+     "തുടർച്ചയായി password ചോദിക്കുന്നോ? Sign out ചെയ്ത് വീണ്ടും sign in ചെയ്യുക (File › Office Account), അല്ലെങ്കിൽ File › Account Settings › Account Settings › account select › Repair. Password webmail-ൽ ശരിയാണോ നോക്കുക.",
+     "Outlook Safe Mode: Win + R › outlook /safe. ശരിയാണെങ്കിൽ add-ins disable ചെയ്യുക: File › Options › Add-ins › COM Add-ins › Go.",
+     "പുതിയ profile: Outlook അടച്ച് › Control Panel › Mail (Microsoft Outlook) › Show Profiles › Add. Account set up ചെയ്ത് “Always use this profile” തിരഞ്ഞെടുക്കുക.",
+     "New Outlook for Windows: Settings (gear) › Accounts › account remove ചെയ്ത് വീണ്ടും add ചെയ്യുക. കമ്പനി ആവശ്യപ്പെടുന്നുണ്ടെങ്കിൽ classic Outlook-ലേക്ക് മാറുക."
+    ]
+   },
+   "technician": {
+    "en": "Call your IT team for company email (server settings, licences, mailbox limits are managed centrally), or if webmail also fails.",
+    "ml": "കമ്പനി email-ന് (server settings, licences, mailbox limits central ആയി manage ചെയ്യുന്നു), അല്ലെങ്കിൽ webmail-ഉം വർക്ക് ചെയ്യുന്നില്ലെങ്കിൽ IT team-നെ വിളിക്കുക."
+   },
+   "safety": {
+    "en": "Be careful with emails asking you to “re-validate your mailbox” or enter your password on a link — that's phishing.",
+    "ml": "“Mailbox re-validate ചെയ്യുക”, link-ൽ password അടിക്കുക എന്ന് പറയുന്ന emails സൂക്ഷിക്കുക — അത് phishing ആണ്."
+   }
+  },
+  {
+   "id": "deleted-file",
+   "category": "office",
+   "device": "pc",
+   "icon": "🗂️",
+   "title": {
+    "en": "Recover a deleted or lost file",
+    "ml": "Delete ആയ / നഷ്ടപ്പെട്ട file തിരിച്ചെടുക്കാൻ"
+   },
+   "keywords": [
+    "delete^5",
+    "file delete^9",
+    "recover^6",
+    "file recover^9",
+    "file lost^9",
+    "recyclebin^9",
+    "delete recover^9",
+    "lost^3",
+    "office recover^9",
+    "pc file lost^9"
+   ],
+   "quick": {
+    "en": [
+     "Stop saving new files to that drive — new data can overwrite the deleted file.",
+     "Was it deleted normally (goes to Recycle Bin) or with Shift + Delete / from a pen drive (skips the Recycle Bin)?",
+     "Was the file in OneDrive, Google Drive or a synced folder?"
+    ],
+    "ml": [
+     "ആ drive-ലേക്ക് പുതിയ files save ചെയ്യുന്നത് നിർത്തുക — പുതിയ data delete ആയ file-ന് മുകളിൽ എഴുതിപ്പോകാം.",
+     "സാധാരണ delete ആണോ (Recycle Bin-ലേക്ക് പോകും), അതോ Shift + Delete / pen drive-ൽ നിന്നോ (Recycle Bin-ലേക്ക് പോകില്ല)?",
+     "File OneDrive, Google Drive, sync ചെയ്യുന്ന folder ഇവയിൽ ആയിരുന്നോ?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Just deleted? Press Ctrl + Z in File Explorer to undo.",
+     "Open the Recycle Bin on the desktop › find the file (sort by Date Deleted) › right-click › Restore.",
+     "OneDrive: onedrive.live.com › Recycle bin (deleted files stay about 30 days for personal accounts). Google Drive: drive.google.com › Trash.",
+     "Previous versions: right-click the folder that contained the file › Properties › Previous Versions (works if File History or restore points were on). Or search Start for “Restore your files with File History”.",
+     "Unsaved Office document: File › Info › Manage Document › Recover Unsaved Documents.",
+     "Shift-deleted or from a pen drive: Microsoft's free “Windows File Recovery” app (Microsoft Store, command-line tool winfr) can sometimes recover files. Recover to a different drive than the one you're scanning.",
+     "Prevent next time: turn on File History (Control Panel › File History) or OneDrive backup for Desktop/Documents/Pictures."
+    ],
+    "ml": [
+     "ഇപ്പോൾ delete ആയതേ ഉള്ളോ? File Explorer-ൽ Ctrl + Z അമർത്തി undo ചെയ്യുക.",
+     "Desktop-ലെ Recycle Bin തുറക്കുക › file കണ്ടെത്തുക (Date Deleted അനുസരിച്ച് sort) › right-click › Restore.",
+     "OneDrive: onedrive.live.com › Recycle bin (personal accounts-ൽ ഏകദേശം 30 ദിവസം ഉണ്ടാകും). Google Drive: drive.google.com › Trash.",
+     "Previous versions: file ഉണ്ടായിരുന്ന folder-ൽ right-click › Properties › Previous Versions (File History/restore points ഓൺ ആയിരുന്നെങ്കിൽ). അല്ലെങ്കിൽ Start-ൽ “Restore your files with File History” search ചെയ്യുക.",
+     "Save ചെയ്യാത്ത Office document: File › Info › Manage Document › Recover Unsaved Documents.",
+     "Shift-delete / pen drive-ൽ നിന്ന് delete ആയതാണെങ്കിൽ: Microsoft-ന്റെ free “Windows File Recovery” app (Microsoft Store, winfr എന്ന command-line tool) ചിലപ്പോൾ files തിരിച്ചെടുക്കും. Scan ചെയ്യുന്ന drive അല്ലാത്ത വേറൊരു drive-ലേക്ക് recover ചെയ്യുക.",
+     "അടുത്ത തവണത്തേക്ക്: File History (Control Panel › File History) അല്ലെങ്കിൽ Desktop/Documents/Pictures-ന് OneDrive backup ഓൺ ചെയ്യുക."
+    ]
+   },
+   "technician": {
+    "en": "For very important files (accounts, legal, photos) that aren't in the Recycle Bin, stop using the PC and contact a data recovery service — DIY tools on the same drive can reduce the chances.",
+    "ml": "Recycle Bin-ൽ ഇല്ലാത്ത വളരെ പ്രധാനപ്പെട്ട files-ന് (accounts, legal, photos) PC ഉപയോഗം നിർത്തി data recovery service-നെ ബന്ധപ്പെടുക — അതേ drive-ൽ സ്വയം tools ഉപയോഗിക്കുന്നത് സാധ്യത കുറയ്ക്കും."
+   },
+   "safety": {
+    "en": "SSDs erase deleted data quickly (TRIM) — recovery chances on SSDs are lower, so act early and keep backups.",
+    "ml": "SSD-കൾ delete ആയ data വേഗം മായ്ക്കും (TRIM) — SSD-യിൽ recovery സാധ്യത കുറവാണ്, അതിനാൽ വേഗം ചെയ്യുക, backup സൂക്ഷിക്കുക."
+   }
+  },
+  {
+   "id": "phone-storage-full",
+   "category": "phone",
+   "device": "phone",
+   "icon": "📱",
+   "title": {
+    "en": "Phone storage full",
+    "ml": "ഫോൺ storage / memory നിറഞ്ഞു"
+   },
+   "keywords": [
+    "phone storage^9",
+    "phone full^9",
+    "phone storage full^12",
+    "storage media^6",
+    "phone media^4",
+    "storage whatsapp^9",
+    "phone space^9"
+   ],
+   "quick": {
+    "en": [
+     "Check what's using space: Android: Settings › Storage (or Settings › Battery and device care › Storage on Samsung). iPhone: Settings › General › iPhone Storage.",
+     "WhatsApp media is the usual culprit — forwarded videos and images pile up.",
+     "Are your photos already backed up (Google Photos / iCloud)?"
+    ],
+    "ml": [
+     "എന്താണ് സ്ഥലം എടുക്കുന്നത് എന്ന് നോക്കുക: Android: Settings › Storage (Samsung-ൽ Settings › Battery and device care › Storage). iPhone: Settings › General › iPhone Storage.",
+     "സാധാരണ കാരണം WhatsApp media ആണ് — forward ചെയ്ത് വരുന്ന videos-ഉം images-ഉം കുന്നുകൂടും.",
+     "Photos ഇതിനകം backup ആയിട്ടുണ്ടോ (Google Photos / iCloud)?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "WhatsApp: Settings › Storage and data › Manage storage. Review “Larger than 5 MB” and big chats/groups and delete what you don't need.",
+     "Stop auto-download: WhatsApp › Settings › Storage and data › Media auto-download — set to Wi-Fi only or No media. On Android also turn off Chats › Media visibility so WhatsApp media doesn't fill your Gallery.",
+     "Android: open Files by Google › Clean — removes junk files, duplicates, old screenshots and downloaded files you no longer need.",
+     "After confirming photos are backed up in Google Photos, use Google Photos › profile picture › Free up space (iPhone: use iCloud Photos with “Optimise iPhone Storage”).",
+     "Clear an app's cache (not data): Android › Settings › Apps › choose the app (e.g. Instagram, Chrome) › Storage › Clear cache.",
+     "Uninstall apps and games you don't use. iPhone: Settings › General › iPhone Storage › Offload Unused Apps.",
+     "Move photos/videos to a PC, pen drive (OTG) or memory card (if your phone has a slot)."
+    ],
+    "ml": [
+     "WhatsApp: Settings › Storage and data › Manage storage. “Larger than 5 MB”, വലിയ chats/groups എന്നിവ നോക്കി ആവശ്യമില്ലാത്തത് delete ചെയ്യുക.",
+     "Auto-download നിർത്തുക: WhatsApp › Settings › Storage and data › Media auto-download — Wi-Fi only അല്ലെങ്കിൽ No media ആക്കുക. Android-ൽ Chats › Media visibility-ഉം ഓഫ് ചെയ്യുക — WhatsApp media Gallery നിറയ്ക്കില്ല.",
+     "Android: Files by Google തുറന്ന് › Clean — junk files, duplicates, പഴയ screenshots, ആവശ്യമില്ലാത്ത downloads ഇവ കളയും.",
+     "Photos Google Photos-ൽ backup ആയെന്ന് ഉറപ്പാക്കിയ ശേഷം Google Photos › profile picture › Free up space (iPhone: iCloud Photos “Optimise iPhone Storage”-ഓടെ ഉപയോഗിക്കുക).",
+     "App cache clear ചെയ്യുക (data അല്ല): Android › Settings › Apps › app തിരഞ്ഞെടുക്കുക (ഉദാ: Instagram, Chrome) › Storage › Clear cache.",
+     "ഉപയോഗിക്കാത്ത apps, games uninstall ചെയ്യുക. iPhone: Settings › General › iPhone Storage › Offload Unused Apps.",
+     "Photos/videos PC, pen drive (OTG), memory card (slot ഉണ്ടെങ്കിൽ) ഇവയിലേക്ക് മാറ്റുക."
+    ]
+   },
+   "technician": {
+    "en": "No technician is usually needed. If storage shows full but “System” or “Other” takes most of it after cleaning, back up and consider a factory reset or ask an authorised service centre.",
+    "ml": "സാധാരണ technician ആവശ്യമില്ല. Clean ചെയ്തിട്ടും “System” അല്ലെങ്കിൽ “Other” ആണ് കൂടുതൽ സ്ഥലം എടുക്കുന്നതെങ്കിൽ backup എടുത്ത് factory reset ആലോചിക്കുക, അല്ലെങ്കിൽ authorised service centre-നോട് ചോദിക്കുക."
+   },
+   "safety": {
+    "en": "“Clear data” (not cache) on an app logs you out and can delete its saved data. Never clear data for WhatsApp without a backup.",
+    "ml": "App-ന്റെ “Clear data” (cache അല്ല) logout ആക്കും, save ചെയ്ത data മായ്ക്കാം. Backup ഇല്ലാതെ WhatsApp-ന്റെ data ഒരിക്കലും clear ചെയ്യരുത്."
+   }
+  },
+  {
+   "id": "whatsapp-backup",
+   "category": "phone",
+   "device": "phone",
+   "icon": "💬",
+   "title": {
+    "en": "WhatsApp chat backup / restore / new phone",
+    "ml": "WhatsApp chat backup / restore / പുതിയ ഫോൺ"
+   },
+   "keywords": [
+    "whatsapp^4",
+    "whatsapp backup^12",
+    "backup^6",
+    "chat backup^9",
+    "whatsapp chat^9",
+    "whatsapp restore^9",
+    "backup phone^6",
+    "whatsapp lost^9",
+    "whatsapp delete^9",
+    "chat lost^9",
+    "chat recover^9",
+    "whatsapp backup not^12"
+   ],
+   "quick": {
+    "en": [
+     "Android backs up to Google Drive (your Google account); iPhone backs up to iCloud. Moving Android ↔ iPhone needs the transfer option, not a normal backup.",
+     "Is the same phone number and same Google/Apple account used on the new phone?",
+     "Is there enough Google/iCloud storage? WhatsApp backups count toward your Google account's storage."
+    ],
+    "ml": [
+     "Android Google Drive-ലേക്ക് (Google account) backup ചെയ്യും; iPhone iCloud-ലേക്ക്. Android ↔ iPhone മാറുമ്പോൾ സാധാരണ backup അല്ല, transfer option വേണം.",
+     "പുതിയ ഫോണിൽ അതേ phone number-ഉം അതേ Google/Apple account-ഉം ആണോ?",
+     "Google/iCloud storage ബാക്കിയുണ്ടോ? WhatsApp backup Google account storage-ൽ ആണ് കണക്കാക്കുന്നത്."
+    ]
+   },
+   "steps": {
+    "en": [
+     "Back up now: WhatsApp › Settings › Chats › Chat backup › Back up. Choose the Google account (Android) and set “Back up to Google” to Daily. iPhone: Settings › Chats › Chat Backup › Back Up Now (iCloud).",
+     "Use Wi-Fi and keep the phone on charge — the first backup can take long. Tick “Include videos” only if you have space.",
+     "Restore on a new/reset phone: install WhatsApp, verify the same number, and tap Restore when it finds the backup. Restore is offered only during setup — if you skipped it, uninstall and reinstall WhatsApp to get the option again.",
+     "Old and new phone both in hand? WhatsApp › Settings › Chats › Transfer chats lets you move chats directly (also works Android ↔ iPhone when prompted during setup).",
+     "Backup stuck or failing: check Google Drive/iCloud storage, update WhatsApp and Google Play services, make sure you're signed in to the right Google account on the phone, then try again.",
+     "Optional: Chat backup › End-to-end encrypted backup protects it with a password or 64-digit key. If you lose that password/key, the backup can't be restored — write it down."
+    ],
+    "ml": [
+     "ഇപ്പോൾ backup: WhatsApp › Settings › Chats › Chat backup › Back up. Google account തിരഞ്ഞെടുത്ത് (Android) “Back up to Google” Daily ആക്കുക. iPhone: Settings › Chats › Chat Backup › Back Up Now (iCloud).",
+     "Wi-Fi ഉപയോഗിക്കുക, ഫോൺ charge-ൽ ഇടുക — ആദ്യ backup സമയമെടുക്കും. സ്ഥലമുണ്ടെങ്കിൽ മാത്രം “Include videos” tick ചെയ്യുക.",
+     "പുതിയ/reset ചെയ്ത ഫോണിൽ restore: WhatsApp install ചെയ്ത് അതേ number verify ചെയ്യുക, backup കണ്ടെത്തുമ്പോൾ Restore അമർത്തുക. Setup സമയത്ത് മാത്രമേ Restore കാണിക്കൂ — skip ചെയ്തുപോയെങ്കിൽ WhatsApp uninstall ചെയ്ത് reinstall ചെയ്താൽ വീണ്ടും കിട്ടും.",
+     "പഴയ ഫോണും പുതിയ ഫോണും കയ്യിലുണ്ടോ? WhatsApp › Settings › Chats › Transfer chats വഴി നേരിട്ട് chats മാറ്റാം (setup സമയത്ത് ചോദിക്കുമ്പോൾ Android ↔ iPhone-ഉം പറ്റും).",
+     "Backup stuck/fail: Google Drive/iCloud storage നോക്കുക, WhatsApp-ഉം Google Play services-ഉം update ചെയ്യുക, ഫോണിൽ ശരിയായ Google account-ൽ sign in ആണെന്ന് ഉറപ്പാക്കി വീണ്ടും ശ്രമിക്കുക.",
+     "Optional: Chat backup › End-to-end encrypted backup — password അല്ലെങ്കിൽ 64 അക്ക key കൊണ്ട് സംരക്ഷിക്കും. ആ password/key നഷ്ടപ്പെട്ടാൽ backup restore ചെയ്യാൻ പറ്റില്ല — എഴുതി സൂക്ഷിക്കുക."
+    ]
+   },
+   "technician": {
+    "en": "WhatsApp cannot recover chats that were never backed up. Avoid paid “WhatsApp recovery” software and shops promising to recover deleted chats from someone else's phone.",
+    "ml": "ഒരിക്കലും backup ചെയ്യാത്ത chats WhatsApp-ന് തിരിച്ചെടുക്കാൻ പറ്റില്ല. പണം വാങ്ങുന്ന “WhatsApp recovery” software-ഉം മറ്റൊരാളുടെ ഫോണിലെ chats എടുത്തുതരാമെന്ന് പറയുന്ന കടകളും ഒഴിവാക്കുക."
+   },
+   "safety": {
+    "en": "Never share the 6-digit WhatsApp verification code with anyone — that's how accounts get stolen.",
+    "ml": "WhatsApp-ന്റെ 6 അക്ക verification code ആരുമായും share ചെയ്യരുത് — അങ്ങനെയാണ് accounts മോഷ്ടിക്കപ്പെടുന്നത്."
+   }
+  },
+  {
+   "id": "phone-slow",
+   "category": "phone",
+   "device": "phone",
+   "icon": "🐢",
+   "title": {
+    "en": "Phone slow / hanging",
+    "ml": "ഫോൺ സ്ലോ / ഹാങ് ആകുന്നു"
+   },
+   "keywords": [
+    "phone slow^9",
+    "phone hang^9",
+    "phone less speed^9",
+    "phone slow storage^12",
+    "phone crash^6",
+    "phone stuck^6",
+    "phone not^2",
+    "phone work not^3"
+   ],
+   "quick": {
+    "en": [
+     "Restart the phone — many slow phones haven't been restarted for weeks.",
+     "Is storage more than 85–90% full? A full phone gets slow. See “Phone storage full”.",
+     "Is it slow in one app (e.g. Instagram) or everywhere?"
+    ],
+    "ml": [
+     "ഫോൺ restart ചെയ്യുക — പല ഫോണുകളും ആഴ്ചകളായി restart ചെയ്തിട്ടുണ്ടാകില്ല.",
+     "Storage 85–90%-ൽ കൂടുതൽ നിറഞ്ഞോ? നിറഞ്ഞ ഫോൺ സ്ലോ ആകും. “ഫോൺ storage നിറഞ്ഞു” നോക്കുക.",
+     "ഒരു app-ൽ മാത്രമാണോ (ഉദാ: Instagram) സ്ലോ, അതോ എല്ലായിടത്തും?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Free up storage until at least 15% is free.",
+     "Update the phone and apps: Settings › System › Software update (Samsung: Settings › Software update), and Play Store › profile › Manage apps & device › Update all.",
+     "Uninstall apps you don't use, especially “cleaner”, “booster”, “battery saver” and extra launcher apps — they make phones slower.",
+     "Clear cache for slow apps: Settings › Apps › (app) › Storage › Clear cache.",
+     "Remove home-screen widgets and live wallpapers you don't need. Turn off Battery saver if it's always on (it limits speed).",
+     "Test in Safe Mode (Android: press and hold Power, then press and hold “Power off” › Safe mode). If it's fast in Safe Mode, a downloaded app is the cause.",
+     "Last resort: back up (photos, WhatsApp, contacts) and do a factory reset: Settings › System › Reset options › Erase all data (Samsung: General management › Reset)."
+    ],
+    "ml": [
+     "കുറഞ്ഞത് 15% free ആകുന്നത് വരെ storage ഒഴിവാക്കുക.",
+     "ഫോണും apps-ഉം update ചെയ്യുക: Settings › System › Software update (Samsung: Settings › Software update), Play Store › profile › Manage apps & device › Update all.",
+     "ഉപയോഗിക്കാത്ത apps uninstall ചെയ്യുക — പ്രത്യേകിച്ച് “cleaner”, “booster”, “battery saver”, അധിക launcher apps — ഇവ ഫോൺ കൂടുതൽ സ്ലോ ആക്കും.",
+     "സ്ലോ ആയ apps-ന്റെ cache clear: Settings › Apps › (app) › Storage › Clear cache.",
+     "ആവശ്യമില്ലാത്ത home-screen widgets-ഉം live wallpapers-ഉം കളയുക. Battery saver എപ്പോഴും ഓൺ ആണെങ്കിൽ ഓഫ് ചെയ്യുക (speed കുറയ്ക്കും).",
+     "Safe Mode-ൽ test ചെയ്യുക (Android: Power അമർത്തിപ്പിടിക്കുക, ശേഷം “Power off” അമർത്തിപ്പിടിക്കുക › Safe mode). Safe Mode-ൽ വേഗമുണ്ടെങ്കിൽ download ചെയ്ത ഏതോ app ആണ് കാരണം.",
+     "അവസാന വഴി: backup എടുത്ത് (photos, WhatsApp, contacts) factory reset ചെയ്യുക: Settings › System › Reset options › Erase all data (Samsung: General management › Reset)."
+    ]
+   },
+   "technician": {
+    "en": "Visit an authorised service centre if the phone is slow even right after a factory reset, gets very hot, or restarts by itself — the battery or storage chip may be failing.",
+    "ml": "Factory reset കഴിഞ്ഞ ഉടനെയും സ്ലോ ആണെങ്കിൽ, വളരെ ചൂടാകുന്നുണ്ടെങ്കിൽ, തനിയെ restart ആകുന്നുണ്ടെങ്കിൽ authorised service centre-ൽ കാണിക്കുക — battery അല്ലെങ്കിൽ storage chip കേടാകുന്നതാവാം."
+   },
+   "safety": {
+    "en": "Factory reset erases everything on the phone. Confirm your backup first.",
+    "ml": "Factory reset ഫോണിലെ എല്ലാം മായ്ക്കും. ആദ്യം backup ഉറപ്പാക്കുക."
+   }
+  },
+  {
+   "id": "phone-not-charging",
+   "category": "phone",
+   "device": "phone",
+   "icon": "🔌",
+   "title": {
+    "en": "Phone not charging / charging slowly",
+    "ml": "ഫോൺ ചാർജ് ആകുന്നില്ല / പതുക്കെ ചാർജ് ആകുന്നു"
+   },
+   "keywords": [
+    "phone charge^9",
+    "phone charge not^12",
+    "phone battery^9",
+    "phone battery drain^12",
+    "phone charge slow^12",
+    "phone drain^9",
+    "charge slow^6",
+    "phone work not^2.5"
+   ],
+   "quick": {
+    "en": [
+     "Try a different cable and adapter — cables fail more often than phones.",
+     "Look into the charging port with a torch: lint and dust collect there and block the plug.",
+     "Does it charge when switched off?"
+    ],
+    "ml": [
+     "വേറൊരു cable-ഉം adapter-ഉം വച്ച് നോക്കുക — ഫോണിനേക്കാൾ കൂടുതൽ കേടാകുന്നത് cable ആണ്.",
+     "Torch വച്ച് charging port-ലേക്ക് നോക്കുക: പൊടിയും നൂലും അവിടെ കൂടി plug തടയും.",
+     "ഓഫ് ചെയ്താൽ ചാർജ് ആകുന്നുണ്ടോ?"
+    ]
+   },
+   "steps": {
+    "en": [
+     "Clean the port: switch the phone off, gently remove lint with a wooden toothpick or a soft dry brush. Don't use metal pins or water.",
+     "Use a wall socket, not a laptop USB port, for faster charging. Use the original or a good-quality certified charger.",
+     "Restart the phone. If it shows a “moisture detected” warning, unplug and let the phone dry completely before charging.",
+     "Check battery usage: Settings › Battery — an app using a lot in the background can drain faster than it charges.",
+     "Turn on Adaptive/Optimised charging if available; it's normal for some phones to pause at 80% to protect the battery.",
+     "Update the phone software — charging bugs are sometimes fixed by updates."
+    ],
+    "ml": [
+     "Port clean ചെയ്യുക: ഫോൺ ഓഫ് ചെയ്ത്, wooden toothpick അല്ലെങ്കിൽ മൃദുവായ ഉണങ്ങിയ brush കൊണ്ട് പതുക്കെ പൊടി കളയുക. Metal pin, വെള്ളം ഉപയോഗിക്കരുത്.",
+     "വേഗത്തിൽ ചാർജ് ആകാൻ laptop USB port അല്ല, wall socket ഉപയോഗിക്കുക. Original അല്ലെങ്കിൽ നല്ല quality ഉള്ള certified ചാർജർ ഉപയോഗിക്കുക.",
+     "ഫോൺ restart ചെയ്യുക. “Moisture detected” warning കാണിക്കുന്നുണ്ടെങ്കിൽ ചാർജർ ഊരി, ഫോൺ മുഴുവനായി ഉണങ്ങിയ ശേഷം മാത്രം ചാർജ് ചെയ്യുക.",
+     "Battery usage നോക്കുക: Settings › Battery — background-ൽ കൂടുതൽ എടുക്കുന്ന app ചാർജ് ആകുന്നതിനേക്കാൾ വേഗം battery തീർക്കും.",
+     "Adaptive/Optimised charging ഉണ്ടെങ്കിൽ ഓൺ ചെയ്യുക; battery സംരക്ഷിക്കാൻ ചില ഫോണുകൾ 80%-ൽ നിർത്തുന്നത് സാധാരണയാണ്.",
+     "ഫോൺ software update ചെയ്യുക — ചിലപ്പോൾ charging bugs updates-ലൂടെ മാറും."
+    ]
+   },
+   "technician": {
+    "en": "Visit an authorised service centre if the port is loose or damaged, the phone gets hot while charging, or the battery is swollen (screen or back lifting).",
+    "ml": "Port ലൂസ്/കേടാണെങ്കിൽ, ചാർജ് ചെയ്യുമ്പോൾ ഫോൺ ചൂടാകുന്നുണ്ടെങ്കിൽ, battery വീർത്തിട്ടുണ്ടെങ്കിൽ (screen/back cover പൊങ്ങുന്നു) authorised service centre-ൽ കാണിക്കുക."
+   },
+   "safety": {
+    "en": "Never charge a wet phone, and never use a swollen battery. Don't charge under a pillow or on the bed.",
+    "ml": "നനഞ്ഞ ഫോൺ ഒരിക്കലും ചാർജ് ചെയ്യരുത്, വീർത്ത battery ഉപയോഗിക്കരുത്. തലയണയ്ക്കടിയിലോ കിടക്കയിലോ വച്ച് ചാർജ് ചെയ്യരുത്."
+   }
+  }
+ ]
+}

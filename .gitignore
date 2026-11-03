@@ -1,0 +1,8 @@
+node_modules/
+.data/
+*.log
+.env
+secrets.json
+pcdoctor-store.json
+.DS_Store
+Thumbs.db

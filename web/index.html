@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PC Doctor — fix common PC & phone problems (English / മലയാളം)</title>
+<meta name="description" content="Free step-by-step fixes for common computer, printer, Wi-Fi and phone problems, in English and Malayalam. Type your problem in English, Manglish or Malayalam.">
+<meta property="og:title" content="PC Doctor — IT help in English & മലയാളം">
+<meta property="og:description" content="Laptop slow? Printer offline? Net kittunnilla? Step-by-step fixes written by an IT support professional.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0f766e">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/" aria-label="PC Doctor home"><span class="logo" aria-hidden="true">🩺</span> PC Doctor</a>
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="en" aria-pressed="true">EN</button>
+    <button type="button" data-lang="ml" aria-pressed="false">മലയാളം</button>
+  </div>
+</header>
+
+<main id="app">
+  <section class="hero" id="hero">
+    <h1 data-t="heroTitle">What's wrong with your PC or phone?</h1>
+    <p class="sub" data-t="heroSub">Type it the way you'd say it — English, Manglish or Malayalam.</p>
+    <form class="search" role="search" onsubmit="return false">
+      <label class="sr" for="q" data-t="searchLabel">Describe your problem</label>
+      <input id="q" type="search" autocomplete="off" enterkeyhint="search" placeholder="e.g. laptop slow aanu, printer offline, നെറ്റ് കിട്ടുന്നില്ല">
+    </form>
+    <div class="chips" id="chips"></div>
+  </section>
+  <section id="results" aria-live="polite"></section>
+  <section id="view"></section>
+</main>
+
+<footer class="foot">
+  <p data-t="privacy">Nothing you type leaves this page. No tracking, no cookies.</p>
+  <p><span data-t="madeBy">Made by</span> <b>Nived NS</b> · <span data-t="role">IT Support Executive, Kerala</span><span id="links"></span></p>
+  <p class="small"><span data-t="disclaimer">General guidance only. For office PCs, follow your IT team's policy.</span> · <span data-t="openSource">Open source (MIT)</span></p>
+</footer>
+
+<script src="config.js?v=1"></script>
+<script src="matcher.js?v=1"></script>
+<script src="data.js?v=1"></script>
+<script src="app.js?v=1"></script>
+</body>
+</html>
