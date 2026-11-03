@@ -1,11 +1,10 @@
 :root {
-  --bg: #f6f7f9; --card: #fff; --ink: #14202b; --muted: #5b6b79; --line: #e3e8ee;
-  --brand: #0f766e; --brand-ink: #fff; --brand-soft: #e6f4f2; --warn: #b45309; --warn-soft: #fff7ed;
-  --tech: #1d4ed8; --tech-soft: #eef4ff; --ok: #15803d; --radius: 14px;
-}
-@media (prefers-color-scheme: dark) {
-  :root { --bg: #0e1418; --card: #161f25; --ink: #e8eef2; --muted: #9db0bd; --line: #26333c;
-    --brand: #2bb3a3; --brand-ink: #062521; --brand-soft: #12302d; --warn: #f5a35c; --warn-soft: #2b2016; --tech: #8fb3ff; --tech-soft: #18233b; }
+  /* AMOLED: true black, near-black surfaces, one teal accent */
+  color-scheme: dark;
+  --bg: #000; --card: #0a0b0c; --ink: #f1f4f6; --muted: #98a4ad; --line: #1c2024;
+  --brand: #2dd4bf; --brand-ink: #00140f; --brand-soft: rgba(45, 212, 191, .12); --warn: #fbbf24; --warn-soft: rgba(251, 191, 36, .08);
+  --tech: #93b4ff; --tech-soft: rgba(147, 180, 255, .08); --ok: #22c55e; --radius: 14px;
+  --ease: cubic-bezier(.2, .8, .2, 1);
 }
 @font-face { font-family: "Noto Sans Malayalam"; src: url(fonts/NotoSansMalayalam-Regular.woff2) format("woff2"); font-weight: 400; font-display: swap; unicode-range: U+0D00-0D7F, U+200C-200D, U+25CC; }
 @font-face { font-family: "Noto Sans Malayalam"; src: url(fonts/NotoSansMalayalam-Bold.woff2) format("woff2"); font-weight: 700; font-display: swap; unicode-range: U+0D00-0D7F, U+200C-200D, U+25CC; }
@@ -93,3 +92,29 @@ mark { background: none; color: inherit; font-weight: 700; }
 .more-tools ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
 .more-tools li a { display: block; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; color: var(--ink); text-decoration: none; }
 .more-tools li a span:last-child { display: block; color: var(--muted); font-size: .88rem; }
+
+/* AMOLED polish: crisp borders, soft accent glow, micro-interactions */
+::selection { background: rgba(45, 212, 191, .35); color: #fff; }
+body { -webkit-font-smoothing: antialiased; }
+.top { background: rgba(0, 0, 0, .82); }
+.search input { background-color: #0a0b0c; transition: border-color .2s var(--ease), box-shadow .2s var(--ease); }
+.search input:focus { box-shadow: 0 0 0 4px rgba(45, 212, 191, .16); }
+.search input::placeholder { color: #6b767e; }
+.chip, .cat, .item, .btn, .lang button, .more-tools li a, .steps li { transition: border-color .2s var(--ease), background-color .2s var(--ease), transform .15s var(--ease), box-shadow .2s var(--ease), color .2s var(--ease); }
+.chip:hover, .chip:focus-visible { background: var(--brand-soft); color: var(--brand); }
+.cat:hover, .item:hover, .more-tools li a:hover { border-color: rgba(45, 212, 191, .55); box-shadow: 0 0 0 1px rgba(45, 212, 191, .15), 0 8px 24px rgba(45, 212, 191, .06); }
+.chip:active, .cat:active, .item:active, .btn:active, .more-tools li a:active { transform: scale(.97); }
+.item:hover .arrow { color: var(--brand); transform: translateX(2px); }
+.item .arrow { transition: transform .2s var(--ease), color .2s var(--ease); }
+.steps li:hover { background: rgba(255, 255, 255, .02); }
+.steps li.done::before { color: #00140f; }
+.btn.ok { color: #00140f; }
+.btn.wa.big { box-shadow: 0 6px 22px rgba(31, 168, 85, .28); }
+.box.tech { border-color: rgba(147, 180, 255, .14); }
+.box.safety { border-color: rgba(251, 191, 36, .14); }
+.note { border: 1px solid rgba(45, 212, 191, .18); }
+.empty { background: transparent; }
+:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+#view > *, #results > * { animation: rise .28s var(--ease) both; }
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
